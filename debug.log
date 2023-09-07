@@ -1,0 +1,826 @@
+2023-09-06 15:33:12,429 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-06 15:33:28,158 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-06 15:33:52,036 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-06 15:34:05,874 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\core\sitemaps.py changed, reloading.
+2023-09-06 15:34:06,816 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-06 15:34:08,075 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\core\sitemaps.py changed, reloading.
+2023-09-06 15:34:08,990 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-06 15:34:40,561 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\core\models.py changed, reloading.
+2023-09-06 15:34:41,354 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-06 15:34:46,750 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\core\models.py changed, reloading.
+2023-09-06 15:34:47,794 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-06 15:36:36,813 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-06 15:36:38,307 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\config\urls.py changed, reloading.
+2023-09-06 15:36:39,260 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-06 15:42:46,584 django.request ERROR    Internal Server Error: /ar/
+Traceback (most recent call last):
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'else'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\amd\Desktop\ygs\ygs\core\views.py", line 5, in index_view
+    return render(request,'index.html')
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\defaulttags.py", line 953, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 7: 'else'. Did you forget to register or load this tag?
+2023-09-06 15:42:47,113 django.request WARNING  Not Found: /favicon.ico
+2023-09-06 15:43:03,306 django.request ERROR    Internal Server Error: /ar/
+Traceback (most recent call last):
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'else'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\amd\Desktop\ygs\ygs\core\views.py", line 5, in index_view
+    return render(request,'index.html')
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\defaulttags.py", line 953, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 7: 'else'. Did you forget to register or load this tag?
+2023-09-06 15:43:05,585 django.request ERROR    Internal Server Error: /ar/
+Traceback (most recent call last):
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'else'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\amd\Desktop\ygs\ygs\core\views.py", line 5, in index_view
+    return render(request,'index.html')
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\defaulttags.py", line 953, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 7: 'else'. Did you forget to register or load this tag?
+2023-09-06 15:43:12,701 django.request ERROR    Internal Server Error: /ar/
+Traceback (most recent call last):
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\amd\Desktop\ygs\ygs\core\views.py", line 5, in index_view
+    return render(request,'index.html')
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 514, in parse
+    self.extend_nodelist(nodelist, compiled_result, token)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 531, in extend_nodelist
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: <ExtendsNode: extends "base.html"> must be the first tag in the template.
+2023-09-06 15:43:15,075 django.request ERROR    Internal Server Error: /ar/
+Traceback (most recent call last):
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\amd\Desktop\ygs\ygs\core\views.py", line 5, in index_view
+    return render(request,'index.html')
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 514, in parse
+    self.extend_nodelist(nodelist, compiled_result, token)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 531, in extend_nodelist
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: <ExtendsNode: extends "base.html"> must be the first tag in the template.
+2023-09-06 15:43:25,662 django.request ERROR    Internal Server Error: /ar/
+Traceback (most recent call last):
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\amd\Desktop\ygs\ygs\core\views.py", line 5, in index_view
+    return render(request,'index.html')
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'extends' cannot appear more than once in the same template
+2023-09-06 15:45:07,796 django.request ERROR    Internal Server Error: /ar/
+Traceback (most recent call last):
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\utils\translation\__init__.py", line 272, in get_language_info
+    lang_info = LANG_INFO[lang_code]
+KeyError: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\amd\Desktop\ygs\ygs\core\views.py", line 5, in index_view
+    return render(request,'index.html')
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\templatetags\i18n.py", line 31, in render
+    context[self.variable] = translation.get_language_info(lang_code)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\utils\translation\__init__.py", line 279, in get_language_info
+    raise KeyError("Unknown language code %s." % lang_code)
+KeyError: 'Unknown language code .'
+2023-09-06 15:46:21,163 django.request WARNING  Not Found: /favicon.ico
+2023-09-06 15:46:47,441 django.request WARNING  Not Found: /ar/assets/css/plugins/fontawesome-5.css
+2023-09-06 15:46:47,443 django.request WARNING  Not Found: /ar/assets/css/plugins/animate.min.css
+2023-09-06 15:46:47,446 django.request WARNING  Not Found: /ar/assets/css/plugins/swiper.min.css
+2023-09-06 15:46:47,452 django.request WARNING  Not Found: /ar/assets/css/vendor/bootstrap.min.css
+2023-09-06 15:46:47,455 django.request WARNING  Not Found: /ar/assets/css/plugins/unicons.css
+2023-09-06 15:46:47,457 django.request WARNING  Not Found: /ar/assets/css/style.css
+2023-09-06 15:46:47,519 django.request WARNING  Not Found: /ar/assets/images/logo/logo-1.svg
+2023-09-06 15:46:47,524 django.request WARNING  Not Found: /ar/assets/images/icon/menu.png
+2023-09-06 15:46:47,526 django.request WARNING  Not Found: /ar/assets/images/icon/menu-light.png
+2023-09-06 15:46:47,530 django.request WARNING  Not Found: /ar/assets/images/logo/logo-4.svg
+2023-09-06 15:46:47,536 django.request WARNING  Not Found: /ar/assets/js/vendor/jquery.min.js
+2023-09-06 15:46:47,538 django.request WARNING  Not Found: /ar/assets/js/vendor/jqueryui.js
+2023-09-06 15:46:47,571 django.request WARNING  Not Found: /ar/assets/js/vendor/waypoint.js
+2023-09-06 15:46:47,590 django.request WARNING  Not Found: /ar/assets/js/plugins/sal.min.js
+2023-09-06 15:46:47,594 django.request WARNING  Not Found: /ar/assets/js/plugins/contact.form.js
+2023-09-06 15:46:47,597 django.request WARNING  Not Found: /ar/assets/js/plugins/counterup.js
+2023-09-06 15:46:47,600 django.request WARNING  Not Found: /ar/assets/js/plugins/swiper.js
+2023-09-06 15:46:47,606 django.request WARNING  Not Found: /ar/assets/js/vendor/bootstrap.min.js
+2023-09-06 15:46:47,630 django.request WARNING  Not Found: /ar/assets/js/main.js
+2023-09-06 15:46:47,646 django.request WARNING  Not Found: /ar/assets/images/logo/logo-3.svg
+2023-09-06 15:46:47,656 django.request WARNING  Not Found: /ar/assets/images/logo/logo-5.svg
+2023-09-06 15:46:47,665 django.request WARNING  Not Found: /ar/assets/images/banner/shape/02.png
+2023-09-06 15:46:47,669 django.request WARNING  Not Found: /ar/assets/images/banner/shape/01.png
+2023-09-06 15:46:47,676 django.request WARNING  Not Found: /ar/assets/images/banner/shape/03.png
+2023-09-06 15:46:47,681 django.request WARNING  Not Found: /ar/assets/images/about/sm-01.png
+2023-09-06 15:46:47,697 django.request WARNING  Not Found: /ar/assets/images/about/call.svg
+2023-09-06 15:46:47,710 django.request WARNING  Not Found: /ar/assets/images/about/main/about-01.png
+2023-09-06 15:46:47,727 django.request WARNING  Not Found: /ar/assets/images/service/icon/01.svg
+2023-09-06 15:46:47,730 django.request WARNING  Not Found: /ar/assets/images/about/main/about-02.png
+2023-09-06 15:46:47,734 django.request WARNING  Not Found: /ar/assets/images/service/icon/02.svg
+2023-09-06 15:46:47,737 django.request WARNING  Not Found: /ar/assets/images/service/icon/03.svg
+2023-09-06 15:46:47,748 django.request WARNING  Not Found: /ar/assets/images/service/icon/04.svg
+2023-09-06 15:46:47,768 django.request WARNING  Not Found: /ar/assets/images/service/icon/05.svg
+2023-09-06 15:46:47,780 django.request WARNING  Not Found: /ar/assets/images/service/icon/06.svg
+2023-09-06 15:46:47,784 django.request WARNING  Not Found: /ar/assets/images/business-goal/01.jpg
+2023-09-06 15:46:47,787 django.request WARNING  Not Found: /ar/assets/images/business-goal/sm-01.jpg
+2023-09-06 15:46:47,793 django.request WARNING  Not Found: /ar/assets/images/business-goal/icon/01.svg
+2023-09-06 15:46:47,797 django.request WARNING  Not Found: /ar/assets/images/business-goal/icon/02.svg
+2023-09-06 15:46:47,814 django.request WARNING  Not Found: /ar/assets/images/counterup/icon/01.svg
+2023-09-06 15:46:47,832 django.request WARNING  Not Found: /ar/assets/images/counterup/icon/02.svg
+2023-09-06 15:46:47,837 django.request WARNING  Not Found: /ar/assets/images/counterup/icon/03.svg
+2023-09-06 15:46:47,841 django.request WARNING  Not Found: /ar/assets/images/counterup/icon/04.svg
+2023-09-06 15:46:47,845 django.request WARNING  Not Found: /ar/assets/images/gallery/gallery-01.jpg
+2023-09-06 15:46:47,848 django.request WARNING  Not Found: /ar/assets/images/gallery/icon/01.svg
+2023-09-06 15:46:47,861 django.request WARNING  Not Found: /ar/assets/images/gallery/gallery-02.jpg
+2023-09-06 15:46:47,909 django.request WARNING  Not Found: /ar/assets/images/gallery/gallery-03.jpg
+2023-09-06 15:46:47,914 django.request WARNING  Not Found: /ar/assets/images/client/01.png
+2023-09-06 15:46:47,919 django.request WARNING  Not Found: /ar/assets/images/client/02.png
+2023-09-06 15:46:47,924 django.request WARNING  Not Found: /ar/assets/images/client/04.png
+2023-09-06 15:46:47,928 django.request WARNING  Not Found: /ar/assets/images/client/03.png
+2023-09-06 15:46:47,936 django.request WARNING  Not Found: /ar/assets/images/client/05.png
+2023-09-06 15:46:47,973 django.request WARNING  Not Found: /ar/assets/images/client/06.png
+2023-09-06 15:46:47,976 django.request WARNING  Not Found: /ar/assets/images/team/tm/01.jpg
+2023-09-06 15:46:47,995 django.request WARNING  Not Found: /ar/assets/images/team/tm/03.jpg
+2023-09-06 15:46:47,998 django.request WARNING  Not Found: /ar/assets/images/team/tm/02.jpg
+2023-09-06 15:46:48,007 django.request WARNING  Not Found: /ar/assets/images/team/tm/04.jpg
+2023-09-06 15:46:48,009 django.request WARNING  Not Found: /ar/assets/images/feature/01.png
+2023-09-06 15:46:48,025 django.request WARNING  Not Found: /ar/assets/images/testimonials/02.png
+2023-09-06 15:46:48,027 django.request WARNING  Not Found: /ar/assets/images/testimonials/01.png
+2023-09-06 15:46:48,051 django.request WARNING  Not Found: /ar/assets/images/blog/01.jpg
+2023-09-06 15:46:48,060 django.request WARNING  Not Found: /ar/assets/images/blog/02.jpg
+2023-09-06 15:46:48,065 django.request WARNING  Not Found: /ar/assets/images/blog/03.jpg
+2023-09-06 15:46:48,075 django.request WARNING  Not Found: /ar/assets/images/footer/post/01.png
+2023-09-06 15:46:48,078 django.request WARNING  Not Found: /ar/assets/images/contact/01.jpg
+2023-09-06 15:46:48,080 django.request WARNING  Not Found: /ar/assets/images/footer/under-title.png
+2023-09-06 15:46:48,087 django.request WARNING  Not Found: /ar/assets/images/footer/post/02.png
+2023-09-06 15:46:48,119 django.request WARNING  Not Found: /ar/assets/images/fav.png
+2023-09-06 15:46:54,833 django.request WARNING  Not Found: /ar/assets/images/fav.png
+2023-09-06 15:46:57,134 django.request WARNING  Not Found: /ar/assets/images/fav.png
+2023-09-06 15:46:59,080 django.request WARNING  Not Found: /ar/assets/images/fav.png
+2023-09-06 15:47:09,136 django.request WARNING  Not Found: /ar/images/fav.png
+2023-09-06 15:47:14,494 django.request WARNING  Not Found: /ar/images/fav.png
+2023-09-06 15:48:04,112 django.request WARNING  Not Found: /ar/images/fav.png
+2023-09-06 15:53:07,428 django.request WARNING  Not Found: /ar/images/fav.png
+2023-09-06 15:54:15,967 django.request WARNING  Not Found: /ar/images/fav.png
+2023-09-06 15:54:18,840 django.request WARNING  Not Found: /ar/images/fav.png
+2023-09-06 15:54:20,027 django.request WARNING  Not Found: /ar/contactus.html
+2023-09-06 15:54:20,190 django.request WARNING  Not Found: /favicon.ico
+2023-09-06 15:54:30,735 django.request WARNING  Not Found: /ar/images/fav.png
+2023-09-06 15:55:01,081 django.request WARNING  Not Found: /ar/images/fav.png
+2023-09-06 16:00:54,322 django.request WARNING  Not Found: /ar/images/fav.png
+2023-09-07 11:02:22,628 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-07 11:09:17,389 django.request ERROR    Internal Server Error: /fr/
+Traceback (most recent call last):
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'else'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\amd\Desktop\ygs\ygs\core\views.py", line 5, in index_view
+    return render(request,'index.html')
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\defaulttags.py", line 953, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 6: 'else'. Did you forget to register or load this tag?
+2023-09-07 11:09:17,882 django.request WARNING  Not Found: /favicon.ico
+2023-09-07 11:12:04,726 django.request ERROR    Internal Server Error: /fr/
+Traceback (most recent call last):
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'endif'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\amd\Desktop\ygs\ygs\core\views.py", line 5, in index_view
+    return render(request,'index.html')
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\defaulttags.py", line 1491, in do_with
+    nodelist = parser.parse(("endwith",))
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\defaulttags.py", line 953, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\defaulttags.py", line 1491, in do_with
+    nodelist = parser.parse(("endwith",))
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 4: 'endif', expected 'endwith'. Did you forget to register or load this tag?
+2023-09-07 11:13:04,928 django.request ERROR    Internal Server Error: /fr/
+Traceback (most recent call last):
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'endwith'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\amd\Desktop\ygs\ygs\core\views.py", line 5, in index_view
+    return render(request,'index.html')
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\defaulttags.py", line 1491, in do_with
+    nodelist = parser.parse(("endwith",))
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 9: 'endwith'. Did you forget to register or load this tag?
+2023-09-07 11:13:25,384 django.request ERROR    Internal Server Error: /fr/
+Traceback (most recent call last):
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\amd\Desktop\ygs\ygs\core\views.py", line 5, in index_view
+    return render(request,'index.html')
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader_tags.py", line 122, in get_parent
+    raise TemplateSyntaxError(error_msg)
+django.template.exceptions.TemplateSyntaxError: Invalid template name in 'extends' tag: ''. Got this from the 'base_template' variable.
+2023-09-07 11:15:24,736 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\config\settings.py changed, reloading.
+2023-09-07 11:15:25,823 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-07 11:15:40,234 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\core\context_processors.py changed, reloading.
+2023-09-07 11:15:41,194 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-07 11:18:44,461 django.request ERROR    Internal Server Error: /ar/
+Traceback (most recent call last):
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\amd\Desktop\ygs\ygs\core\views.py", line 5, in index_view
+    return render(request,'index.html')
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 173, in render
+    with context.bind_template(self):
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python39\lib\contextlib.py", line 119, in __enter__
+    return next(self.gen)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\context.py", line 254, in bind_template
+    updates.update(processor(self.request))
+  File "C:\Users\amd\Desktop\ygs\ygs\core\context_processors.py", line 6, in base_template
+    print('get_language', get_language(request))
+TypeError: get_language() takes 0 positional arguments but 1 was given
+2023-09-07 11:18:49,028 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\core\context_processors.py changed, reloading.
+2023-09-07 11:18:49,886 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-07 11:18:54,451 django.request WARNING  Not Found: /ar/images/fav.png
+2023-09-07 11:19:01,146 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\core\context_processors.py changed, reloading.
+2023-09-07 11:19:02,002 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-07 11:19:46,803 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\core\context_processors.py changed, reloading.
+2023-09-07 11:19:47,781 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-07 11:19:59,908 django.request ERROR    Internal Server Error: /ar/
+Traceback (most recent call last):
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: rtl/base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\amd\Desktop\ygs\ygs\core\views.py", line 5, in index_view
+    return render(request,'index.html')
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: rtl/base.html
+2023-09-07 11:20:00,180 django.request WARNING  Not Found: /favicon.ico
+2023-09-07 11:21:40,699 django.request ERROR    Internal Server Error: /ar/
+Traceback (most recent call last):
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\amd\Desktop\ygs\ygs\core\views.py", line 5, in index_view
+    return render(request,'index.html')
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\defaulttags.py", line 953, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 518, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 581, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 9: 'if'. Looking for one of: elif, else, endif.
+2023-09-07 11:21:41,206 django.request WARNING  Not Found: /favicon.ico
+2023-09-07 11:22:00,535 django.request WARNING  Not Found: /ar/images/fav.png
+2023-09-07 11:22:04,465 django.request ERROR    Internal Server Error: /fr/
+Traceback (most recent call last):
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'endif'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\amd\Desktop\ygs\ygs\core\views.py", line 5, in index_view
+    return render(request,'index.html')
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\amd\Desktop\ygs\venv\lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 610: 'endif'. Did you forget to register or load this tag?
+2023-09-07 11:22:04,729 django.request WARNING  Not Found: /favicon.ico
+2023-09-07 11:23:03,451 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\core\context_processors.py changed, reloading.
+2023-09-07 11:23:04,272 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-07 11:28:54,327 django.request WARNING  Not Found: /ar/images/fav.png
+2023-09-07 11:29:02,212 django.request WARNING  Not Found: /ar/images/fav.png
+2023-09-07 11:29:12,457 django.request WARNING  Not Found: /ar/images/fav.png
+2023-09-07 11:29:26,950 django.request WARNING  Not Found: /ar/images/fav.png
+2023-09-07 11:32:32,599 django.request WARNING  Not Found: /ar/images/fav.png
+2023-09-07 11:32:48,721 django.request WARNING  Not Found: /ar/images/fav.png
+2023-09-07 11:36:30,041 django.request WARNING  Not Found: //
+2023-09-07 11:36:30,693 django.request WARNING  Not Found: /favicon.ico
+2023-09-07 11:38:07,313 django.request WARNING  Not Found: /ar/images/fav.png
+2023-09-07 11:39:42,683 django.request WARNING  Not Found: /ar/images/fav.png
+2023-09-07 11:40:06,392 django.request WARNING  Not Found: /ar/images/fav.png
+2023-09-07 11:40:44,817 django.request WARNING  Not Found: /ar/images/fav.png
+2023-09-07 11:40:52,318 django.request WARNING  Not Found: /ar/images/fav.png
+2023-09-07 11:41:09,798 django.request WARNING  Not Found: /ar/images/fav.png
+2023-09-07 11:41:59,659 django.request WARNING  Not Found: /fr/images/fav.png
+2023-09-07 11:42:01,523 django.request WARNING  Not Found: /ar/images/fav.png
+2023-09-07 11:42:22,258 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\core\context_processors.py changed, reloading.
+2023-09-07 11:42:23,113 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-07 11:42:32,921 django.request WARNING  Not Found: /ar/images/fav.png
+2023-09-07 11:42:42,824 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\core\context_processors.py changed, reloading.
+2023-09-07 11:42:43,874 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-07 11:43:10,855 django.request WARNING  Not Found: /ar/images/fav.png
+2023-09-07 11:44:02,659 django.request WARNING  Not Found: /fr/images/fav.png
+2023-09-07 11:45:51,441 django.request WARNING  Not Found: /fr/images/fav.png
+2023-09-07 11:46:06,982 django.request WARNING  Not Found: /fr/images/fav.png
+2023-09-07 11:50:41,899 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\core\context_processors.py changed, reloading.
+2023-09-07 11:50:42,738 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-07 11:50:53,298 django.request WARNING  Not Found: /ar/images/fav.png
+2023-09-07 11:51:24,251 django.request WARNING  Not Found: /fr/images/fav.png
+2023-09-07 11:51:28,593 django.request WARNING  Not Found: /ar/images/fav.png
+2023-09-07 11:56:50,693 django.request WARNING  Not Found: /ar/images/fav.png
+2023-09-07 12:01:16,301 django.request WARNING  Not Found: /ar/images/fav.png
+2023-09-07 12:01:32,254 django.request WARNING  Not Found: /ar/images/fav.png
+2023-09-07 12:09:14,958 django.request WARNING  Not Found: /ar/images/fav.png
+2023-09-07 12:22:34,127 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\core\urls.py changed, reloading.
+2023-09-07 12:22:35,164 django.utils.autoreload INFO     Watching for file changes with StatReloader

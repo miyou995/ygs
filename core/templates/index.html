@@ -1,19 +1,34 @@
-{% extends "base.html" %}
+
+{% extends base_template %}
 {% load static %}
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+{% get_available_languages as LANGUAGES %}
+{% get_language_info for LANGUAGE_CODE as lang %}
+{% get_language_info_list for LANGUAGES as languages %}
+{% comment %} 
+
+{% if get_current_language == 'ar' %}
+    {% extends base_template %}
+
+    {% else %}
+{% extends "rtl/base.html" %}
+
+{% endif %} {% endcomment %}
+
 
 
     
 {% block content %}
-    
     <!-- banner blank space area -->
     <div class="rts-banner-area rts-banner-one">
         <div class="swiper mySwiper banner-one">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <!-- banner single content -->
-                    <div class="banner-one-inner text-start">
+                    <div class="banner-one-inner {% if current_lang == 'ar' %}text-end{% else %}text-start{% endif %} ">
                         <p class="pre-title">
-                            <span>Welcome!</span> Start Growing Your Business Today
+                            <span>{{current_lang}}!</span> Start Growing Your Business Today
                         </p>
                         <h1 class="title ">Make <span>Business Unique </span> <br>
                             With Great Ideas</h1>
@@ -23,13 +38,13 @@
                             fusce conubia ridiculus tristique parturient
                         </p>
                         <a href="#" class="rts-btn btn-primary color-h-black">Get Consultant</a>
-                        <img class="shape-img one" src="{% static 'images/banner/shape/01.png' %}" alt="banner_business">
+                        <img class="shape-img one" src="{% static 'rtl/images/banner/shape/01.png' %}" alt="banner_business">
                     </div>
                     <!-- banner single content end -->
                 </div>
                 <div class="swiper-slide two">
                     <!-- banner single content -->
-                    <div class="banner-one-inner text-start">
+                    <div class="banner-one-inner {% if current_lang == 'ar' %}text-end{% else %}text-start{% endif %}">
                         <p class="pre-title">
                             <span>Welcome!</span> Start Growing Your Business Today
                         </p>
@@ -40,13 +55,13 @@
                             fusce conubia ridiculus tristique parturient
                         </p>
                         <a href="#" class="rts-btn btn-primary color-h-black">Get Consultant</a>
-                        <img class="shape-img one" src="{% static 'images/banner/shape/01.png' %}" alt="banner_business">
+                        <img class="shape-img one" src="{% static 'rtl/images/banner/shape/01.png' %}" alt="banner_business">
                     </div>
                     <!-- banner single content end -->
                 </div>
                 <div class="swiper-slide three">
                     <!-- banner single content -->
-                    <div class="banner-one-inner text-start">
+                    <div class="banner-one-inner {% if current_lang == 'ar' %}text-end{% else %}text-start{% endif %}">
                         <p class="pre-title">
                             <span>Welcome!</span> Start Growing Your Business Today
                         </p>
@@ -57,7 +72,7 @@
                             fusce conubia ridiculus tristique parturient
                         </p>
                         <a href="#" class="rts-btn btn-primary color-h-black">Get Consultant</a>
-                        <img class="shape-img one" src="{% static 'images/banner/shape/01.png' %}" alt="banner_business">
+                        <img class="shape-img one" src="{% static 'rtl/images/banner/shape/01.png' %}" alt="banner_business">
                     </div>
                     <!-- banner single content end -->
                 </div>
@@ -65,8 +80,8 @@
             <div class="swiper-pagination"></div>
         </div>
         <div class="animation-img">
-            <img class="shape-img two" src="{% static 'images/banner/shape/02.png' %}" alt="banner_business">
-            <img class="shape-img three" src="{% static 'images/banner/shape/03.png' %}" alt="banner_business">
+            <img class="shape-img two" src="{% static 'rtl/images/banner/shape/02.png' %}" alt="banner_business">
+            <img class="shape-img three" src="{% static 'rtl/images/banner/shape/03.png' %}" alt="banner_business">
         </div>
     </div>
     <!-- banner blank space area end -->
@@ -75,6 +90,9 @@
     <div class="rts-about-area rts-section-gap bg-about-sm-shape">
         <div class="container">
             <div class="row g-5 align-items-center">
+
+    
+
                 <!-- about left -->
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12 order-lg-1 order-md-2 order-sm-2 order-2 mt_md--50 mt_sm--50">
                     <div class="rts-title-area">
@@ -131,7 +149,7 @@
                             <!-- left area start -->
                             <div class="col-lg-6 col-md-6 col-sm-6 col-12">
                                 <div class="author-inner">
-                                    <a class="thumbnail" href="#"><img src="{% static 'images/about/sm-01.png' %}" alt="finbiz_founder"></a>
+                                    <a class="thumbnail" href="#"><img src="{% static 'rtl/images/about/sm-01.png' %}" alt="finbiz_founder"></a>
                                     <div class="founder-details">
                                         <a href="team-details.html">
                                             <h6 class="title">Adrew David</h6>
@@ -144,7 +162,7 @@
                             <!-- right founder area -->
                             <div class="col-lg-6 col-md-6 col-sm-6 col-12 mt_sm--20">
                                 <div class="author-call-option">
-                                    <img class="authore-call" src="{% static 'images/about/call.svg' %}" alt="call_founder">
+                                    <img class="authore-call" src="{% static 'rtl/images/about/call.svg' %}" alt="call_founder">
                                     <div class="call-details">
                                         <span>Call us anytime</span>
                                         <a href="tel:+18475555555">
@@ -163,8 +181,8 @@
                 <!-- about-right Start-->
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12 order-lg-2 order-md-1 order-sm-1 order-1">
                     <div class="about-one-thumbnail">
-                        <img src=" {% static 'images/about/main/about-01.png' %}" alt="about-finbiz">
-                        <img class="small-img" src="{% static 'images/about/main/about-02.png' %}" alt="finbiz-small">
+                        <img src=" {% static 'rtl/images/about/main/about-01.png' %}" alt="about-finbiz">
+                        <img class="small-img" src="{% static 'rtl/images/about/main/about-02.png' %}" alt="finbiz-small">
                         <div class="experience">
                             <div class="left single">
                                 <h2 class="title">25+</h2>
@@ -206,7 +224,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="service-one-inner one">
                         <div class="thumbnail">
-                            <img src="{% static 'images/service/icon/01.svg' %}" alt="finbiz_service">
+                            <img src="{% static 'rtl/images/service/icon/01.svg' %}" alt="finbiz_service">
                         </div>
                         <div class="service-details">
                             <a href="service-details.html">
@@ -226,7 +244,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="service-one-inner two">
                         <div class="thumbnail">
-                            <img src="{% static 'images/service/icon/02.svg' %}" alt="finbiz_service">
+                            <img src="{% static 'rtl/images/service/icon/02.svg' %}" alt="finbiz_service">
                         </div>
                         <div class="service-details">
                             <a href="service-details.html">
@@ -246,7 +264,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="service-one-inner three">
                         <div class="thumbnail">
-                            <img src="{% static 'images/service/icon/03.svg' %}" alt="finbiz_service">
+                            <img src="{% static 'rtl/images/service/icon/03.svg' %}" alt="finbiz_service">
                         </div>
                         <div class="service-details">
                             <a href="service-details.html">
@@ -266,7 +284,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="service-one-inner four">
                         <div class="thumbnail">
-                            <img src="{% static 'images/service/icon/04.svg' %}" alt="finbiz_service">
+                            <img src="{% static 'rtl/images/service/icon/04.svg' %}" alt="finbiz_service">
                         </div>
                         <div class="service-details">
                             <a href="service-details.html">
@@ -286,7 +304,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="service-one-inner five">
                         <div class="thumbnail">
-                            <img src="{% static 'images/service/icon/05.svg' %}" alt="finbiz_service">
+                            <img src="{% static 'rtl/images/service/icon/05.svg' %}" alt="finbiz_service">
                         </div>
                         <div class="service-details">
                             <a href="service-details.html">
@@ -306,7 +324,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="service-one-inner six">
                         <div class="thumbnail">
-                            <img src="{% static 'images/service/icon/06.svg' %}" alt="finbiz_service">
+                            <img src="{% static 'rtl/images/service/icon/06.svg' %}" alt="finbiz_service">
                         </div>
                         <div class="service-details">
                             <a href="service-details.html">
@@ -323,19 +341,7 @@
                 </div>
                 <!-- end single Services -->
             </div>
-            <div class="row">
-                <div class="cta-one-bg col-12">
-                    <div class="cta-one-inner">
-                        <div class="cta-left">
-                            <h3 class="title">Let’s discuss about how we can help
-                                make your business better</h3>
-                        </div>
-                        <div class="cta-right">
-                            <a class="rts-btn btn-white" href="appoinment.html">Lets Work Together</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
         </div>
     </div>
     <!-- rts service post area ENd -->
@@ -347,8 +353,8 @@
                 <!-- business goal left -->
                 <div class="col-lg-6">
                     <div class="business-goal-one">
-                        <img src="{% static 'images/business-goal/01.jpg' %}" alt="Business_Goal">
-                        <img class="small" src="{% static 'images/business-goal/sm-01.jpg' %}" alt="Business_Goal">
+                        <img src="{% static 'rtl/images/business-goal/01.jpg' %}" alt="Business_Goal">
+                        <img class="small" src="{% static 'rtl/images/business-goal/sm-01.jpg' %}" alt="Business_Goal">
                     </div>
                 </div>
                 <!-- business goal right -->
@@ -365,7 +371,7 @@
                         </div>
                         <div class="rts-business-goal pl--30">
                             <div class="single-goal">
-                                <img src="{% static 'images/business-goal/icon/01.svg' %}" alt="business_Icone" class="thumb">
+                                <img src="{% static 'rtl/images/business-goal/icon/01.svg' %}" alt="business_Icone" class="thumb">
                                 <div class="goal-wrapper">
                                     <h6 class="title">Best Business Consulting</h6>
                                     <p class="disc">Fusce condimentum mattis placerat odio donec lacus porta torquent,
@@ -373,7 +379,7 @@
                                 </div>
                             </div>
                             <div class="single-goal">
-                                <img src="{% static 'images/business-goal/icon/02.svg' %}" alt="business_Icone" class="thumb">
+                                <img src="{% static 'rtl/images/business-goal/icon/02.svg' %}" alt="business_Icone" class="thumb">
                                 <div class="goal-wrapper">
                                     <h6 class="title">24/7 Customer Support</h6>
                                     <p class="disc">Fusce condimentum mattis placerat odio donec lacus porta torquent,
@@ -382,7 +388,7 @@
                             </div>
                             <div class="goal-button-wrapper mt--70">
                                 <a href="contactus.html" class="rts-btn btn-primary color-h-black">Contact Us</a>
-                                <div class="vedio-icone">
+                                {% comment %} <div class="vedio-icone">
                                     <a id="play-video" class="video-play-button" href="#">
                                         <span></span>
                                         <span class="outer-text">Watch Video</span>
@@ -390,7 +396,7 @@
                                     <div id="video-overlay" class="video-overlay">
                                         <a class="video-overlay-close">×</a>
                                     </div>
-                                </div>
+                                </div> {% endcomment %}
                             </div>
                         </div>
                     </div>
@@ -401,68 +407,43 @@
     </div>
     <!-- business goal area End -->
 
-    <!-- rts-counter up area start -->
-    <div class="rts-counter-up-area rts-section-gap counter-bg">
+
+
+    <!-- start trusted client section -->
+    <div class="rts-trusted-client rts-section-gapBottom">
         <div class="container">
             <div class="row">
-                <!-- counter up area -->
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                    <div class="single-counter">
-                        <img src="{% static 'images/counterup/icon/01.svg' %}" alt="Business_counter">
-                        <div class="counter-details">
-                            <h2 class="title"><span class="counter animated fadeInDownBig">858</span></h2>
-                            <p class="disc">Successful Projects</p>
-                        </div>
+                <div class="col-12">
+                    <div class="title-area-client text-center">
+                        <p class="client-title">Our Trusted Clients</p>
                     </div>
                 </div>
-                <!-- counter up area -->
-                <!-- counter up area -->
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                    <div class="single-counter pl--10 justify-content-center two pl--30">
-                        <img src="{% static 'images/counterup/icon/02.svg' %}" alt="Business_counter">
-                        <div class="counter-details">
-                            <h2 class="title"><span class="counter animated fadeInDownBig">650</span></h2>
-                            <p class="disc">Media Activities</p>
-                        </div>
-                    </div>
+            </div>
+            <div class="row">
+                <div class="client-wrapper-one">
+                    <a href="#"><img src="{% static 'rtl/images/client/01.png' %}" alt="business_finbiz"></a>
+                    <a href="#"><img src="{% static 'rtl/images/client/02.png' %}" alt="business_finbiz"></a>
+                    <a href="#"><img src="{% static 'rtl/images/client/03.png' %}" alt="business_finbiz"></a>
+                    <a href="#"><img src="{% static 'rtl/images/client/04.png' %}" alt="business_finbiz"></a>
+                    <a href="#"><img src="{% static 'rtl/images/client/05.png' %}" alt="business_finbiz"></a>
+                    <a href="#"><img src="{% static 'rtl/images/client/06.png' %}" alt="business_finbiz"></a>
                 </div>
-                <!-- counter up area -->
-                <!-- counter up area -->
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                    <div class="single-counter pl--10 justify-content-center three pl--50">
-                        <img src="{% static 'images/counterup/icon/03.svg' %}" alt="Business_counter">
-                        <div class="counter-details">
-                            <h2 class="title"><span class="counter animated fadeInDownBig">567</span></h2>
-                            <p class="disc">Skilled Experts</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- counter up area -->
-                <!-- counter up area -->
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                    <div class="single-counter pl--10 justify-content-end four">
-                        <img src="{% static 'images/counterup/icon/04.svg' %}" alt="Business_counter">
-                        <div class="counter-details">
-                            <h2 class="title happy"><span class="counter animated fadeInDownBig">28</span></h2>
-                            <p class="disc">Happy Clients</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- counter up area -->
             </div>
         </div>
     </div>
-    <!-- rts-counter up area end -->
+    <!-- end trusted client section -->
 
-    <!-- start gallery section -->
-    <div class="rts-gallery-area rts-section-gap gallery-bg bg_image">
+    <!-- start team section -->
+    <div class="rts-team-area rts-section-gap bg-team">
         <div class="container">
             <div class="row">
-                <div class="rts-title-area gallery text-start pl_sm--20">
-                    <p class="pre-title">
-                        Popular Projects
-                    </p>
-                    <h2 class="title">Our Completed Projects</h2>
+                <div class="col-12">
+                    <div class="rts-title-area team text-center">
+                        <p class="pre-title">
+                            Professionals Team
+                        </p>
+                        <h2 class="title">Professionals Team</h2>
+                    </div>
                 </div>
             </div>
             <div class="row mt--45">
@@ -473,13 +454,13 @@
                                 <div class="row g-5 w-g-100">
                                     <div class="col-lg-7 col-md-12 col-sm-12 col-12">
                                         <div class="thumbnail-gallery">
-                                            <img src="{% static 'images/gallery/gallery-01.jpg' %}" alt="business-images">
+                                            <img src="{% static 'rtl/images/gallery/gallery-01.jpg' %}" alt="business-images">
                                         </div>
                                     </div>
                                     <div class="col-lg-5 col-md-12 col-sm-12 col-12">
                                         <div class="bg-right-gallery">
                                             <div class="icon">
-                                                <img src="{% static 'images/gallery/icon/01.svg' %}" alt="Business-gallery">
+                                                <img src="{% static 'rtl/images/gallery/icon/01.svg' %}" alt="Business-gallery">
                                             </div>
                                             <a href="#">
                                                 <h4 class="title">Pro Business Solution</h4>
@@ -497,13 +478,13 @@
                                 <div class="row g-5 w-g-100">
                                     <div class="col-lg-7">
                                         <div class="thumbnail-gallery">
-                                            <img src="{% static 'images/gallery/gallery-02.jpg' %}" alt="business-images">
+                                            <img src="{% static 'rtl/images/gallery/gallery-02.jpg' %}" alt="business-images">
                                         </div>
                                     </div>
                                     <div class="col-lg-5">
                                         <div class="bg-right-gallery">
                                             <div class="icon">
-                                                <img src="{% static 'images/gallery/icon/01.svg' %}" alt="Business-gallery">
+                                                <img src="{% static 'rtl/images/gallery/icon/01.svg' %}" alt="Business-gallery">
                                             </div>
                                             <a href="#">
                                                 <h4 class="title">Finbiz Pro Business</h4>
@@ -520,13 +501,13 @@
                                 <div class="row g-5 w-g-100">
                                     <div class="col-lg-7">
                                         <div class="thumbnail-gallery">
-                                            <img src="{% static 'images/gallery/gallery-03.jpg' %}" alt="business-images">
+                                            <img src="{% static 'rtl/images/gallery/gallery-03.jpg' %}" alt="business-images">
                                         </div>
                                     </div>
                                     <div class="col-lg-5">
                                         <div class="bg-right-gallery">
                                             <div class="icon">
-                                                <img src="{% static 'images/gallery/icon/01.svg' %}" alt="Business-gallery">
+                                                <img src="{% static 'rtl/images/gallery/icon/01.svg' %}" alt="Business-gallery">
                                             </div>
                                             <a href="#">
                                                 <h4 class="title">Pro Solution Business</h4>
@@ -550,154 +531,6 @@
             </div>
         </div>
     </div>
-    <!-- start gallery section -->
-
-    <!-- start trusted client section -->
-    <div class="rts-trusted-client rts-section-gapBottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="title-area-client text-center">
-                        <p class="client-title">Our Trusted Clients</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="client-wrapper-one">
-                    <a href="#"><img src="{% static 'images/client/01.png' %}" alt="business_finbiz"></a>
-                    <a href="#"><img src="{% static 'images/client/02.png' %}" alt="business_finbiz"></a>
-                    <a href="#"><img src="{% static 'images/client/03.png' %}" alt="business_finbiz"></a>
-                    <a href="#"><img src="{% static 'images/client/04.png' %}" alt="business_finbiz"></a>
-                    <a href="#"><img src="{% static 'images/client/05.png' %}" alt="business_finbiz"></a>
-                    <a href="#"><img src="{% static 'images/client/06.png' %}" alt="business_finbiz"></a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- end trusted client section -->
-
-    <!-- start team section -->
-    <div class="rts-team-area rts-section-gap bg-team">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="rts-title-area team text-center">
-                        <p class="pre-title">
-                            Professionals Team
-                        </p>
-                        <h2 class="title">Professionals Team</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row g-5 mt--0">
-
-                <div class="swiper mySwiperh1_team">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="team-single-one-start">
-                                <div class="team-image-area">
-                                    <a href="team-details.html">
-                                        <img src="{% static 'images/team/tm/01.jpg' %}" alt="Business_Team_single">
-                                        <div class="team-social">
-                                            <div class="main">
-                                                <i class="fal fa-plus"></i>
-                                            </div>
-                                            <div class="team-social-one">
-                                                <i class="fab fa-youtube"></i>
-                                                <i class="fab fa-twitter"></i>
-                                                <i class="fab fa-instagram"></i>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="single-details">
-                                    <a href="team-details.html">
-                                        <h5 class="title">Archer Graham</h5>
-                                    </a>
-                                    <p>Founder</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="team-single-one-start">
-                                <div class="team-image-area">
-                                    <a href="team-details.html">
-                                        <img src="{% static 'images/team/tm/02.jpg' %}" alt="Business_Team_single">
-                                        <div class="team-social">
-                                            <div class="main">
-                                                <i class="fal fa-plus"></i>
-                                            </div>
-                                            <div class="team-social-one">
-                                                <i class="fab fa-youtube"></i>
-                                                <i class="fab fa-twitter"></i>
-                                                <i class="fab fa-instagram"></i>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="single-details">
-                                    <a href="team-details.html">
-                                        <h5 class="title">Amelia Clover</h5>
-                                    </a>
-                                    <p>Co-Founder</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="team-single-one-start">
-                                <div class="team-image-area">
-                                    <a href="team-details.html">
-                                        <img src="{% static 'images/team/tm/03.jpg' %}" alt="Business_Team_single">
-                                        <div class="team-social">
-                                            <div class="main">
-                                                <i class="fal fa-plus"></i>
-                                            </div>
-                                            <div class="team-social-one">
-                                                <i class="fab fa-youtube"></i>
-                                                <i class="fab fa-twitter"></i>
-                                                <i class="fab fa-instagram"></i>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="single-details">
-                                    <a href="team-details.html">
-                                        <h5 class="title">Beckett Hayden</h5>
-                                    </a>
-                                    <p>Deputy Manager</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="team-single-one-start">
-                                <div class="team-image-area">
-                                    <a href="team-details.html">
-                                        <img src="{% static 'images/team/tm/04.jpg' %}" alt="Business_Team_single">
-                                        <div class="team-social">
-                                            <div class="main">
-                                                <i class="fal fa-plus"></i>
-                                            </div>
-                                            <div class="team-social-one">
-                                                <i class="fab fa-youtube"></i>
-                                                <i class="fab fa-twitter"></i>
-                                                <i class="fab fa-instagram"></i>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="single-details">
-                                    <a href="team-details.html">
-                                        <h5 class="title">Julian Wyat</h5>
-                                    </a>
-                                    <p>Finance Manager</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- end team section -->
 
     <!-- rts features area start -->
@@ -706,7 +539,7 @@
             <div class="row bg-white-feature  pt--120 pb--120">
                 <div class="col-xl-6 col-lg-12">
                     <div class="feature-left-area">
-                        <img src="{% static 'images/feature/01.png' %}" alt="">
+                        <img src="{% static 'rtl/images/feature/01.png' %}" alt="">
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-12">
@@ -746,104 +579,8 @@
     </div>
     <!-- rts features area end -->
 
-    <!-- start client feed back section -->
-    <div class="rts-client-feedback">
-        <div class="container">
-            <div class="row">
-                <!-- start testimonials area -->
-                <div class="col-lg-7">
-                    <div class="rts-title-area reviews text-start pl--30 pt--70">
-                        <p class="pre-title">
-                            Our Testimonials
-                        </p>
-                        <h2 class="title">Client’s Feedbacks</h2>
 
-                        <!-- swiper area start -->
-                        <div class="swiper mySwipertestimonial">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="testimonial-inner">
-                                        <p class="disc text-start">
-                                            “Consectetur adipiscing elit velit porta sapien purus erat nec, a ornare
-                                            laoreet sem gravida accumsan in commodo aliquet nascetur maecenas. Sem
-                                            tempus hendrerit diam mauris leo magna sociosqu viverra, accumsan massa
-                                            tristique egestas cum sodales hac lacinia feugiat scelerisque porttitor”
-                                        </p>
-                                        <div class="testimonial-bottom-one">
-                                            <div class="thumbnail">
-                                                <img src="{% static 'images/testimonials/02.png' %}" alt="business-testimonials">
-                                            </div>
-                                            <div class="details">
-                                                <a href="#">
-                                                    <h5 class="title">David Smith</h5>
-                                                </a>
-                                                <span>JHKL Owner</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="testimonial-inner">
-                                        <p class="disc text-start">
-                                            “Consectetur adipiscing elit velit porta sapien purus erat nec, a ornare
-                                            laoreet sem gravida accumsan in commodo aliquet nascetur maecenas. Sem
-                                            tempus hendrerit diam mauris leo magna sociosqu viverra, accumsan massa
-                                            tristique egestas cum sodales hac lacinia feugiat scelerisque porttitor”
-                                        </p>
-                                        <div class="testimonial-bottom-one">
-                                            <div class="thumbnail">
-                                                <img src="{% static 'images/testimonials/02.png' %}" alt="business-testimonials">
-                                            </div>
-                                            <div class="details">
-                                                <a href="#">
-                                                    <h5 class="title">David Smith</h5>
-                                                </a>
-                                                <span>JHKL Owner</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="testimonial-inner">
-                                        <p class="disc text-start">
-                                            “Consectetur adipiscing elit velit porta sapien purus erat nec, a ornare
-                                            laoreet sem gravida accumsan in commodo aliquet nascetur maecenas. Sem
-                                            tempus hendrerit diam mauris leo magna sociosqu viverra, accumsan massa
-                                            tristique egestas cum sodales hac lacinia feugiat scelerisque porttitor”
-                                        </p>
-                                        <div class="testimonial-bottom-one">
-                                            <div class="thumbnail">
-                                                <img src="{% static 'images/testimonials/02.png' %}" alt="business-testimonials">
-                                            </div>
-                                            <div class="details">
-                                                <a href="#">
-                                                    <h5 class="title">David Smith</h5>
-                                                </a>
-                                                <span>JHKL Owner</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                        </div>
-                        <!-- swiper area end -->
-                    </div>
-                </div>
-                <!-- end testimonials are -->
-                <!-- images area -->
-                <div class="col-lg-5">
-                    <div class="rts-test-one-image-inner">
-                        <img src="{% static 'images/testimonials/01.png' %}" alt="business_testimobials">
-                    </div>
-                </div>
-                <!-- image area end -->
-            </div>
-        </div>
-    </div>
-    <!-- start client feed back section End -->
-
+{% comment %} 
     <!-- blog area start -->
     <div class="rts-blog-area rts-section-gap bg-secondary">
         <div class="container">
@@ -861,7 +598,7 @@
                         <div class="swiper-slide">
                             <div class="single-blog-one-wrapper">
                                 <div class="thumbnail">
-                                    <img src="{% static 'images/blog/01.jpg' %}" alt="business_Blog">
+                                    <img src="{% static 'rtl/images/blog/01.jpg' %}" alt="business_Blog">
                                     <div class="blog-badge">
                                         <span>25.05.2023</span>
                                     </div>
@@ -881,7 +618,7 @@
                         <div class="swiper-slide">
                             <div class="single-blog-one-wrapper">
                                 <div class="thumbnail">
-                                    <img src="{% static 'images/blog/02.jpg' %}" alt="business_Blog">
+                                    <img src="{% static 'rtl/images/blog/02.jpg' %}" alt="business_Blog">
                                     <div class="blog-badge">
                                         <span>25.05.2023</span>
                                     </div>
@@ -901,7 +638,7 @@
                         <div class="swiper-slide">
                             <div class="single-blog-one-wrapper">
                                 <div class="thumbnail">
-                                    <img src="{% static 'images/blog/03.jpg' %}" alt="business_Blog">
+                                    <img src="{% static 'rtl/images/blog/03.jpg' %}" alt="business_Blog">
                                     <div class="blog-badge">
                                         <span>25.05.2023</span>
                                     </div>
@@ -923,7 +660,7 @@
             </div>
         </div>
     </div>
-    <!-- blog area end -->
+    <!-- blog area end --> {% endcomment %}
 
 
 
