@@ -1,24 +1,8 @@
 from django.urls import path
 
-from .views import (
-    create_store,
-    only_store_list,
-    StoreListView,
-    StoreDetailView,
-    update_store,
-    delete_store,
-)
 
 app_name = "business"
 urlpatterns = [
-    path("create_store/", create_store, name="create_store"),
-    path("update_store/<int:pk>", update_store, name="update_store"),
-    path("delete_store/<int:pk>", delete_store, name="delete_store"),
-    
-    path("stores_list/", StoreListView.as_view(), name="stores_list"),
-    path("store-detail/<int:pk>", StoreDetailView.as_view(), name="store_detail"),
-
-    path("only_stores_list/", only_store_list, name="only_store_list"),
 
     # path("dashboard/inventory/load_subtable_hx/<int:item_id>", load_subtable_hx, name="load_subtable_hx"),
 

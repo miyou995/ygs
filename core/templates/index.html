@@ -28,21 +28,22 @@
                     <!-- banner single content -->
                     <div class="banner-one-inner {% if current_lang == 'ar' %}text-end{% else %}text-start{% endif %} ">
                         <p class="pre-title">
-                            <span>{{current_lang}}!</span> Start Growing Your Business Today
+                            <span>{% trans 'Welcome' %}!</span> {% trans 'Chez Yasser Global Security' %}
                         </p>
-                        <h1 class="title ">Make <span>Business Unique </span> <br>
-                            With Great Ideas</h1>
-                        <p class="disc banner-para">
+                        <h1 class="title ">{% trans 'Votre Sécurité' %} <span> 
+                            {% trans 'Notre Priorité' %}</span> <br>
+                            </h1>
+                        {% comment %} <p class="disc banner-para">
                             Porttitor ornare fermentum aliquam pharetra facilisis gravida risus suscipit <br> Dui
                             feugiat
                             fusce conubia ridiculus tristique parturient
-                        </p>
-                        <a href="#" class="rts-btn btn-primary color-h-black">Get Consultant</a>
+                        </p> {% endcomment %}
+                        <a href="#" class="rts-btn btn-primary color-h-black">{% trans 'Demander un devis' %}</a>
                         <img class="shape-img one" src="{% static 'rtl/images/banner/shape/01.png' %}" alt="banner_business">
                     </div>
                     <!-- banner single content end -->
                 </div>
-                <div class="swiper-slide two">
+                {% comment %} <div class="swiper-slide two">
                     <!-- banner single content -->
                     <div class="banner-one-inner {% if current_lang == 'ar' %}text-end{% else %}text-start{% endif %}">
                         <p class="pre-title">
@@ -58,8 +59,8 @@
                         <img class="shape-img one" src="{% static 'rtl/images/banner/shape/01.png' %}" alt="banner_business">
                     </div>
                     <!-- banner single content end -->
-                </div>
-                <div class="swiper-slide three">
+                </div> {% endcomment %}
+                {% comment %} <div class="swiper-slide three">
                     <!-- banner single content -->
                     <div class="banner-one-inner {% if current_lang == 'ar' %}text-end{% else %}text-start{% endif %}">
                         <p class="pre-title">
@@ -75,7 +76,7 @@
                         <img class="shape-img one" src="{% static 'rtl/images/banner/shape/01.png' %}" alt="banner_business">
                     </div>
                     <!-- banner single content end -->
-                </div>
+                </div> {% endcomment %}
             </div>
             <div class="swiper-pagination"></div>
         </div>
@@ -97,48 +98,31 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12 order-lg-1 order-md-2 order-sm-2 order-2 mt_md--50 mt_sm--50">
                     <div class="rts-title-area">
                         <p class="pre-title">
-                            More About Us
+                            {% trans 'More About Us' %}
                         </p>
-                        <h2 class="title">We Provide Best Business
-                            Solution in Town</h2>
+                        <h2 class="title">{% trans 'Assurer une protection de qualité' %}
+
+                        </h2>
                     </div>
                     <div class="about-inner">
                         <p class="disc">
-                            Porttitor ornare fermentum aliquam pharetra ut facilisis gravida risus suscipit. dui feugiat
-                            fusce conubia ridiculus tristique parturient natoque vulputate risu
-                            business solution ceter 24/7 great support
+                            Pour la sécurité de votre patrimoine et de vos personnels contre toutes formes de menaces.
                         </p>
                         <!-- start about success area -->
                         <div class="row about-success-wrapper">
                             <!-- left wrapper start -->
-                            <div class="col-lg-6 col-md-6">
+                            <div class="col-">
                                 <div class="single">
                                     <i class="far fa-check"></i>
-                                    <p class="details">24/7 Call Services Avilable</p>
+                                    <p class="details">{% trans 'Audit & conseil' %}</p>
                                 </div>
                                 <div class="single">
                                     <i class="far fa-check"></i>
-                                    <p class="details">Great Skilled Consultant</p>
+                                    <p class="details">{% trans 'Surveillance et sécurité' %}</p>
                                 </div>
                                 <div class="single">
                                     <i class="far fa-check"></i>
-                                    <p class="details">Expert Team Members</p>
-                                </div>
-                            </div>
-                            <!-- left wrapper end -->
-                            <div class="col-lg-6 col-md-6">
-                                <div class="single">
-                                    <i class="far fa-check"></i>
-                                    <p class="details">How to improve business
-                                    </p>
-                                </div>
-                                <div class="single">
-                                    <i class="far fa-check"></i>
-                                    <p class="details">Business is the best plan</p>
-                                </div>
-                                <div class="single">
-                                    <i class="far fa-check"></i>
-                                    <p class="details">Services we provide</p>
+                                    <p class="details">{% trans 'Transport de fonds et produits sensibles' %}</p>
                                 </div>
                             </div>
                         </div>
@@ -147,30 +131,30 @@
                         <!-- about founder & get in touch start -->
                         <div class="row about-founder-wrapper align-items-center mt--40">
                             <!-- left area start -->
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-                                <div class="author-inner">
-                                    <a class="thumbnail" href="#"><img src="{% static 'rtl/images/about/sm-01.png' %}" alt="finbiz_founder"></a>
-                                    <div class="founder-details">
-                                        <a href="team-details.html">
-                                            <h6 class="title">Adrew David</h6>
+                            <div class="col-">
+                                <div class="author-call-option">
+                                    <img class="authore-call" src="{% static 'rtl/images/about/call.svg' %}" alt="call_founder">
+                                    <div class="call-details">
+                                        <span>{% trans 'Call us anytime' %}</span>
+                                        <a href="tel:{{business.phone}}">
+                                            <h6 class="title">{{business.phone}}</h6>
                                         </a>
-                                        <span>CEO & Founder</span>
                                     </div>
                                 </div>
                             </div>
                             <!-- left area end -->
                             <!-- right founder area -->
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-12 mt_sm--20">
+                            {% comment %} <div class="col-lg-6 col-md-6 col-sm-6 col-12 mt_sm--20">
                                 <div class="author-call-option">
                                     <img class="authore-call" src="{% static 'rtl/images/about/call.svg' %}" alt="call_founder">
                                     <div class="call-details">
-                                        <span>Call us anytime</span>
-                                        <a href="tel:+18475555555">
-                                            <h6 class="title">+256 21458.2146</h6>
+                                        <span>{% trans 'Call us anytime' %}</span>
+                                        <a href="tel:{{business.phone}}">
+                                            <h6 class="title">{{business.phone}}</h6>
                                         </a>
                                     </div>
                                 </div>
-                            </div>
+                            </div> {% endcomment %}
                             <!-- left founder area -->
                         </div>
                         <!-- about founder & get in touch end -->
@@ -181,8 +165,8 @@
                 <!-- about-right Start-->
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12 order-lg-2 order-md-1 order-sm-1 order-1">
                     <div class="about-one-thumbnail">
-                        <img src=" {% static 'rtl/images/about/main/about-01.png' %}" alt="about-finbiz">
-                        <img class="small-img" src="{% static 'rtl/images/about/main/about-02.png' %}" alt="finbiz-small">
+                        <img src=" {% static 'images/ygs/about1.png' %}" alt="about-finbiz">
+                        <img class="small-img" src="{% static 'images/ygs/ab2.png' %}" alt="finbiz-small">
                         <div class="experience">
                             <div class="left single">
                                 <h2 class="title">25+</h2>
@@ -202,22 +186,30 @@
             </div>
         </div>
     </div>
-    <!-- rts about us section end -->
-
-    <!-- rts service post area  Start-->
     <div class="rts-service-area rts-section-gapBottom">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="rts-title-area service text-center">
                         <p class="pre-title">
-                            Our Services
+                            {% trans 'Nos Services' %}
                         </p>
-                        <h2 class="title">High Quality Services</h2>
+                        <h2 class="title text-capitalize">{% trans 'Préstations de haute qualité' %}</h2>
                     </div>
                 </div>
             </div>
         </div>
+        {% comment %} 
+        
+        Suite à votre demande veuillez trouver ci-dessus les services 
+
+La surveillance et sécurité des sites sensibles.
+La sûreté des établissements recevant du public.
+La sûreté évènementielle.
+Sécurisation du transport de fonds et produits sensibles.
+Audit et conseil.
+        
+        {% endcomment %}
         <div class="container-fluid service-main plr--120-service mt--50 plr_md--0 pl_sm--0 pr_sm--0">
             <div class="background-service row">
                 <!-- start single Service -->
@@ -228,14 +220,15 @@
                         </div>
                         <div class="service-details">
                             <a href="service-details.html">
-                                <h5 class="title">Business Planning</h5>
+                                <h5 class="title">surveillance et sécurité des sites sensibles</h5>
                             </a>
                             <p class="disc">
-                                Sagitis himos pulvinar morb socis laoreet posuere enim non auctor etiam pretium libero
+                                Protection spécialisée pour des lieux critiques, assurant une sécurité constante.
+
                             </p>
-                            <a class="rts-read-more btn-primary" href="service-details.html"><i
+                            {% comment %} <a class="rts-read-more btn-primary" href="service-details.html"><i
                                     class="far fa-arrow-right"></i>Read
-                                More</a>
+                                More</a> {% endcomment %}
                         </div>
                     </div>
                 </div>
@@ -248,14 +241,15 @@
                         </div>
                         <div class="service-details">
                             <a href="service-details.html">
-                                <h5 class="title">Develop Process</h5>
+                                <h5 class="title">Sûreté des établissements recevant du public (ERP) </h5>
                             </a>
                             <p class="disc">
-                                Sagitis himos pulvinar morb socis laoreet posuere enim non auctor etiam pretium libero
+                                Mise en place de dispositifs de sécurité pour garantir la sérénité des visiteurs.
+
                             </p>
-                            <a class="rts-read-more btn-primary" href="service-details.html"><i
+                            {% comment %} <a class="rts-read-more btn-primary" href="service-details.html"><i
                                     class="far fa-arrow-right"></i>Read
-                                More</a>
+                                More</a> {% endcomment %}
                         </div>
                     </div>
                 </div>
@@ -268,14 +262,14 @@
                         </div>
                         <div class="service-details">
                             <a href="service-details.html">
-                                <h5 class="title">Strategy & Planning</h5>
+                                <h5 class="title">Sûreté évènementielle</h5>
                             </a>
                             <p class="disc">
-                                Sagitis himos pulvinar morb socis laoreet posuere enim non auctor etiam pretium libero
+                                Adaptation de la sécurité à chaque événement pour assurer un déroulement sans incident.
                             </p>
-                            <a class="rts-read-more btn-primary" href="service-details.html"><i
+                            {% comment %} <a class="rts-read-more btn-primary" href="service-details.html"><i
                                     class="far fa-arrow-right"></i>Read
-                                More</a>
+                                More</a> {% endcomment %}
                         </div>
                     </div>
                 </div>
@@ -288,14 +282,14 @@
                         </div>
                         <div class="service-details">
                             <a href="service-details.html">
-                                <h5 class="title">Business Support</h5>
+                                <h5 class="title">Sécurisation du transport de fonds</h5>
                             </a>
                             <p class="disc">
-                                Sagitis himos pulvinar morb socis laoreet posuere enim non auctor etiam pretium libero
+                                Service de transfert sécurisé garantissant la protection des fonds en mouvement.
                             </p>
-                            <a class="rts-read-more btn-primary" href="service-details.html"><i
+                            {% comment %} <a class="rts-read-more btn-primary" href="service-details.html"><i
                                     class="far fa-arrow-right"></i>Read
-                                More</a>
+                                More</a> {% endcomment %}
                         </div>
                     </div>
                 </div>
@@ -308,14 +302,14 @@
                         </div>
                         <div class="service-details">
                             <a href="service-details.html">
-                                <h5 class="title">Audit & Evaluation</h5>
+                                <h5 class="title">Audit & conseil</h5>
                             </a>
                             <p class="disc">
-                                Sagitis himos pulvinar morb socis laoreet posuere enim non auctor etiam pretium libero
+                                Évaluation des besoins en sécurité et recommandation de solutions adaptées.
                             </p>
-                            <a class="rts-read-more btn-primary" href="service-details.html"><i
+                            {% comment %} <a class="rts-read-more btn-primary" href="service-details.html"><i
                                     class="far fa-arrow-right"></i>Read
-                                More</a>
+                                More</a> {% endcomment %}
                         </div>
                     </div>
                 </div>
@@ -328,14 +322,14 @@
                         </div>
                         <div class="service-details">
                             <a href="service-details.html">
-                                <h5 class="title">Consultancy & Advice</h5>
+                                <h5 class="title">Sécurisation des produits sensibles</h5>
                             </a>
                             <p class="disc">
-                                Sagitis himos pulvinar morb socis laoreet posuere enim non auctor etiam pretium libero
+                                Protocoles stricts pour garantir la sécurité des biens de grande valeur ou sensibles.
                             </p>
-                            <a class="rts-read-more btn-primary" href="service-details.html"><i
+                            {% comment %} <a class="rts-read-more btn-primary" href="service-details.html"><i
                                     class="far fa-arrow-right"></i>Read
-                                More</a>
+                                More</a> {% endcomment %}
                         </div>
                     </div>
                 </div>

@@ -5,15 +5,15 @@ def index_view(request):
     return render(request,'index.html')
 
 # Create your views here.
-def about_view(request):
+def about(request):
     return render(request,'about.html')
 
-def contact_view(request):
+def contact(request):
     return render(request,'about.html')
 
 
-def services_view(request):
+def services(request):
     return render(request,'about.html')
 
-def hiring_view(request):
+def hiring(request):
     return render(request,'about.html')

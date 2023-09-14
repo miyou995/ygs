@@ -9,14 +9,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Finbiz Home One (Business Consultant)</title>
         <link rel="shortcut icon" type="image/x-icon" href="images/fav.png">
-        <link rel="stylesheet" href="{% static 'rtl/css/plugins/swiper.min.css' %}">
+        {% comment %} <link rel="stylesheet" href="{% static 'rtl/css/plugins/swiper.min.css' %}"> {% endcomment %}
         <link rel="stylesheet" href="{% static 'rtl/css/plugins/fontawesome-5.css' %}">
         <link rel="stylesheet" href="{% static 'rtl/css/plugins/animate.min.css' %}">
         <link rel="stylesheet" href="{% static 'rtl/css/plugins/unicons.css' %}">
         <link rel="stylesheet" href="{% static 'rtl/css/vendor/bootstrap.min.css' %}">
 
         <link rel="stylesheet" href="{% static 'rtl/css/style.css' %}">
-
+        <link rel="stylesheet" href="{% static 'css/custom.css' %}">
 
 
 
@@ -65,7 +65,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-4 col-sm-4 col-4">
                             <div class="thumbnail">
                                 <a href="index.html">
-                                    <img src="{% static 'rtl/images/logo/logo-1.svg' %}" alt="finbiz-logo">
+                                    <img src="{{business.logo.url}}" class="header-logo" alt="{{business.name}} logo">
                                 </a>
                             </div>
                         </div>
@@ -120,7 +120,7 @@
                                     </ul>
                                 </nav>
                                 <div class="button-area">
-                                    <button id="search" class="rts-btn btn-primary-alta"><i class="far fa-search"></i></button>
+                                    {% comment %} <button id="search" class="rts-btn btn-primary-alta"><i class="far fa-search"></i></button>
                                     <div class="search-input-area">
                                         <div class="container">
                                             <div class="search-input-inner">
@@ -131,7 +131,7 @@
                                                 <div id="close" class="search-close-icon"><i class="far fa-times"></i></div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> {% endcomment %}
                                     <a href="#" class="rts-btn btn-primary mr--20 mr_sm--5 header-one-btn quote-btn">Get Quote</a>
                                     <button id="menu-btn" class="menu rts-btn btn-primary-alta mr--20 mr_sm--5">
                                         <img class="menu-dark" src="{% static 'rtl/images/icon/menu.png' %}" alt="Menu-icon">
@@ -272,35 +272,7 @@
         <!-- rts footer area start -->
         <div class="rts-footer-area footer-one rts-section-gapTop bg-footer-one">
             <div class="container bg-shape-f1">
-                <!-- footer call to action area -->
-                <div class="row">
-                    <div class="col-12">
-                        <div class="rts-cta-wrapper">
-                            <div class="background-cta">
-                                <div class="row">
-                                    <!-- cta-left -->
-                                    <div class="col-lg-6">
-                                        <div class="cta-left-wrapepr">
-                                            <p class="cta-disc">
-                                                Latest Business Ideas
-                                            </p>
-                                            <h3 class="title">Sign Up Newsletter</h3>
-                                        </div>
-                                    </div>
-                                    <!-- cta left end -->
-                                    <div class="col-lg-6">
-                                        <!-- cta right -->
-                                        <form class="cta-input-arae">
-                                            <input type="email" name="email" placeholder="Enter Email Address" required>
-                                            <button type="submit" class="rts-btn btn-primary">Subscribe Now</button>
-                                        </form>
-                                        <!-- cta right End -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+               
                 <!-- footer call to action area End -->
                 <!-- rts footer area -->
                 <div class="row pt--120 pt_sm--80 pb--80 pb_sm--40">

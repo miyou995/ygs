@@ -14,6 +14,8 @@
         <link rel="stylesheet" href="{% static 'css/plugins/unicons.css' %}">
         <link rel="stylesheet" href="{% static 'css/vendor/bootstrap.min.css' %}">
         <link rel="stylesheet" href="{% static 'css/style.css' %}">
+        <link rel="stylesheet" href="{% static 'css/custom.css' %}">
+
     </head>
     <body>
 
@@ -56,8 +58,8 @@
                     <div class="row">
                         <div class="col-xl-3 col-lg-4 col-md-4 col-sm-4 col-4">
                             <div class="thumbnail">
-                                <a href="index.html">
-                                    <img src="{% static 'images/logo/logo-1.svg' %}" alt="finbiz-logo">
+                                <a href="{% url 'core:index' %}">
+                                    <img src="{{business.logo.url}}" class="header-logo" alt="{{business.name}} logo">
                                 </a>
                             </div>
                         </div>
@@ -66,14 +68,14 @@
                                 <nav class="nav-main mainmenu-nav d-none d-xl-block">
                                     <ul class="mainmenu">
                                         <li><a class="nav-item" href="{% url 'core:index' %}">{% trans 'Accueil' %}</a></li>
-                                        <li><a class="nav-item" href="{% url 'core:about_view' %}">{% trans 'A propos' %}</a></li>
-                                        <li><a class="nav-item" href="{% url 'core:contact_view' %}">{% trans 'Nos Services' %}</a></li>
-                                        <li><a class="nav-item" href="{% url 'core:services_view' %}">{% trans 'Recrutement' %}</a></li>
-                                        <li><a class="nav-item" href="{% url 'core:hiring_view' %}">{% trans 'Contact' %}</a></li>
+                                        <li><a class="nav-item" href="{% url 'core:about' %}">{% trans 'A propos' %}</a></li>
+                                        <li><a class="nav-item" href="{% url 'core:contact' %}">{% trans 'Nos Services' %}</a></li>
+                                        <li><a class="nav-item" href="{% url 'core:services' %}">{% trans 'Recrutement' %}</a></li>
+                                        <li><a class="nav-item" href="{% url 'core:hiring' %}">{% trans 'Contact' %}</a></li>
                                     </ul>
                                 </nav>
                                 <div class="button-area">
-                                    <button id="search" class="rts-btn btn-primary-alta"><i class="far fa-search"></i></button>
+                                    {% comment %} <button id="search" class="rts-btn btn-primary-alta"><i class="far fa-search"></i></button> {% endcomment %}
                                     <a href="#" class="rts-btn btn-primary ml--20 ml_sm--5 header-one-btn quote-btn">Get Quote</a>
                                     <button id="menu-btn" class="menu rts-btn btn-primary-alta ml--20 ml_sm--5">
                                         <img class="menu-dark" src="{% static 'images/icon/menu.png' %}" alt="Menu-icon">
@@ -145,10 +147,10 @@
                            
                           
                             <li class="menu-item"><a class="menu-link" href="{% url 'core:index' %}">{% trans 'Accueil' %}</a></li>
-                            <li class="menu-item"><a class="menu-link" href="{% url 'core:about_view' %}">{% trans 'A propos' %}</a></li>
-                            <li class="menu-item"><a class="menu-link" href="{% url 'core:contact_view' %}">{% trans 'Nos Services' %}</a></li>
-                            <li class="menu-item"><a class="menu-link" href="{% url 'core:services_view' %}">{% trans 'Recrutement' %}</a></li>
-                            <li class="menu-item"><a class="menu-link" href="{% url 'core:hiring_view' %}">{% trans 'Contact' %}</a></li>
+                            <li class="menu-item"><a class="menu-link" href="{% url 'core:about' %}">{% trans 'A propos' %}</a></li>
+                            <li class="menu-item"><a class="menu-link" href="{% url 'core:contact' %}">{% trans 'Nos Services' %}</a></li>
+                            <li class="menu-item"><a class="menu-link" href="{% url 'core:services' %}">{% trans 'Recrutement' %}</a></li>
+                            <li class="menu-item"><a class="menu-link" href="{% url 'core:hiring' %}">{% trans 'Contact' %}</a></li>
                         </ul>
                     </nav>
                     <div class="social-wrapper-two menu mobile-menu">

@@ -16,9 +16,9 @@ class Business(models.Model):
     name        = models.CharField(verbose_name="Nom de l'entreprise", max_length=100)
     logo        = models.ImageField(upload_to='images/logos', verbose_name='Logo', null=True, blank=True)
     logo_negatif= models.ImageField(upload_to='images/slides', verbose_name="Logo négatif", null=True, blank=True)
-    favicon = models.ImageField(upload_to='images/logos', verbose_name='Favicon', null=True, blank=True)
+    favicon     = models.ImageField(upload_to='images/logos', verbose_name='Favicon', null=True, blank=True)
     title       = models.CharField(verbose_name="Titre", max_length=50, blank=True)
-    address      = models.CharField(verbose_name="Adresse", max_length=50, blank=True)
+    address     = models.CharField(verbose_name="Adresse", max_length=50, blank=True)
     email       = models.EmailField(verbose_name="email de l'entreprise", max_length=50, blank=True)
     email2      = models.EmailField(verbose_name="2eme email de l'entreprise", max_length=50, blank=True)
     phone       = models.CharField(verbose_name="numéro de téléphone de l'entreprise", max_length=50, blank=True)
@@ -52,26 +52,6 @@ class Business(models.Model):
         model = self.__class__
         if (model.objects.count() > 0 and
                 self.id != model.objects.get().id):
-            raise ValidationError("Vous ne pouvez pas rajouter uen autre entreprise")
+            raise ValidationError("Vous ne pouvez pas rajouter une autre entreprise")
 
 
-
-class Store(models.Model):
-    name  = models.CharField(verbose_name="Nom du magasin", max_length=100)
-    phone = models.CharField(verbose_name="numéro de téléphone du magasin", max_length=50, blank=True)
-    address      = models.CharField(verbose_name="Adresse", max_length=150, blank=True)
-    is_default   = models.BooleanField(verbose_name='Store principale', default=False)
-    def save(self, *args, **kwargs):
-        if self.is_default == True:
-            self.is_default = True
-            Store.objects.all().exclude(id=self.id).update(is_default=False)
-        return super(Store, self).save(*args, **kwargs)
-    
-    def __str__(self):
-        return self.name
-    
-    def get_absolute_url(self):
-        return reverse("business:store_detail", kwargs={"pk": self.pk})
-    
-    def get_delete_url(self):
-        return reverse("business:delete_store", kwargs={"pk": self.pk})
