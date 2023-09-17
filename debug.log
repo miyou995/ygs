@@ -930,3 +930,5 @@ django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 610: '
 2023-09-11 08:48:36,220 django.utils.autoreload INFO     Watching for file changes with StatReloader
 2023-09-11 10:06:29,253 django.request WARNING  Not Found: /ar/images/fav.png
 2023-09-11 10:07:26,812 django.request WARNING  Not Found: /ar/images/fav.png
+2023-09-17 14:54:29,368 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-17 14:54:45,087 django.request WARNING  Not Found: /ar/images/fav.png
