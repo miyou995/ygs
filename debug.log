@@ -1006,3 +1006,619 @@ django.template.exceptions.TemplateDoesNotExist: rtl/index.html
 2023-09-17 15:52:04,270 django.utils.autoreload INFO     Watching for file changes with StatReloader
 2023-09-17 15:52:18,318 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\core\views.py changed, reloading.
 2023-09-17 15:52:19,171 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-20 14:18:16,240 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-20 14:18:39,450 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-20 14:19:09,718 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-20 14:20:11,343 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-20 14:20:50,707 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-20 14:39:11,885 django.utils.autoreload INFO     C:\Users\hp\Desktop\ygs\business\models.py changed, reloading.
+2023-09-20 14:39:12,626 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-20 14:39:47,004 django.utils.autoreload INFO     C:\Users\hp\Desktop\ygs\business\admin.py changed, reloading.
+2023-09-20 14:39:47,672 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-20 14:39:55,508 django.utils.autoreload INFO     C:\Users\hp\Desktop\ygs\business\admin.py changed, reloading.
+2023-09-20 14:39:56,232 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-20 14:42:57,071 django.utils.autoreload INFO     C:\Users\hp\Desktop\ygs\business\models.py changed, reloading.
+2023-09-20 14:42:57,791 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-20 14:44:44,889 django.utils.autoreload INFO     C:\Users\hp\Desktop\ygs\business\models.py changed, reloading.
+2023-09-20 14:44:45,570 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-20 14:44:55,255 django.utils.autoreload INFO     C:\Users\hp\Desktop\ygs\business\models.py changed, reloading.
+2023-09-20 14:44:56,024 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-20 14:44:59,629 django.utils.autoreload INFO     C:\Users\hp\Desktop\ygs\business\models.py changed, reloading.
+2023-09-20 14:45:00,320 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-20 14:45:38,525 django.utils.autoreload INFO     C:\Users\hp\Desktop\ygs\business\models.py changed, reloading.
+2023-09-20 14:45:39,192 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-20 14:45:44,861 django.utils.autoreload INFO     C:\Users\hp\Desktop\ygs\business\models.py changed, reloading.
+2023-09-20 14:45:45,573 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-20 14:46:58,180 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-20 14:46:59,767 django.utils.autoreload INFO     C:\Users\hp\Desktop\ygs\business\models.py changed, reloading.
+2023-09-20 14:47:00,802 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-20 14:48:28,297 django.utils.autoreload INFO     C:\Users\hp\Desktop\ygs\business\models.py changed, reloading.
+2023-09-20 14:48:28,998 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-20 14:48:48,459 django.utils.autoreload INFO     C:\Users\hp\Desktop\ygs\business\models.py changed, reloading.
+2023-09-20 14:48:49,176 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-20 14:49:04,464 django.utils.autoreload INFO     C:\Users\hp\Desktop\ygs\business\models.py changed, reloading.
+2023-09-20 14:49:05,149 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-20 14:49:22,612 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-20 14:49:25,117 django.utils.autoreload INFO     C:\Users\hp\Desktop\ygs\business\models.py changed, reloading.
+2023-09-20 14:49:25,773 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-20 14:49:50,039 django.request WARNING  Not Found: /en/index.html
+2023-09-20 14:49:50,138 django.request WARNING  Not Found: /favicon.ico
+2023-09-20 14:53:57,519 django.utils.autoreload INFO     C:\Users\hp\Desktop\ygs\business\models.py changed, reloading.
+2023-09-20 14:53:58,188 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-20 14:54:31,898 django.utils.autoreload INFO     C:\Users\hp\Desktop\ygs\business\models.py changed, reloading.
+2023-09-20 14:54:32,547 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-20 14:55:21,933 django.utils.autoreload INFO     C:\Users\hp\Desktop\ygs\business\models.py changed, reloading.
+2023-09-20 14:55:22,643 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-20 14:55:32,082 django.request ERROR    Internal Server Error: /en/
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: business_business.instagram
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\core\views.py", line 7, in index_view
+    return render(request,template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 173, in render
+    with context.bind_template(self):
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\context.py", line 254, in bind_template
+    updates.update(processor(self.request))
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\business\context_processors.py", line 5, in infos
+    business = Business.objects.all().first()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\db\models\query.py", line 1057, in first
+    for obj in queryset[:1]:
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: business_business.instagram
+2023-09-20 14:55:58,276 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-20 14:56:43,402 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-20 14:59:03,067 PIL.PngImagePlugin DEBUG    STREAM b'IHDR' 16 13
+2023-09-20 14:59:03,068 PIL.PngImagePlugin DEBUG    STREAM b'pHYs' 41 9
+2023-09-20 14:59:03,068 PIL.PngImagePlugin DEBUG    STREAM b'IDAT' 62 8192
+2023-09-20 14:59:03,069 PIL.Image    DEBUG    Importing BlpImagePlugin
+2023-09-20 14:59:03,071 PIL.Image    DEBUG    Importing BmpImagePlugin
+2023-09-20 14:59:03,071 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2023-09-20 14:59:03,073 PIL.Image    DEBUG    Importing CurImagePlugin
+2023-09-20 14:59:03,074 PIL.Image    DEBUG    Importing DcxImagePlugin
+2023-09-20 14:59:03,077 PIL.Image    DEBUG    Importing DdsImagePlugin
+2023-09-20 14:59:03,078 PIL.Image    DEBUG    Importing EpsImagePlugin
+2023-09-20 14:59:03,100 PIL.Image    DEBUG    Importing FitsImagePlugin
+2023-09-20 14:59:03,101 PIL.Image    DEBUG    Importing FliImagePlugin
+2023-09-20 14:59:03,102 PIL.Image    DEBUG    Importing FpxImagePlugin
+2023-09-20 14:59:03,104 PIL.Image    DEBUG    Image: failed to import FpxImagePlugin: No module named 'olefile'
+2023-09-20 14:59:03,104 PIL.Image    DEBUG    Importing FtexImagePlugin
+2023-09-20 14:59:03,106 PIL.Image    DEBUG    Importing GbrImagePlugin
+2023-09-20 14:59:03,107 PIL.Image    DEBUG    Importing GifImagePlugin
+2023-09-20 14:59:03,108 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2023-09-20 14:59:03,109 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2023-09-20 14:59:03,110 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2023-09-20 14:59:03,113 PIL.Image    DEBUG    Importing IcoImagePlugin
+2023-09-20 14:59:03,114 PIL.Image    DEBUG    Importing ImImagePlugin
+2023-09-20 14:59:03,115 PIL.Image    DEBUG    Importing ImtImagePlugin
+2023-09-20 14:59:03,116 PIL.Image    DEBUG    Importing IptcImagePlugin
+2023-09-20 14:59:03,118 PIL.Image    DEBUG    Importing JpegImagePlugin
+2023-09-20 14:59:03,119 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2023-09-20 14:59:03,119 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2023-09-20 14:59:03,121 PIL.Image    DEBUG    Importing MicImagePlugin
+2023-09-20 14:59:03,122 PIL.Image    DEBUG    Image: failed to import MicImagePlugin: No module named 'olefile'
+2023-09-20 14:59:03,123 PIL.Image    DEBUG    Importing MpegImagePlugin
+2023-09-20 14:59:03,125 PIL.Image    DEBUG    Importing MpoImagePlugin
+2023-09-20 14:59:03,128 PIL.Image    DEBUG    Importing MspImagePlugin
+2023-09-20 14:59:03,130 PIL.Image    DEBUG    Importing PalmImagePlugin
+2023-09-20 14:59:03,131 PIL.Image    DEBUG    Importing PcdImagePlugin
+2023-09-20 14:59:03,132 PIL.Image    DEBUG    Importing PcxImagePlugin
+2023-09-20 14:59:03,132 PIL.Image    DEBUG    Importing PdfImagePlugin
+2023-09-20 14:59:03,139 PIL.Image    DEBUG    Importing PixarImagePlugin
+2023-09-20 14:59:03,141 PIL.Image    DEBUG    Importing PngImagePlugin
+2023-09-20 14:59:03,142 PIL.Image    DEBUG    Importing PpmImagePlugin
+2023-09-20 14:59:03,142 PIL.Image    DEBUG    Importing PsdImagePlugin
+2023-09-20 14:59:03,143 PIL.Image    DEBUG    Importing QoiImagePlugin
+2023-09-20 14:59:03,144 PIL.Image    DEBUG    Importing SgiImagePlugin
+2023-09-20 14:59:03,145 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2023-09-20 14:59:03,147 PIL.Image    DEBUG    Importing SunImagePlugin
+2023-09-20 14:59:03,148 PIL.Image    DEBUG    Importing TgaImagePlugin
+2023-09-20 14:59:03,150 PIL.Image    DEBUG    Importing TiffImagePlugin
+2023-09-20 14:59:03,150 PIL.Image    DEBUG    Importing WebPImagePlugin
+2023-09-20 14:59:03,183 PIL.Image    DEBUG    Importing WmfImagePlugin
+2023-09-20 14:59:03,184 PIL.Image    DEBUG    Importing XbmImagePlugin
+2023-09-20 14:59:03,187 PIL.Image    DEBUG    Importing XpmImagePlugin
+2023-09-20 14:59:03,188 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2023-09-20 14:59:03,189 PIL.PngImagePlugin DEBUG    STREAM b'IHDR' 16 13
+2023-09-20 14:59:03,191 PIL.PngImagePlugin DEBUG    STREAM b'pHYs' 41 9
+2023-09-20 14:59:03,191 PIL.PngImagePlugin DEBUG    STREAM b'IDAT' 62 8192
+2023-09-20 15:07:26,826 django.request ERROR    Internal Server Error: /en/
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endcomment'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\core\views.py", line 7, in index_view
+    return render(request,template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\loader_tags.py", line 197, in render
+    template = context.template.engine.select_template(template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\engine.py", line 206, in select_template
+    return self.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 274: 'endcomment'. Did you forget to register or load this tag?
+2023-09-20 15:07:27,014 django.request WARNING  Not Found: /favicon.ico
+2023-09-20 15:07:59,073 django.request WARNING  Not Found: /en/assets/images/logo/logo-1.svg
+2023-09-20 15:07:59,135 django.request WARNING  Not Found: /en/assets/images/icon/menu.png
+2023-09-20 15:07:59,152 django.request WARNING  Not Found: /en/assets/images/icon/menu-light.png
+2023-09-20 15:12:56,035 django.utils.autoreload INFO     C:\Users\hp\Desktop\ygs\config\settings.py changed, reloading.
+2023-09-20 15:12:56,859 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-20 15:13:16,001 django.utils.autoreload INFO     C:\Users\hp\Desktop\ygs\config\settings.py changed, reloading.
+2023-09-20 15:13:16,865 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-20 15:13:32,799 PIL.PngImagePlugin DEBUG    STREAM b'IHDR' 16 13
+2023-09-20 15:13:32,799 PIL.PngImagePlugin DEBUG    STREAM b'pHYs' 41 9
+2023-09-20 15:13:32,801 PIL.PngImagePlugin DEBUG    STREAM b'IDAT' 62 8192
+2023-09-20 15:13:32,802 PIL.Image    DEBUG    Importing BlpImagePlugin
+2023-09-20 15:13:32,804 PIL.Image    DEBUG    Importing BmpImagePlugin
+2023-09-20 15:13:32,804 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2023-09-20 15:13:32,805 PIL.Image    DEBUG    Importing CurImagePlugin
+2023-09-20 15:13:32,806 PIL.Image    DEBUG    Importing DcxImagePlugin
+2023-09-20 15:13:32,808 PIL.Image    DEBUG    Importing DdsImagePlugin
+2023-09-20 15:13:32,810 PIL.Image    DEBUG    Importing EpsImagePlugin
+2023-09-20 15:13:32,833 PIL.Image    DEBUG    Importing FitsImagePlugin
+2023-09-20 15:13:32,834 PIL.Image    DEBUG    Importing FliImagePlugin
+2023-09-20 15:13:32,836 PIL.Image    DEBUG    Importing FpxImagePlugin
+2023-09-20 15:13:32,837 PIL.Image    DEBUG    Image: failed to import FpxImagePlugin: No module named 'olefile'
+2023-09-20 15:13:32,837 PIL.Image    DEBUG    Importing FtexImagePlugin
+2023-09-20 15:13:32,839 PIL.Image    DEBUG    Importing GbrImagePlugin
+2023-09-20 15:13:32,840 PIL.Image    DEBUG    Importing GifImagePlugin
+2023-09-20 15:13:32,841 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2023-09-20 15:13:32,843 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2023-09-20 15:13:32,844 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2023-09-20 15:13:32,847 PIL.Image    DEBUG    Importing IcoImagePlugin
+2023-09-20 15:13:32,848 PIL.Image    DEBUG    Importing ImImagePlugin
+2023-09-20 15:13:32,849 PIL.Image    DEBUG    Importing ImtImagePlugin
+2023-09-20 15:13:32,850 PIL.Image    DEBUG    Importing IptcImagePlugin
+2023-09-20 15:13:32,851 PIL.Image    DEBUG    Importing JpegImagePlugin
+2023-09-20 15:13:32,852 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2023-09-20 15:13:32,852 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2023-09-20 15:13:32,853 PIL.Image    DEBUG    Importing MicImagePlugin
+2023-09-20 15:13:32,854 PIL.Image    DEBUG    Image: failed to import MicImagePlugin: No module named 'olefile'
+2023-09-20 15:13:32,854 PIL.Image    DEBUG    Importing MpegImagePlugin
+2023-09-20 15:13:32,855 PIL.Image    DEBUG    Importing MpoImagePlugin
+2023-09-20 15:13:32,861 PIL.Image    DEBUG    Importing MspImagePlugin
+2023-09-20 15:13:32,862 PIL.Image    DEBUG    Importing PalmImagePlugin
+2023-09-20 15:13:32,864 PIL.Image    DEBUG    Importing PcdImagePlugin
+2023-09-20 15:13:32,865 PIL.Image    DEBUG    Importing PcxImagePlugin
+2023-09-20 15:13:32,866 PIL.Image    DEBUG    Importing PdfImagePlugin
+2023-09-20 15:13:32,871 PIL.Image    DEBUG    Importing PixarImagePlugin
+2023-09-20 15:13:32,873 PIL.Image    DEBUG    Importing PngImagePlugin
+2023-09-20 15:13:32,875 PIL.Image    DEBUG    Importing PpmImagePlugin
+2023-09-20 15:13:32,875 PIL.Image    DEBUG    Importing PsdImagePlugin
+2023-09-20 15:13:32,877 PIL.Image    DEBUG    Importing QoiImagePlugin
+2023-09-20 15:13:32,878 PIL.Image    DEBUG    Importing SgiImagePlugin
+2023-09-20 15:13:32,879 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2023-09-20 15:13:32,880 PIL.Image    DEBUG    Importing SunImagePlugin
+2023-09-20 15:13:32,881 PIL.Image    DEBUG    Importing TgaImagePlugin
+2023-09-20 15:13:32,882 PIL.Image    DEBUG    Importing TiffImagePlugin
+2023-09-20 15:13:32,883 PIL.Image    DEBUG    Importing WebPImagePlugin
+2023-09-20 15:13:32,884 PIL.Image    DEBUG    Importing WmfImagePlugin
+2023-09-20 15:13:32,886 PIL.Image    DEBUG    Importing XbmImagePlugin
+2023-09-20 15:13:32,887 PIL.Image    DEBUG    Importing XpmImagePlugin
+2023-09-20 15:13:32,888 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2023-09-20 15:13:52,109 django.utils.autoreload INFO     C:\Users\hp\Desktop\ygs\config\settings.py changed, reloading.
+2023-09-20 15:13:52,824 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-20 15:14:12,001 django.utils.autoreload INFO     C:\Users\hp\Desktop\ygs\config\settings.py changed, reloading.
+2023-09-20 15:14:12,630 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-20 15:14:38,810 django.utils.autoreload INFO     C:\Users\hp\Desktop\ygs\config\settings.py changed, reloading.
+2023-09-20 15:14:39,523 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-20 15:14:42,052 django.utils.autoreload INFO     C:\Users\hp\Desktop\ygs\config\settings.py changed, reloading.
+2023-09-20 15:14:42,857 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-20 15:23:47,232 django.request WARNING  Not Found: /favicon.ico
+2023-09-20 15:24:20,682 django.request ERROR    Internal Server Error: /en/
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\core\views.py", line 7, in index_view
+    return render(request,template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\loader_tags.py", line 197, in render
+    template = context.template.engine.select_template(template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\engine.py", line 206, in select_template
+    return self.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\defaulttags.py", line 953, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\defaulttags.py", line 953, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 581, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 161: 'if'. Looking for one of: elif, else, endif.
+2023-09-20 15:24:48,267 django.request ERROR    Internal Server Error: /en/
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\core\views.py", line 7, in index_view
+    return render(request,template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\loader_tags.py", line 197, in render
+    template = context.template.engine.select_template(template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\engine.py", line 206, in select_template
+    return self.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\defaulttags.py", line 953, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 581, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 134: 'if'. Looking for one of: elif, else, endif.
+2023-09-20 15:24:49,927 django.request ERROR    Internal Server Error: /en/
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\core\views.py", line 7, in index_view
+    return render(request,template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\loader_tags.py", line 197, in render
+    template = context.template.engine.select_template(template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\engine.py", line 206, in select_template
+    return self.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\defaulttags.py", line 953, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\Users\hp\Desktop\ygs\venv\Lib\site-packages\django\template\base.py", line 581, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 134: 'if'. Looking for one of: elif, else, endif.
+2023-09-20 15:31:02,474 django.utils.autoreload INFO     C:\Users\hp\Desktop\ygs\core\models.py changed, reloading.
+2023-09-20 15:31:03,178 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-20 15:35:10,093 django.utils.autoreload INFO     C:\Users\hp\Desktop\ygs\business\models.py changed, reloading.
+2023-09-20 15:35:10,880 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-20 15:35:14,456 django.utils.autoreload INFO     C:\Users\hp\Desktop\ygs\business\models.py changed, reloading.
+2023-09-20 15:35:15,235 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-20 15:36:39,704 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-20 15:38:54,945 django.request WARNING  Not Found: /en/assets/images/service/03.jpg
+2023-09-20 15:38:54,946 django.request WARNING  Not Found: /en/assets/images/service/02.jpg
+2023-09-20 15:38:54,948 django.request WARNING  Not Found: /en/assets/images/service/04.jpg
+2023-09-20 15:40:49,839 django.utils.autoreload INFO     C:\Users\hp\Desktop\ygs\business\models.py changed, reloading.
+2023-09-20 15:40:50,591 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-20 16:23:34,332 django.request WARNING  Not Found: /en/assets/images/banner/shape/01.png
+2023-09-20 16:23:34,400 django.request WARNING  Not Found: /en/assets/images/banner/shape/02.png
+2023-09-20 16:23:34,422 django.request WARNING  Not Found: /en/assets/images/banner/shape/03.png
+2023-09-20 16:23:42,114 django.request WARNING  Not Found: /en/assets/images/banner/shape/01.png
+2023-09-20 16:23:42,152 django.request WARNING  Not Found: /en/assets/images/banner/shape/03.png
+2023-09-20 16:23:42,156 django.request WARNING  Not Found: /en/assets/images/banner/shape/02.png
+2023-09-20 16:25:01,085 django.request WARNING  Not Found: /favicon.ico

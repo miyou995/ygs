@@ -149,16 +149,38 @@ MODELTRANSLATION_TRANSLATION_FILES = (
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 SITE_ID = 1
+STATIC_URL = '/static/'
 
-STATIC_URL = "static/"
 STATIC_ROOT = BASE_DIR / "assets"
-STATICFILES_DIRS = [BASE_DIR / "static"]
-
+STATICFILES_DIRS = ['static']
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
-
-MEDIA_URL = "/media/"
+STATICFILES_FINDERS = (
+    "django.contrib.staticfiles.finders.FileSystemFinder",
+    "django.contrib.staticfiles.finders.AppDirectoriesFinder",
+    
+    # other finders..
+)
+MEDIA_URL = "/media/" 
 
 MEDIA_ROOT = BASE_DIR / "media"
+
+
+# DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# STATIC_URL = "static/"
+# STATIC_ROOT = BASE_DIR / "assets"
+# STATICFILES_DIRS = [BASE_DIR / "static"]
+
+# STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
+# STATICFILES_FINDERS = (
+#     "django.contrib.staticfiles.finders.FileSystemFinder",
+#     "django.contrib.staticfiles.finders.AppDirectoriesFinder",
+    
+#     # other finders..
+# )
+# MEDIA_URL = "/media/"
+
+# MEDIA_ROOT = BASE_DIR / "media"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field

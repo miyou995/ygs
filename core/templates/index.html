@@ -1,5 +1,5 @@
 
-{% extends "rtl/base.html" %}
+{% extends base_template %}
 {% load static %}
 {% load i18n %}
 {% get_current_language as LANGUAGE_CODE %}
@@ -26,11 +26,11 @@
     <div class="rts-banner-area rts-banner-one">
         <div class="swiper mySwiper banner-one">
             <div class="swiper-wrapper">
-                <div class="swiper-slide">
+                <div class="swiper-slide" >
                     <!-- banner single content -->
-                    <div class="banner-one-inner {% if current_lang == 'ar' %}text-end{% else %}text-start{% endif %} ">
+                    <div class="banner-one-inner ">
                         <p class="pre-title">
-                            <span>{% trans 'Welcome' %}!</span> {% trans 'Chez Yasser Global Security' %}
+                            <span>{% trans 'Bienvenue' %}!</span> {% trans 'Chez Yasser Global Security' %}
                         </p>
                         <h1 class="title ">{% trans 'Votre Sécurité' %} <span> 
                             {% trans 'Notre Priorité' %}</span> <br>
@@ -45,40 +45,6 @@
                     </div>
                     <!-- banner single content end -->
                 </div>
-                {% comment %} <div class="swiper-slide two">
-                    <!-- banner single content -->
-                    <div class="banner-one-inner {% if current_lang == 'ar' %}text-end{% else %}text-start{% endif %}">
-                        <p class="pre-title">
-                            <span>Welcome!</span> Start Growing Your Business Today
-                        </p>
-                        <h1 class="title ">Launch <span>Ultra Modern</span> <br> Effective Business</h1>
-                        <p class="disc banner-para">
-                            Porttitor ornare fermentum aliquam pharetra facilisis gravida risus suscipit <br> Dui
-                            feugiat
-                            fusce conubia ridiculus tristique parturient
-                        </p>
-                        <a href="#" class="rts-btn btn-primary color-h-black">Get Consultant</a>
-                        <img class="shape-img one" src="{% static 'rtl/images/banner/shape/01.png' %}" alt="banner_business">
-                    </div>
-                    <!-- banner single content end -->
-                </div> {% endcomment %}
-                {% comment %} <div class="swiper-slide three">
-                    <!-- banner single content -->
-                    <div class="banner-one-inner {% if current_lang == 'ar' %}text-end{% else %}text-start{% endif %}">
-                        <p class="pre-title">
-                            <span>Welcome!</span> Start Growing Your Business Today
-                        </p>
-                        <h1 class="title ">Make <span>Business Growth</span> <br> With Next Level</h1>
-                        <p class="disc banner-para">
-                            Porttitor ornare fermentum aliquam pharetra facilisis gravida risus suscipit <br> Dui
-                            feugiat
-                            fusce conubia ridiculus tristique parturient
-                        </p>
-                        <a href="#" class="rts-btn btn-primary color-h-black">Get Consultant</a>
-                        <img class="shape-img one" src="{% static 'rtl/images/banner/shape/01.png' %}" alt="banner_business">
-                    </div>
-                    <!-- banner single content end -->
-                </div> {% endcomment %}
             </div>
             <div class="swiper-pagination"></div>
         </div>
@@ -93,9 +59,6 @@
     <div class="rts-about-area rts-section-gap bg-about-sm-shape">
         <div class="container">
             <div class="row g-5 align-items-center">
-
-    
-
                 <!-- about left -->
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12 order-lg-1 order-md-2 order-sm-2 order-2 mt_md--50 mt_sm--50">
                     <div class="rts-title-area">

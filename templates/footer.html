@@ -1,0 +1,162 @@
+{% load static %}
+{% load i18n %}
+
+ <!-- map area start -->
+ <div class="rts-map-area bg-light-white">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <!-- map area left -->
+                <div class="mapdetails-inner-one">
+                    <div class="left-area single-wized">
+                        <h5 class="title">{% trans 'Contactez-nous' %}</h5>
+                        <div class="details">
+                            <p>{% trans 'Numéro de téléphone' %}</p>
+                            <a class="number" href="tel:{{business.phone}}">{{business.phone}}</a>
+
+                            <p class="time-header">
+                                {% trans 'Horaires :' %}
+                            </p>
+                            <p class="time">
+                               {{business.work_start }} - {{business.work_end}}
+                            </p>
+                        </div>
+                    </div>
+                    <div class="right-area single-wized">
+                        <h5 class="title">{% trans 'Adresse' %}</h5>
+                        <div class="details">
+                            <p>{% trans 'Siège social' %}</p>
+                                <a href="{{business.address_link}}">{{business.address}}</a>
+                            {% comment %} <p class="headoffice">
+                                {% trans 'Siège social' %}
+                            </p>
+                            <p class="office">{{business.address}}</p> {% endcomment %}
+                        </div>
+                    </div>
+                </div>
+                <!-- map area right -->
+            </div>
+            <div class="col-lg-6">
+                {{business.google_maps|safe}}
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- map area end -->
+
+<!-- start header area -->
+<!-- rts footer area start -->
+<div class="rts-footer-area footer-one rts-section-gapTop bg-footer-one">
+    <div class="container bg-shape-f1">
+        <!-- rts footer area -->
+        <div class="row pt--120 pt_sm--80 pb--80 pb_sm--40">
+            <div class="col-xl-4 col-md-6 col-sm-12 col-12">
+                <div class="footer-one-single-wized">
+                    <div class="wized-title">
+                        <h5 class="title">{% trans 'Liens rapides' %}</h5>
+                        <img src="{% static 'images/footer/under-title.png' %}" alt="finbiz_footer">
+                    </div>
+                    <div class="quick-link-inner">
+                        <ul class="links">
+                            <li><a  href="{% url 'core:index' %}"><i class="far fa-arrow-right"></i>{% trans 'Accueil' %}</a></li>
+                            <li><a  href="{% url 'core:about' %}"><i class="far fa-arrow-right"></i>{% trans 'A propos' %}</a></li>
+                            <li><a  href="{% url 'core:services' %}"><i class="far fa-arrow-right"></i>{% trans 'Nos Services' %}</a></li>
+                        </ul>
+                        <ul class="links margin-left-70">
+                            <li><a  href="{% url 'core:contact' %}"><i class="far fa-arrow-right"></i>{% trans 'Contact' %}</a></li>
+                            <li><a  href="{% url 'core:hiring' %}"><i class="far fa-arrow-right"></i>{% trans 'Recrutement' %}</a></li>
+                            <li><a  href=""><i class="far fa-arrow-right"></i>{% trans 'Demander un devis' %}</a></li>
+                    
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- footer mid area -->
+            <div class="col-xl-4 col-md-6 col-sm-12 col-12">
+                <div class="footer-one-single-wized mid-bg">
+                    <div class="wized-title">
+                        <h5 class="title">{% trans 'Horaires' %}</h5>
+                        <img src="{% static 'images/footer/under-title.png' %}" alt="finbiz_footer">
+                    </div>
+                    <div class="opening-time-inner">
+                        <div class="single-opening">
+                            <p class="day">{% trans 'Jours de semaine' %}</p>
+                            <p class="time">{{business.work_start }} - {{business.work_end}}</p>
+                        </div>
+                        {% comment %} <div class="single-opening">
+                            <p class="day">Saturday</p>
+                            <p class="time">08:00 - 03.00</p>
+                        </div>
+                        <div class="single-opening mb--30 mb_sm--10">
+                            <p class="day">Sunday</p>
+                            <p class="time">Day Off</p>
+                        </div> {% endcomment %}
+                        <a href="{% url 'core:contact' %}" class="rts-btn btn-primary contact-us">{% trans 'Contactez-nous' %}</a>
+                    </div>
+                </div>
+            </div>
+            <!-- footer mid area end -->
+
+            <!-- footer end area post -->
+            <div class="col-xl-4 col-md-6 col-sm-12 col-12">
+                <div class="footer-one-single-wized margin-left-65">
+                    <div class="wized-title">
+                        <h5 class="title">{{business.name}}</h5>
+                        <img src="{% static 'images/footer/under-title.png' %}" alt="finbiz_footer">
+                    </div>
+                    <div class="post-wrapper">
+                           
+                        <!-- single post -->
+                        <div class="single-footer-post mb--30">
+                            {% comment %} <div class="left-thumbnail">
+                                {% if  business.logo %}
+                                <img src="{{business.logo.url}}" class="header-logo" alt="{{business.name}}">
+                                {% endif %}
+                            </div> {% endcomment %}
+                            <div class="post-right">
+                                <p class="title">{{business.mini_about}}</p>
+                            </div>
+                        </div>
+                        <!-- single post End -->
+                    </div>
+                </div>
+            </div>
+            <!-- footer end area post end-->
+        </div>
+        <!-- rts footer area End -->
+    </div>
+    <!-- copyright area start -->
+    <div class="rts-copyright-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-center">
+                        <p> Copyright &copy;<script>document.write(new Date().getFullYear());</script> Tout droits resérvé <a href="https://www.octopus-consulting.com/" target="_blank"> Octopus Consulting</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- copyright area end -->
+</div>
+<!-- rts footer area end -->
+<!-- ENd Header Area -->
+
+
+<!-- start loader -->
+<div class="loader-wrapper">
+    <div class="loader">
+    </div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+</div>
+<!-- End loader -->
+
+<!-- progress Back to top -->
+<div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+</div>
+<!-- progress Back to top End -->

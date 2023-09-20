@@ -5,12 +5,12 @@ from django.utils.html import format_html
 
 
 
-Business._meta.verbose_name = "Informations magasin"
+Business._meta.verbose_name = "Informations "
 
 
 @admin.register(Business)
 class BusinesAdmin(admin.ModelAdmin):
-    list_display = ('id', 'name')
+    list_display = ('id', 'name', )
     list_display_links = ('id', 'name')
 
     def has_add_permission(self, request):
