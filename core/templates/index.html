@@ -7,20 +7,6 @@
 {% get_language_info for LANGUAGE_CODE as lang %}
 {% get_language_info_list for LANGUAGES as languages %}
 
-
-{% comment %} 
-
-{% if get_current_language == 'ar' %}
-    {% extends base_template %}
-
-    {% else %}
-{% extends "rtl/base.html" %}
-
-{% endif %} {% endcomment %}
-
-
-
-    
 {% block content %}
     <!-- banner blank space area -->
     <div class="rts-banner-area rts-banner-one">
@@ -40,7 +26,7 @@
                             feugiat
                             fusce conubia ridiculus tristique parturient
                         </p> {% endcomment %}
-                        <a href="#" class="rts-btn btn-primary color-h-black">{% trans 'Demander un devis' %}</a>
+                        <a href="{% url 'core:quote' %}" class="rts-btn btn-primary color-h-black">{% trans 'Demander un devis' %}</a>
                         <img class="shape-img one" src="{% static 'rtl/images/banner/shape/01.png' %}" alt="banner_business">
                     </div>
                     <!-- banner single content end -->

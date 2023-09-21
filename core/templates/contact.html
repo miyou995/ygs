@@ -1,26 +1,26 @@
 {% extends base_template %}
 {% load static %}
+{% load i18n %}
 {% block content %}
 
     <!-- start breadcrumb area -->
-    <div class="rts-breadcrumb-area breadcrumb-bg bg_image">
+    <div class="rts-breadcrumb-area breadcrumb-bg bg_image" style="background: url({% static 'images/banner.png' %}); ">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 breadcrumb-1">
-                    <h1 class="title">Contact Us</h1>
+                    <h1 class="title">{% trans 'Contactez-nous' %}</h1>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="bread-tag">
-                        <a href="index.html">Home</a>
+                        <a href="{% url 'core:index' %}">{% trans 'Acceuil' %}</a>
                         <span> / </span>
-                        <a href="#" class="active">Contact Us</a>
+                        <a href="{% url 'core:contact' %}" class="active">{% trans 'Contactez-nous' %}</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- end breadcrumb area -->
-
 
     <!-- contact single area start -->
     <div class="rts-contact-area rts-section-gap">
@@ -30,16 +30,16 @@
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                     <div class="single-contact-one-inner">
                         <div class="thumbnail">
-                            <img src="{% static 'images/contact/01.png' %}" alt="">
+                            <img src="{% static 'images/1.jpg' %}" alt="">
                         </div>
                         <div class="content">
                             <div class="icone">
                                 <img src="{% static 'images/contact/shape/01.svg' %}" alt="">
                             </div>
                             <div class="info">
-                                <span>Call Us 24/7</span>
+                                <span>{% trans 'Appelez-nous' %}</span>
                                 <a href="tel:+18475555555">
-                                    <h5>+584 (25) 21453</h5>
+                                    <h5> {{business.phone}}</h5>
                                 </a>
                             </div>
                         </div>
@@ -50,16 +50,16 @@
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                     <div class="single-contact-one-inner">
                         <div class="thumbnail">
-                            <img src="{% static 'images/contact/02.png' %}" alt="">
+                            <img src="{% static 'images/2.png' %}" alt="">
                         </div>
                         <div class="content">
                             <div class="icone">
                                 <img src="{% static 'images/contact/shape/02.svg' %}" alt="">
                             </div>
                             <div class="info">
-                                <span>MAke A Quote</span>
-                                <a href="mailto:someone@example.com">
-                                    <h5>info@finbiz.com</h5>
+                                <span>{% trans 'écrivez-nous' %}</span>
+                                <a href="mailto:{{business.email}}">
+                                    <h5>{{business.email}}</h5>
                                 </a>
                             </div>
                         </div>
@@ -70,16 +70,16 @@
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                     <div class="single-contact-one-inner">
                         <div class="thumbnail">
-                            <img src="{% static 'images/contact/03.png' %}" alt="">
+                            <img src="{% static 'images/3.jpg' %}" alt="">
                         </div>
                         <div class="content">
                             <div class="icone">
                                 <img src="{% static 'images/contact/shape/03.svg' %}" alt="">
                             </div>
                             <div class="info">
-                                <span>Service Station</span>
-                                <a href="#">
-                                    <h5>25 Hilton Street.</h5>
+                                <span>{% trans 'Adresse' %}</span>
+                                <a href="{{business.address_link}}">
+                                    <h5>{{business.address}}</h5>
                                 </a>
                             </div>
                         </div>
@@ -97,8 +97,8 @@
             <div class="row">
                 <div class="col-12">
                     <div class="contact-map-area-fluid">
-                        <iframe class="contact-map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14602.288851207937!2d90.47855065!3d23.798243149999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1663151706353!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        <img class="location" src="{% static 'images/contact/shape/location.svg' %}" alt="Business_map">
+                        {{business.google_maps|safe}}
+                        <img class="location" src="{% static 'images/logo.png' %}" alt="Business_map" style="width:50%;">
                     </div>
                 </div>
             </div>
@@ -115,20 +115,33 @@
                     <div class="rts-contact-fluid rts-section-gap">
                         <div class="rts-title-area contact-fluid text-center mb--50">
                             <p class="pre-title">
-                                Get In Touch
+                                {% trans 'Entrons en contact' %}
                             </p>
-                            <h2 class="title">Needs Help? Let’s Get in Touch</h2>
+                            <h2 class="title">{% trans "Besoin d'aide ? Contactez-nous" %}</h2>
                         </div>
                         <div class="form-wrapper">
-                            <div id="form-messages"></div>
-                            <form id="contact-form" action="mailer.php" method="post">
+                            <div id="success-message">
+					            {% include 'message.html' %}
+                            </div>
+                            <form method="post" action="{% url 'core:contact' %}" >
+								{% csrf_token %}
                                 <div class="name-email">
-                                    <input type="text" name="name" placeholder="Your Name" required>
-                                    <input type="email" name="email" placeholder="Email Address" required>
+                                    <input type="text" name="name" placeholder="Nom complet * " required>
+                                    <input type="text" name="entreprise" placeholder="Entreprise">
                                 </div>
-                                <input type="text" name="subject" placeholder="Your Subject">
+                                <div class="name-email">
+                                    <input type="text" name="phone" id="id_phone"  placeholder="{% trans 'Numéro +213*' %}" pattern="^(?:0|\(?\+213\)?\s?|00213\s?)[1-79](?:[\.\-\s]?\d\d){4}$" required>
+                                    <input type="email" name="email" placeholder="Email Address" >
+                                </div>
+                                <select name="service" id="id_service" class="select-form" placeholder="{% trans 'Sélectionnez un service' %}">
+                                    {% for service in services %}
+                                        <option value="{{service.id}}">{{service.name}}</option>
+                                    {% endfor %}
+                                    <option value="">{% trans 'Autre...' %}</option>
+                                </select>
                                 <textarea placeholder="Type Your Message" name="message"></textarea>
-                                <button type="submit" class="rts-btn btn-primary">Send Message</button>
+                                <input type="text" name="username" id="username" hidden="true" >
+                                <button type="submit" class="rts-btn btn-primary">{% trans 'Envoyer le message' %}</button>
                             </form>
                         </div>
                     </div>
