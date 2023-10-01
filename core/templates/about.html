@@ -1,5 +1,6 @@
 {% extends base_template %}
 {% load static %}
+{% load i18n %}
 {% block content %}
 
     <!-- start breadcrumb area -->
@@ -7,13 +8,13 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 breadcrumb-1">
-                    <h1 class="title">About Us</h1>
+                    <h1 class="title">{% trans "A propos" %}</h1>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="bread-tag">
-                        <a href="index.html">Home</a>
+                        <a href="index.html">{% trans "Home" %}</a>
                         <span> / </span>
-                        <a href="#" class="active">About Us</a>
+                        <a href="{% url 'core:about' %}" class="active">{% trans "A propos" %}</a>
                     </div>
                 </div>
             </div>
@@ -30,7 +31,7 @@
                         <div class="image-area">
                             <img class="mt--110 img-1" src="{% static 'images/about/main/about-03.jpg' %}" alt="BUsiness_image">
                             <img class="img-over" src="{% static 'images/about/main/about-04.jpg' %}" alt="BUsiness_image">
-                            <div class="goal-button-wrapper">
+                            {% comment %} <div class="goal-button-wrapper">
                                 <div class="vedio-icone">
                                     <a id="play-video" class="video-play-button" href="#">
                                         <span></span>
@@ -39,26 +40,24 @@
                                         <a class="video-overlay-close">×</a>
                                     </div>
                                 </div>
-                            </div>
+                            </div> {% endcomment %}
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="about-progress-inner">
                         <div class="title-area">
-                            <span>JUST A CONSULTANCY</span>
-                            <h2 class="title">Get Consulting For Better
-                                Business Growth</h2>
+                            <span>{% trans "JUSTE UNE PROTECTION" %}</span>
+                            <h2 class="title">{% trans "SOLUTION DE SÉCURISATION" %}
+                               </h2>
                         </div>
                         <!-- inner start -->
                         <div class="inner">
-                            <p class="disc">Dapibus curae risus rutrum curabitur nunc sociis nullam nisl, aliquet quis
-                                iaculis scelerisque primis massa imperdiet, dis senectus blandit aptent nulla cubilia
-                                sodales convallis tortor pellentesque nulla.</p>
-                            <div class="rts-progress-one-wrapper">
+                            <p class="disc">{% trans "Nous proposons une gamme complète de services de sécurité, notamment la sécurité physique, la surveillance, la gestion de crise, etc. Nos services sont adaptés à vos besoins spécifiques." %}</p>
+                            {% comment %} <div class="rts-progress-one-wrapper">
                                 <div class="single-progress">
                                     <div class="progress-top">
-                                        <p class="progress-title">Business Strategy</p>
+                                        <p class="progress-title"></p>
                                         <span class="persectage">70%</span>
                                     </div>
                                     <div class="meter cadetblue">
@@ -67,15 +66,15 @@
                                 </div>
                                 <div class="single-progress">
                                     <div class="progress-top">
-                                        <p class="progress-title">Company Strength</p>
+                                        <p class="progress-title">Company </p>
                                         <span class="persectage">93%</span>
                                     </div>
                                     <div class="meter">
                                         <span data-progress="93" style="width:0;"></span>
                                     </div>
                                 </div>
-                            </div>
-                            <a href="#" class="rts-btn btn-primary">Make an Appointment</a>
+                            </div> {% endcomment %}
+                            <a href="{% url 'core:contact' %}" class="rts-btn btn-primary">{% trans "CONTACT US" %}</a>
                         </div>
                         <!-- end -->
                     </div>
@@ -86,7 +85,7 @@
     <!-- rts about us section end -->
 
     <!-- rts services area start -->
-    <div class="rts-service-area rts-section-gapBottom">
+    {% comment %} <div class="rts-service-area rts-section-gapBottom">
         <div class="container-fluid service-main about-service-width-controler">
             <div class="background-service service-three row">
                 <div class="row g-5">
@@ -154,16 +153,18 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> {% endcomment %}
             <div class="row">
                 <div class="cta-one-bg col-12">
                     <div class="cta-one-inner">
                         <div class="cta-left">
-                            <h3 class="title animated fadeIn">Let’s discuss about how we can help
-                                make your business better</h3>
+                            <h3 class="title animated fadeIn">{% trans "Discutons de la façon dont nous pouvons vous aider" %}
+                                {% trans "que tu te sentes en sécurité" %} </h3>
                         </div>
                         <div class="cta-right">
-                            <a class="rts-btn btn-white" href="#">Lets Work Togather</a>
+                            <a class="rts-btn btn-white" href="{% url 'core:contact' %}">{% trans "CONTACTEZ-NOUS" %}
+                        
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -173,7 +174,7 @@
     <!-- rts services area End -->
 
     <!-- rts team two area -->
-    <div class="rts-team-area rts-section-gapBottom appoinment-team team-two">
+    {% comment %} <div class="rts-team-area rts-section-gapBottom appoinment-team team-two">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -210,10 +211,10 @@
                         <!-- Acquaintance area -->
                     </div>
                     <!-- single team inner End -->
-                </div>
+                </div> {% endcomment %}
                 <!-- single team End -->
                 <!-- single team -->
-                <div class="col-xl-4 col-md-6 col-sm-12 col-12">
+                {% comment %} <div class="col-xl-4 col-md-6 col-sm-12 col-12">
                     <!-- single team inner -->
                     <div class="team-inner-two">
                         <a href="team-details.html" class="thumbnail">
@@ -236,10 +237,10 @@
                         <!-- Acquaintance area -->
                     </div>
                     <!-- single team inner End -->
-                </div>
+                </div> {% endcomment %}
                 <!-- single team End -->
                 <!-- single team -->
-                <div class="col-xl-4 col-md-6 col-sm-12 col-12">
+                {% comment %} <div class="col-xl-4 col-md-6 col-sm-12 col-12">
                     <!-- single team inner -->
                     <div class="team-inner-two">
                         <a href="team-details.html" class="thumbnail">
@@ -266,19 +267,19 @@
                 <!-- single team End -->
             </div>
         </div>
-    </div>
+    </div> {% endcomment %}
     <!-- rts team two area End -->
 
     <!-- rts faq section area -->
-    <div class="rts-faq-section rts-section-gap rts-faq-bg bg_image">
+    {% comment %} <div class="rts-faq-section rts-section-gap rts-faq-bg bg_image">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="faq-two-inner">
                         <div class="title-area-faq">
                             <span class="sub">WHY CHOOSE US</span>
-                            <h2 class="title">We Are Experienced
-                                <span class="sm-title">Business <span>Solution</span></span>
+                            <h2 class="title">We Are Experienced in 
+                                <span class="sm-title">Securing <span>Solution</span></span>
                             </h2>
                         </div>
                         <!-- faq accordion area -->
@@ -287,45 +288,27 @@
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingOne">
                                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            <span>01. </span> What should i included my personal details?
+                                            <span>01. </span>Why should I choose SARL YGS for security services??
                                         </button>
                                     </h2>
                                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            Neque partrient nascetur facilisis suscipit ridiculus agna lobortis
-                                            imperdiet vivamus est aliquam euismod nector quam convallis ornare justo
-                                            service lifereu visionary sources unleash online businesss solutions
-                                        </div>
+                                            SARL YGS is a certified Algerian security company accredited by the Ministry of Interior. Our team brings extensive expertise to safeguard your assets and ensure your safety.
                                     </div>
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingTwo">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            <span>02. </span> Where i can find my business growth result?
+                                            <span>02. </span> What types of security services does SARL YGS offer?
                                         </button>
                                     </h2>
                                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            Neque partrient nascetur facilisis suscipit ridiculus agna lobortis
-                                            imperdiet vivamus est aliquam euismod nector quam convallis ornare justo
-                                            service lifereu visionary sources unleash online businesss solutions
+                                            We offer a comprehensive range of security services, including physical security, surveillance, crisis management, and more. Our services are tailored to your specific needs.
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingThree">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            <span>03. </span> Did you get any business consultant?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            Neque partrient nascetur facilisis suscipit ridiculus agna lobortis
-                                            imperdiet vivamus est aliquam euismod nector quam convallis ornare justo
-                                            service lifereu visionary sources unleash online businesss solutions
-                                        </div>
-                                    </div>
-                                </div>
+                               
                             </div>
                         </div>
                         <!-- faq accordion area end -->
@@ -333,16 +316,16 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="thumbnail-faq-four">
-                        <img src="{% static 'images/faq/02.png' %}" alt="">
-                    </div>
+                        {% comment %} <img src="{% static 'images/2.png' %}" alt=""> {% endcomment %}
+                    {% comment %} </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- rts faq section area End -->
+    </div> {% endcomment %}
+    <!-- rts faq section area End --> 
 
     <!-- customers feed back area start -->
-    <div class="rts-customer-feedback-area rts-section-gap bg-customer-feedback">
+    {% comment %} <div class="rts-customer-feedback-area rts-section-gap bg-customer-feedback">
         <div class="container">
             <div class="row">
                 <div class="rts-title-area feedback team text-center">
@@ -397,7 +380,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> {% endcomment %}
     <!-- customers feed back area end -->
 
 

@@ -2,6 +2,7 @@ from django.contrib import admin
 from business.models import Business, Contact, Quote, Hiring, Slide, About, Service
 from django.utils.html import format_html
 
+from modeltranslation.admin import TranslationAdmin
 
 
 
@@ -22,9 +23,9 @@ class BusinesAdmin(admin.ModelAdmin):
         
         
 class ServiceAdmin(admin.ModelAdmin):
-    list_display = ('id', 'name')
+    list_display = ('id', 'name', )
     prepopulated_fields = {"slug": ("name",)}
-    exclude= ('name_fr','about_high_fr', 'about_low_fr')
+    # exclude= ('name_fr','about_high_fr', 'about_low_fr')
     list_display_links = ('id','name')
     list_per_page = 40
 admin.site.register(Service, ServiceAdmin)

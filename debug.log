@@ -2427,3 +2427,1837 @@ django.core.exceptions.ImproperlyConfigured: No URL to redirect to. Provide a su
 2023-09-21 16:45:28,776 django.utils.autoreload INFO     Watching for file changes with StatReloader
 2023-09-21 16:45:30,234 django.utils.autoreload INFO     C:\Users\hp\Desktop\ygs\core\views.py changed, reloading.
 2023-09-21 16:45:30,803 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-24 09:45:04,014 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-24 09:46:27,037 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-24 09:47:45,423 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-24 09:49:37,412 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-24 09:50:30,519 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-24 09:52:17,587 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-24 10:22:47,891 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-24 10:51:40,948 django.request WARNING  Not Found: /ar/about-us.html
+2023-09-24 10:51:41,233 django.request WARNING  Not Found: /favicon.ico
+2023-09-24 10:51:46,104 django.request WARNING  Not Found: /ar/contactus.html
+2023-09-24 10:51:56,596 django.request WARNING  Not Found: /fr/assets/images/service/02.jpg
+2023-09-24 10:51:56,597 django.request WARNING  Not Found: /fr/assets/images/service/03.jpg
+2023-09-24 10:51:56,598 django.request WARNING  Not Found: /fr/assets/images/service/04.jpg
+2023-09-24 10:59:40,526 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-24 11:46:48,778 django.request WARNING  Not Found: /favicon.ico
+2023-09-24 11:49:41,420 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-24 11:52:29,084 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-24 14:38:07,194 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-24 14:54:25,920 django.request WARNING  Not Found: /fr/contactus.html
+2023-09-24 14:54:26,075 django.request WARNING  Not Found: /favicon.ico
+2023-09-24 14:58:29,465 django.request WARNING  Not Found: /fr/assets/images/service/02.jpg
+2023-09-24 14:58:29,466 django.request WARNING  Not Found: /fr/assets/images/service/03.jpg
+2023-09-24 14:58:29,468 django.request WARNING  Not Found: /fr/assets/images/service/04.jpg
+2023-09-24 14:58:36,082 django.request WARNING  Not Found: /fr/assets/images/service/02.jpg
+2023-09-24 14:58:36,083 django.request WARNING  Not Found: /fr/assets/images/service/03.jpg
+2023-09-24 14:58:36,084 django.request WARNING  Not Found: /fr/assets/images/service/04.jpg
+2023-09-24 14:59:13,134 django.request WARNING  Not Found: /fr/assets/images/service/02.jpg
+2023-09-24 14:59:13,136 django.request WARNING  Not Found: /fr/assets/images/service/03.jpg
+2023-09-24 14:59:13,137 django.request WARNING  Not Found: /fr/assets/images/service/04.jpg
+2023-09-24 15:02:00,502 django.request WARNING  Not Found: /fr/assets/images/service/02.jpg
+2023-09-24 15:02:00,503 django.request WARNING  Not Found: /fr/assets/images/service/03.jpg
+2023-09-24 15:02:00,504 django.request WARNING  Not Found: /fr/assets/images/service/04.jpg
+2023-09-24 15:03:53,587 django.request WARNING  Not Found: /fr/assets/images/service/02.jpg
+2023-09-24 15:03:53,589 django.request WARNING  Not Found: /fr/assets/images/service/03.jpg
+2023-09-24 15:03:53,590 django.request WARNING  Not Found: /fr/assets/images/service/04.jpg
+2023-09-24 15:03:55,816 django.request WARNING  Not Found: /fr/assets/images/service/02.jpg
+2023-09-24 15:03:55,818 django.request WARNING  Not Found: /fr/assets/images/service/03.jpg
+2023-09-24 15:03:55,819 django.request WARNING  Not Found: /fr/assets/images/service/04.jpg
+2023-09-24 15:36:45,845 django.request WARNING  Not Found: /fr/{% static 'images/1                        .jpg' %}
+2023-09-24 15:41:29,912 django.request WARNING  Not Found: /fr/assets/images/service/03.jpg
+2023-09-24 15:41:29,913 django.request WARNING  Not Found: /fr/assets/images/service/02.jpg
+2023-09-24 15:41:29,914 django.request WARNING  Not Found: /fr/assets/images/service/04.jpg
+2023-09-24 15:42:25,160 django.request ERROR    Internal Server Error: /fr/quote
+Traceback (most recent call last):
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: quote.html
+2023-09-24 15:43:47,206 django.request WARNING  Not Found: /fr/assets/images/service/02.jpg
+2023-09-24 15:43:47,207 django.request WARNING  Not Found: /fr/assets/images/service/03.jpg
+2023-09-24 15:43:47,208 django.request WARNING  Not Found: /fr/assets/images/service/04.jpg
+2023-09-24 15:59:27,522 django.request WARNING  Not Found: /fr/assets/images/service/02.jpg
+2023-09-24 15:59:27,524 django.request WARNING  Not Found: /fr/assets/images/service/03.jpg
+2023-09-24 15:59:27,524 django.request WARNING  Not Found: /fr/assets/images/service/04.jpg
+2023-09-24 15:59:48,565 django.request WARNING  Not Found: /fr/service-details.html
+2023-09-25 10:05:52,047 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-25 10:12:03,063 django.request WARNING  Not Found: /fr/assets/images/service/02.jpg
+2023-09-25 10:12:03,064 django.request WARNING  Not Found: /fr/assets/images/service/03.jpg
+2023-09-25 10:12:03,065 django.request WARNING  Not Found: /fr/assets/images/service/04.jpg
+2023-09-25 10:21:54,779 django.request WARNING  Not Found: /fr/assets/images/service/02.jpg
+2023-09-25 10:21:54,780 django.request WARNING  Not Found: /fr/assets/images/service/03.jpg
+2023-09-25 10:21:54,781 django.request WARNING  Not Found: /fr/assets/images/service/04.jpg
+2023-09-25 10:42:48,255 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-25 10:46:22,547 django.request WARNING  Not Found: /favicon.ico
+2023-09-25 11:26:35,965 django.request WARNING  Not Found: /fr/assets/css/plugins/swiper.min.css
+2023-09-25 11:26:35,966 django.request WARNING  Not Found: /fr/assets/css/plugins/fontawesome-5.css
+2023-09-25 11:26:36,005 django.request WARNING  Not Found: /fr/assets/css/plugins/animate.min.css
+2023-09-25 11:26:36,006 django.request WARNING  Not Found: /fr/assets/css/plugins/unicons.css
+2023-09-25 11:26:36,007 django.request WARNING  Not Found: /fr/assets/css/style.css
+2023-09-25 11:26:36,008 django.request WARNING  Not Found: /fr/assets/css/vendor/bootstrap.min.css
+2023-09-25 11:26:36,012 django.request WARNING  Not Found: /fr/assets/css/plugins/swiper.min.css
+2023-09-25 11:26:36,100 django.request WARNING  Not Found: /fr/assets/css/plugins/fontawesome-5.css
+2023-09-25 11:26:36,253 django.request WARNING  Not Found: /fr/assets/css/plugins/animate.min.css
+2023-09-25 11:26:36,272 django.request WARNING  Not Found: /fr/assets/css/plugins/unicons.css
+2023-09-25 11:26:36,285 django.request WARNING  Not Found: /fr/assets/css/vendor/bootstrap.min.css
+2023-09-25 11:26:36,296 django.request WARNING  Not Found: /fr/assets/css/style.css
+2023-09-25 11:40:45,293 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\core\models.py changed, reloading.
+2023-09-25 11:40:45,702 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-25 11:40:47,955 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\core\models.py changed, reloading.
+2023-09-25 11:40:48,317 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-25 11:41:00,721 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\core\models.py changed, reloading.
+2023-09-25 11:41:01,114 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-25 11:41:19,584 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\core\models.py changed, reloading.
+2023-09-25 11:41:20,001 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-25 11:48:55,063 django.request WARNING  Not Found: /fr/service-details.html
+2023-09-25 11:51:11,723 django.request ERROR    Internal Server Error: /fr/services
+Traceback (most recent call last):
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 349: 'endblock', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+2023-09-25 11:51:24,162 django.request ERROR    Internal Server Error: /fr/services
+Traceback (most recent call last):
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 349: 'endblock', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+2023-09-25 12:26:06,348 django.request WARNING  Not Found: /fr/images/DSC09910-1024x683.jpg
+2023-09-25 12:26:06,349 django.request WARNING  Not Found: /fr/images/DSC09756-1024x683.jpg
+2023-09-25 12:26:06,350 django.request WARNING  Not Found: /fr/images/16-1024x683_fMBD1HK.png
+2023-09-25 12:26:06,351 django.request WARNING  Not Found: /fr/images/DSC09910-1024x683_ukzxia5.jpg
+2023-09-25 12:26:06,353 django.request WARNING  Not Found: /fr/images/DSC09910-1024x683_NTl6Nyq.jpg
+2023-09-25 12:40:59,195 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\core\models.py changed, reloading.
+2023-09-25 12:40:59,657 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-25 12:41:01,912 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\core\models.py changed, reloading.
+2023-09-25 12:41:02,356 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-25 12:47:05,858 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-25 12:49:36,627 django.request ERROR    Internal Server Error: /fr/services
+Traceback (most recent call last):
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\defaulttags.py", line 1026, in find_library
+    return parser.libraries[name]
+           ~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'custom_filters'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\defaulttags.py", line 1088, in load
+    lib = find_library(parser, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\defaulttags.py", line 1028, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'custom_filters' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+humanize
+i18n
+l10n
+log
+static
+tz
+2023-09-25 12:50:44,440 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-25 12:52:12,759 django.request ERROR    Internal Server Error: /fr/services
+Traceback (most recent call last):
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\defaulttags.py", line 1026, in find_library
+    return parser.libraries[name]
+           ~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'core.custom_filters'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\defaulttags.py", line 1088, in load
+    lib = find_library(parser, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\defaulttags.py", line 1028, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'core.custom_filters' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+humanize
+i18n
+l10n
+log
+static
+tz
+2023-09-25 12:57:31,805 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\core\templates\templatetags\custom_filters.py changed, reloading.
+2023-09-25 12:57:32,243 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-25 12:57:33,584 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\core\templates\templatetags\custom_filters.py changed, reloading.
+2023-09-25 12:57:33,999 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-25 12:57:36,386 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\core\templates\templatetags\custom_filters.py changed, reloading.
+2023-09-25 12:57:36,797 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-25 12:57:38,124 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\core\templates\templatetags\custom_filters.py changed, reloading.
+2023-09-25 12:57:38,532 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-25 12:57:39,862 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\core\templates\templatetags\custom_filters.py changed, reloading.
+2023-09-25 12:57:40,264 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-25 12:57:42,629 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\core\templates\templatetags\custom_filters.py changed, reloading.
+2023-09-25 12:57:43,034 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-25 13:01:17,614 django.request ERROR    Internal Server Error: /fr/quote
+Traceback (most recent call last):
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: quote.html
+2023-09-25 13:18:30,432 PIL.Image    DEBUG    Importing BlpImagePlugin
+2023-09-25 13:18:30,434 PIL.Image    DEBUG    Importing BmpImagePlugin
+2023-09-25 13:18:30,434 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2023-09-25 13:18:30,435 PIL.Image    DEBUG    Importing CurImagePlugin
+2023-09-25 13:18:30,435 PIL.Image    DEBUG    Importing DcxImagePlugin
+2023-09-25 13:18:30,438 PIL.Image    DEBUG    Importing DdsImagePlugin
+2023-09-25 13:18:30,438 PIL.Image    DEBUG    Importing EpsImagePlugin
+2023-09-25 13:18:30,448 PIL.Image    DEBUG    Importing FitsImagePlugin
+2023-09-25 13:18:30,449 PIL.Image    DEBUG    Importing FliImagePlugin
+2023-09-25 13:18:30,450 PIL.Image    DEBUG    Importing FpxImagePlugin
+2023-09-25 13:18:30,450 PIL.Image    DEBUG    Image: failed to import FpxImagePlugin: No module named 'olefile'
+2023-09-25 13:18:30,450 PIL.Image    DEBUG    Importing FtexImagePlugin
+2023-09-25 13:18:30,451 PIL.Image    DEBUG    Importing GbrImagePlugin
+2023-09-25 13:18:30,451 PIL.Image    DEBUG    Importing GifImagePlugin
+2023-09-25 13:18:30,452 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2023-09-25 13:18:30,453 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2023-09-25 13:18:30,454 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2023-09-25 13:18:30,457 PIL.Image    DEBUG    Importing IcoImagePlugin
+2023-09-25 13:18:30,458 PIL.Image    DEBUG    Importing ImImagePlugin
+2023-09-25 13:18:30,459 PIL.Image    DEBUG    Importing ImtImagePlugin
+2023-09-25 13:18:30,459 PIL.Image    DEBUG    Importing IptcImagePlugin
+2023-09-25 13:18:30,460 PIL.Image    DEBUG    Importing JpegImagePlugin
+2023-09-25 13:18:30,460 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2023-09-25 13:18:30,460 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2023-09-25 13:18:30,461 PIL.Image    DEBUG    Importing MicImagePlugin
+2023-09-25 13:18:30,461 PIL.Image    DEBUG    Image: failed to import MicImagePlugin: No module named 'olefile'
+2023-09-25 13:18:30,462 PIL.Image    DEBUG    Importing MpegImagePlugin
+2023-09-25 13:18:30,462 PIL.Image    DEBUG    Importing MpoImagePlugin
+2023-09-25 13:18:30,464 PIL.Image    DEBUG    Importing MspImagePlugin
+2023-09-25 13:18:30,464 PIL.Image    DEBUG    Importing PalmImagePlugin
+2023-09-25 13:18:30,465 PIL.Image    DEBUG    Importing PcdImagePlugin
+2023-09-25 13:18:30,465 PIL.Image    DEBUG    Importing PcxImagePlugin
+2023-09-25 13:18:30,465 PIL.Image    DEBUG    Importing PdfImagePlugin
+2023-09-25 13:18:30,470 PIL.Image    DEBUG    Importing PixarImagePlugin
+2023-09-25 13:18:30,470 PIL.Image    DEBUG    Importing PngImagePlugin
+2023-09-25 13:18:30,470 PIL.Image    DEBUG    Importing PpmImagePlugin
+2023-09-25 13:18:30,471 PIL.Image    DEBUG    Importing PsdImagePlugin
+2023-09-25 13:18:30,472 PIL.Image    DEBUG    Importing QoiImagePlugin
+2023-09-25 13:18:30,473 PIL.Image    DEBUG    Importing SgiImagePlugin
+2023-09-25 13:18:30,474 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2023-09-25 13:18:30,474 PIL.Image    DEBUG    Importing SunImagePlugin
+2023-09-25 13:18:30,474 PIL.Image    DEBUG    Importing TgaImagePlugin
+2023-09-25 13:18:30,475 PIL.Image    DEBUG    Importing TiffImagePlugin
+2023-09-25 13:18:30,475 PIL.Image    DEBUG    Importing WebPImagePlugin
+2023-09-25 13:18:30,493 PIL.Image    DEBUG    Importing WmfImagePlugin
+2023-09-25 13:18:30,494 PIL.Image    DEBUG    Importing XbmImagePlugin
+2023-09-25 13:18:30,495 PIL.Image    DEBUG    Importing XpmImagePlugin
+2023-09-25 13:18:30,496 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2023-09-25 14:02:03,221 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\config\settings.py changed, reloading.
+2023-09-25 14:02:03,707 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-25 14:02:06,036 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\config\settings.py changed, reloading.
+2023-09-25 14:02:06,518 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-25 15:07:36,448 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-25 15:09:47,213 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-25 15:13:43,696 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-25 15:15:03,070 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-25 15:17:08,839 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-25 15:19:00,829 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-25 15:21:23,328 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-25 15:22:47,233 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\config\settings.py changed, reloading.
+2023-09-25 15:22:47,670 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-25 15:24:49,461 django.request WARNING  Not Found: /favicon.ico
+2023-09-25 15:25:31,503 PIL.PngImagePlugin DEBUG    STREAM b'IHDR' 16 13
+2023-09-25 15:25:31,504 PIL.PngImagePlugin DEBUG    STREAM b'pHYs' 41 9
+2023-09-25 15:25:31,504 PIL.PngImagePlugin DEBUG    STREAM b'IDAT' 62 1048576
+2023-09-25 15:25:31,518 PIL.Image    DEBUG    Importing BlpImagePlugin
+2023-09-25 15:25:31,520 PIL.Image    DEBUG    Importing BmpImagePlugin
+2023-09-25 15:25:31,520 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2023-09-25 15:25:31,521 PIL.Image    DEBUG    Importing CurImagePlugin
+2023-09-25 15:25:31,522 PIL.Image    DEBUG    Importing DcxImagePlugin
+2023-09-25 15:25:31,524 PIL.Image    DEBUG    Importing DdsImagePlugin
+2023-09-25 15:25:31,528 PIL.Image    DEBUG    Importing EpsImagePlugin
+2023-09-25 15:25:31,538 PIL.Image    DEBUG    Importing FitsImagePlugin
+2023-09-25 15:25:31,539 PIL.Image    DEBUG    Importing FliImagePlugin
+2023-09-25 15:25:31,540 PIL.Image    DEBUG    Importing FpxImagePlugin
+2023-09-25 15:25:31,541 PIL.Image    DEBUG    Image: failed to import FpxImagePlugin: No module named 'olefile'
+2023-09-25 15:25:31,541 PIL.Image    DEBUG    Importing FtexImagePlugin
+2023-09-25 15:25:31,542 PIL.Image    DEBUG    Importing GbrImagePlugin
+2023-09-25 15:25:31,543 PIL.Image    DEBUG    Importing GifImagePlugin
+2023-09-25 15:25:31,543 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2023-09-25 15:25:31,544 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2023-09-25 15:25:31,545 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2023-09-25 15:25:31,546 PIL.Image    DEBUG    Importing IcoImagePlugin
+2023-09-25 15:25:31,547 PIL.Image    DEBUG    Importing ImImagePlugin
+2023-09-25 15:25:31,548 PIL.Image    DEBUG    Importing ImtImagePlugin
+2023-09-25 15:25:31,549 PIL.Image    DEBUG    Importing IptcImagePlugin
+2023-09-25 15:25:31,552 PIL.Image    DEBUG    Importing JpegImagePlugin
+2023-09-25 15:25:31,552 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2023-09-25 15:25:31,552 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2023-09-25 15:25:31,553 PIL.Image    DEBUG    Importing MicImagePlugin
+2023-09-25 15:25:31,554 PIL.Image    DEBUG    Image: failed to import MicImagePlugin: No module named 'olefile'
+2023-09-25 15:25:31,554 PIL.Image    DEBUG    Importing MpegImagePlugin
+2023-09-25 15:25:31,555 PIL.Image    DEBUG    Importing MpoImagePlugin
+2023-09-25 15:25:31,558 PIL.Image    DEBUG    Importing MspImagePlugin
+2023-09-25 15:25:31,559 PIL.Image    DEBUG    Importing PalmImagePlugin
+2023-09-25 15:25:31,560 PIL.Image    DEBUG    Importing PcdImagePlugin
+2023-09-25 15:25:31,560 PIL.Image    DEBUG    Importing PcxImagePlugin
+2023-09-25 15:25:31,560 PIL.Image    DEBUG    Importing PdfImagePlugin
+2023-09-25 15:25:31,565 PIL.Image    DEBUG    Importing PixarImagePlugin
+2023-09-25 15:25:31,567 PIL.Image    DEBUG    Importing PngImagePlugin
+2023-09-25 15:25:31,567 PIL.Image    DEBUG    Importing PpmImagePlugin
+2023-09-25 15:25:31,568 PIL.Image    DEBUG    Importing PsdImagePlugin
+2023-09-25 15:25:31,569 PIL.Image    DEBUG    Importing QoiImagePlugin
+2023-09-25 15:25:31,569 PIL.Image    DEBUG    Importing SgiImagePlugin
+2023-09-25 15:25:31,570 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2023-09-25 15:25:31,571 PIL.Image    DEBUG    Importing SunImagePlugin
+2023-09-25 15:25:31,572 PIL.Image    DEBUG    Importing TgaImagePlugin
+2023-09-25 15:25:31,573 PIL.Image    DEBUG    Importing TiffImagePlugin
+2023-09-25 15:25:31,573 PIL.Image    DEBUG    Importing WebPImagePlugin
+2023-09-25 15:25:31,591 PIL.Image    DEBUG    Importing WmfImagePlugin
+2023-09-25 15:25:31,592 PIL.Image    DEBUG    Importing XbmImagePlugin
+2023-09-25 15:25:31,593 PIL.Image    DEBUG    Importing XpmImagePlugin
+2023-09-25 15:25:31,594 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2023-09-25 16:45:07,239 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\core\models.py changed, reloading.
+2023-09-25 16:45:07,750 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-25 16:45:29,548 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\core\models.py changed, reloading.
+2023-09-25 16:45:29,977 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-25 16:48:50,042 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\core\models.py changed, reloading.
+2023-09-25 16:48:50,529 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-26 09:32:45,936 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-26 10:35:54,435 django.request ERROR    Internal Server Error: /fr/hiring
+Traceback (most recent call last):
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'trans'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 114: 'trans', expected 'endblock'. Did you forget to register or load this tag?
+2023-09-26 10:35:54,567 django.request WARNING  Not Found: /favicon.ico
+2023-09-26 10:36:23,977 django.request ERROR    Internal Server Error: /fr/hiring
+Traceback (most recent call last):
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'trans'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 114: 'trans', expected 'endblock'. Did you forget to register or load this tag?
+2023-09-26 10:36:25,772 django.request ERROR    Internal Server Error: /fr/hiring
+Traceback (most recent call last):
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'trans'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 114: 'trans', expected 'endblock'. Did you forget to register or load this tag?
+2023-09-26 10:38:46,856 django.request ERROR    Internal Server Error: /fr/hiring
+Traceback (most recent call last):
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'trans'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 114: 'trans', expected 'endblock'. Did you forget to register or load this tag?
+2023-09-26 10:38:57,862 django.request ERROR    Internal Server Error: /fr/hiring
+Traceback (most recent call last):
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'trans'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 114: 'trans', expected 'endblock'. Did you forget to register or load this tag?
+2023-09-26 10:38:58,550 django.request ERROR    Internal Server Error: /fr/hiring
+Traceback (most recent call last):
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'trans'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 114: 'trans', expected 'endblock'. Did you forget to register or load this tag?
+2023-09-26 10:39:15,926 django.request ERROR    Internal Server Error: /fr/hiring
+Traceback (most recent call last):
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'trans'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 114: 'trans', expected 'endblock'. Did you forget to register or load this tag?
+2023-09-26 11:00:52,780 django.security.csrf WARNING  Forbidden (CSRF token missing.): /fr/hiring
+2023-09-26 11:01:48,811 django.security.csrf WARNING  Forbidden (CSRF token missing.): /fr/hiring
+2023-09-26 11:02:07,033 django.security.csrf WARNING  Forbidden (CSRF token missing.): /fr/hiring
+2023-09-26 11:02:28,756 django.security.csrf WARNING  Forbidden (CSRF token missing.): /fr/hiring
+2023-09-26 11:03:44,931 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\config\settings.py changed, reloading.
+2023-09-26 11:03:45,410 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-26 11:03:47,774 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\config\settings.py changed, reloading.
+2023-09-26 11:03:48,238 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-26 11:06:24,200 django.security.csrf WARNING  Forbidden (CSRF token missing.): /fr/hiring
+2023-09-26 11:06:31,617 django.security.csrf WARNING  Forbidden (CSRF token missing.): /fr/hiring
+2023-09-26 11:08:13,218 django.security.csrf WARNING  Forbidden (CSRF token missing.): /fr/hiring
+2023-09-26 11:08:20,647 django.security.csrf WARNING  Forbidden (CSRF token missing.): /fr/hiring
+2023-09-26 11:10:31,581 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\core\views.py changed, reloading.
+2023-09-26 11:10:32,062 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-26 11:10:35,458 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\core\views.py changed, reloading.
+2023-09-26 11:10:35,971 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-26 11:11:19,761 django.security.csrf WARNING  Forbidden (CSRF token missing.): /fr/hiring
+2023-09-26 11:11:27,242 django.security.csrf WARNING  Forbidden (CSRF token missing.): /fr/hiring
+2023-09-26 11:30:40,059 django.request WARNING  Not Found: /fr/action=/fr/hiring
+2023-09-26 11:31:41,109 django.request WARNING  Not Found: /fr/action=/fr/hiring
+2023-09-26 11:31:49,321 django.request WARNING  Not Found: /fr/action=/fr/hiring
+2023-09-26 11:34:56,348 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\core\views.py changed, reloading.
+2023-09-26 11:34:56,809 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-26 11:35:05,113 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\core\views.py changed, reloading.
+2023-09-26 11:35:05,549 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-26 11:35:14,044 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\core\views.py changed, reloading.
+2023-09-26 11:35:14,488 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-26 11:35:19,079 django.request WARNING  Not Found: /fr/action=/fr/hiring
+2023-09-26 11:35:24,084 django.request WARNING  Not Found: /fr/action=/fr/hiring
+2023-09-26 11:40:25,803 django.request WARNING  Not Found: /fr/hiringhgd
+2023-09-26 11:41:47,699 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\core\views.py changed, reloading.
+2023-09-26 11:41:48,139 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-26 11:41:51,347 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\core\views.py changed, reloading.
+2023-09-26 11:41:51,748 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-26 11:41:55,960 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\core\views.py changed, reloading.
+2023-09-26 11:41:56,366 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-26 11:41:58,551 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\core\views.py changed, reloading.
+2023-09-26 11:41:58,970 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-26 11:42:06,428 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\core\views.py changed, reloading.
+2023-09-26 11:42:06,902 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-26 11:42:38,556 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs\ygs\core\views.py changed, reloading.
+2023-09-26 11:42:39,012 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-26 11:42:58,156 django.request WARNING  Not Found: /fr/hiringhgd
+2023-09-26 11:43:03,505 django.request WARNING  Not Found: /fr/hiringhgd
+2023-09-26 12:22:18,566 PIL.PngImagePlugin DEBUG    STREAM b'IHDR' 16 13
+2023-09-26 12:22:18,568 PIL.PngImagePlugin DEBUG    STREAM b'pHYs' 41 9
+2023-09-26 12:22:18,568 PIL.PngImagePlugin DEBUG    STREAM b'IDAT' 62 8192
+2023-09-26 12:22:18,568 PIL.Image    DEBUG    Importing BlpImagePlugin
+2023-09-26 12:22:18,569 PIL.Image    DEBUG    Importing BmpImagePlugin
+2023-09-26 12:22:18,569 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2023-09-26 12:22:18,570 PIL.Image    DEBUG    Importing CurImagePlugin
+2023-09-26 12:22:18,570 PIL.Image    DEBUG    Importing DcxImagePlugin
+2023-09-26 12:22:18,572 PIL.Image    DEBUG    Importing DdsImagePlugin
+2023-09-26 12:22:18,573 PIL.Image    DEBUG    Importing EpsImagePlugin
+2023-09-26 12:22:18,583 PIL.Image    DEBUG    Importing FitsImagePlugin
+2023-09-26 12:22:18,583 PIL.Image    DEBUG    Importing FliImagePlugin
+2023-09-26 12:22:18,584 PIL.Image    DEBUG    Importing FpxImagePlugin
+2023-09-26 12:22:18,585 PIL.Image    DEBUG    Image: failed to import FpxImagePlugin: No module named 'olefile'
+2023-09-26 12:22:18,585 PIL.Image    DEBUG    Importing FtexImagePlugin
+2023-09-26 12:22:18,586 PIL.Image    DEBUG    Importing GbrImagePlugin
+2023-09-26 12:22:18,587 PIL.Image    DEBUG    Importing GifImagePlugin
+2023-09-26 12:22:18,587 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2023-09-26 12:22:18,588 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2023-09-26 12:22:18,589 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2023-09-26 12:22:18,592 PIL.Image    DEBUG    Importing IcoImagePlugin
+2023-09-26 12:22:18,593 PIL.Image    DEBUG    Importing ImImagePlugin
+2023-09-26 12:22:18,594 PIL.Image    DEBUG    Importing ImtImagePlugin
+2023-09-26 12:22:18,594 PIL.Image    DEBUG    Importing IptcImagePlugin
+2023-09-26 12:22:18,595 PIL.Image    DEBUG    Importing JpegImagePlugin
+2023-09-26 12:22:18,595 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2023-09-26 12:22:18,595 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2023-09-26 12:22:18,596 PIL.Image    DEBUG    Importing MicImagePlugin
+2023-09-26 12:22:18,597 PIL.Image    DEBUG    Image: failed to import MicImagePlugin: No module named 'olefile'
+2023-09-26 12:22:18,597 PIL.Image    DEBUG    Importing MpegImagePlugin
+2023-09-26 12:22:18,598 PIL.Image    DEBUG    Importing MpoImagePlugin
+2023-09-26 12:22:18,601 PIL.Image    DEBUG    Importing MspImagePlugin
+2023-09-26 12:22:18,601 PIL.Image    DEBUG    Importing PalmImagePlugin
+2023-09-26 12:22:18,604 PIL.Image    DEBUG    Importing PcdImagePlugin
+2023-09-26 12:22:18,604 PIL.Image    DEBUG    Importing PcxImagePlugin
+2023-09-26 12:22:18,605 PIL.Image    DEBUG    Importing PdfImagePlugin
+2023-09-26 12:22:18,609 PIL.Image    DEBUG    Importing PixarImagePlugin
+2023-09-26 12:22:18,610 PIL.Image    DEBUG    Importing PngImagePlugin
+2023-09-26 12:22:18,610 PIL.Image    DEBUG    Importing PpmImagePlugin
+2023-09-26 12:22:18,611 PIL.Image    DEBUG    Importing PsdImagePlugin
+2023-09-26 12:22:18,612 PIL.Image    DEBUG    Importing QoiImagePlugin
+2023-09-26 12:22:18,613 PIL.Image    DEBUG    Importing SgiImagePlugin
+2023-09-26 12:22:18,613 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2023-09-26 12:22:18,614 PIL.Image    DEBUG    Importing SunImagePlugin
+2023-09-26 12:22:18,614 PIL.Image    DEBUG    Importing TgaImagePlugin
+2023-09-26 12:22:18,615 PIL.Image    DEBUG    Importing TiffImagePlugin
+2023-09-26 12:22:18,615 PIL.Image    DEBUG    Importing WebPImagePlugin
+2023-09-26 12:22:18,632 PIL.Image    DEBUG    Importing WmfImagePlugin
+2023-09-26 12:22:18,633 PIL.Image    DEBUG    Importing XbmImagePlugin
+2023-09-26 12:22:18,634 PIL.Image    DEBUG    Importing XpmImagePlugin
+2023-09-26 12:22:18,636 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2023-09-26 13:14:43,744 django.request ERROR    Internal Server Error: /fr/about
+Traceback (most recent call last):
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endcomment'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 75: 'endcomment', expected 'endblock'. Did you forget to register or load this tag?
+2023-09-26 13:20:51,655 django.request WARNING  Not Found: /favicon.ico
+2023-09-26 13:21:00,787 PIL.PngImagePlugin DEBUG    STREAM b'IHDR' 16 13
+2023-09-26 13:21:00,787 PIL.PngImagePlugin DEBUG    STREAM b'sRGB' 41 1
+2023-09-26 13:21:00,787 PIL.PngImagePlugin DEBUG    STREAM b'gAMA' 54 4
+2023-09-26 13:21:00,788 PIL.PngImagePlugin DEBUG    STREAM b'pHYs' 70 9
+2023-09-26 13:21:00,788 PIL.PngImagePlugin DEBUG    STREAM b'IDAT' 91 11188
+2023-09-26 13:54:02,190 django.request ERROR    Internal Server Error: /fr/hiring
+Traceback (most recent call last):
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'trans'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 114: 'trans', expected 'endblock'. Did you forget to register or load this tag?
+2023-09-26 14:11:34,085 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-26 14:34:07,196 django.request ERROR    Internal Server Error: /fr/
+Traceback (most recent call last):
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endcomment'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 465: 'endcomment', expected 'endblock'. Did you forget to register or load this tag?
+2023-09-26 14:34:07,491 django.request WARNING  Not Found: /favicon.ico
+2023-09-26 15:47:36,446 django.request ERROR    Internal Server Error: /ar/contact
+Traceback (most recent call last):
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'trans'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 11: 'trans', expected 'endblock'. Did you forget to register or load this tag?
+2023-09-26 15:47:36,600 django.request WARNING  Not Found: /favicon.ico
+2023-09-26 16:19:17,695 django.request ERROR    Internal Server Error: /ar/
+Traceback (most recent call last):
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\templatetags\static.py", line 171, in do_static
+    return StaticNode.handle_token(parser, token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\templatetags\static.py", line 145, in handle_token
+    path = parser.compile_filter(bits[1])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: 'rtl/images/1.jpg''' from '''rtl/images/1.jpg'''
+2023-09-26 16:19:17,908 django.request WARNING  Not Found: /favicon.ico
+2023-09-27 09:32:09,263 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 12:18:55,511 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 12:19:21,325 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 12:20:02,075 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 12:30:21,767 django.request WARNING  Not Found: /ar/assets/images/service/02.jpg
+2023-09-27 12:30:21,770 django.request WARNING  Not Found: /ar/assets/images/service/04.jpg
+2023-09-27 12:30:21,772 django.request WARNING  Not Found: /ar/assets/images/service/03.jpg
+2023-09-27 12:34:38,417 django.request WARNING  Not Found: /ar/assets/images/service/04.jpg
+2023-09-27 12:34:38,419 django.request WARNING  Not Found: /ar/assets/images/service/02.jpg
+2023-09-27 12:34:38,421 django.request WARNING  Not Found: /ar/assets/images/service/03.jpg
+2023-09-27 12:44:44,872 django.request WARNING  Not Found: /ar/assets/images/service/02.jpg
+2023-09-27 12:44:44,878 django.request WARNING  Not Found: /ar/assets/images/service/03.jpg
+2023-09-27 12:44:44,884 django.request WARNING  Not Found: /ar/assets/images/service/04.jpg
+2023-09-27 13:49:45,252 django.request ERROR    Internal Server Error: /fr/hiring
+Traceback (most recent call last):
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'trans'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 10: 'trans', expected 'endblock'. Did you forget to register or load this tag?
+2023-09-27 13:49:45,385 django.request WARNING  Not Found: /favicon.ico
+2023-09-27 13:53:13,081 django.request WARNING  Not Found: /ar/assets/images/service/02.jpg
+2023-09-27 13:53:13,082 django.request WARNING  Not Found: /ar/assets/images/service/03.jpg
+2023-09-27 13:53:13,085 django.request WARNING  Not Found: /ar/assets/images/service/04.jpg
+2023-09-27 14:02:51,566 django.request WARNING  Not Found: /ar/assets/images/service/02.jpg
+2023-09-27 14:02:51,567 django.request WARNING  Not Found: /ar/assets/images/service/03.jpg
+2023-09-27 14:02:51,569 django.request WARNING  Not Found: /ar/assets/images/service/04.jpg
+2023-09-27 14:35:07,199 django.utils.autoreload INFO     C:\Users\octopus\Desktop\ygs\ygs\config\settings.py changed, reloading.
+2023-09-27 14:35:07,913 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 14:36:41,591 django.utils.autoreload INFO     C:\Users\octopus\Desktop\ygs\ygs\config\settings.py changed, reloading.
+2023-09-27 14:36:42,300 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 14:37:28,318 django.utils.autoreload INFO     C:\Users\octopus\Desktop\ygs\ygs\config\settings.py changed, reloading.
+2023-09-27 14:37:28,957 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 14:37:30,415 django.utils.autoreload INFO     C:\Users\octopus\Desktop\ygs\ygs\config\settings.py changed, reloading.
+2023-09-27 14:37:31,027 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 14:39:55,400 django.utils.autoreload INFO     C:\Users\octopus\Desktop\ygs\ygs\config\settings.py changed, reloading.
+2023-09-27 14:39:56,040 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 14:39:57,500 django.utils.autoreload INFO     C:\Users\octopus\Desktop\ygs\ygs\config\settings.py changed, reloading.
+2023-09-27 14:39:58,107 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 14:45:23,138 django.request WARNING  Not Found: /ar/index.html
+2023-09-27 14:45:23,173 django.request WARNING  Not Found: /favicon.ico
+2023-09-27 14:45:57,733 django.request WARNING  Not Found: /ar/index.html
+2023-09-27 14:48:23,687 django.request WARNING  Not Found: /ar/rtl/index.html
+2023-09-27 14:53:02,767 django.request ERROR    Internal Server Error: /fr/about
+Traceback (most recent call last):
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'trans'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 16: 'trans', expected 'endblock'. Did you forget to register or load this tag?
+2023-09-27 14:55:02,769 django.request WARNING  Not Found: /fr/index.html
+2023-09-27 15:01:07,121 django.request ERROR    Internal Server Error: /ar/about
+Traceback (most recent call last):
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'trans'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\octopus\Desktop\ygs\ygs\venv\Lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 6: 'trans'. Did you forget to register or load this tag?
+2023-09-27 15:01:50,269 django.request WARNING  Not Found: /ar/index.html
+2023-09-27 15:20:37,255 django.utils.autoreload INFO     C:\Users\octopus\Desktop\ygs\ygs\config\settings.py changed, reloading.
+2023-09-27 15:20:37,964 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 15:27:06,307 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 15:30:28,094 django.utils.autoreload INFO     C:\Users\octopus\Desktop\ygs\ygs\config\settings.py changed, reloading.
+2023-09-27 15:30:28,790 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 15:50:32,974 django.utils.autoreload INFO     C:\Users\octopus\Desktop\ygs\ygs\core\models.py changed, reloading.
+2023-09-27 15:50:33,628 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 15:50:36,262 django.utils.autoreload INFO     C:\Users\octopus\Desktop\ygs\ygs\core\models.py changed, reloading.
+2023-09-27 15:50:36,921 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 15:50:38,394 django.utils.autoreload INFO     C:\Users\octopus\Desktop\ygs\ygs\core\models.py changed, reloading.
+2023-09-27 15:50:39,035 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 15:50:46,723 django.utils.autoreload INFO     C:\Users\octopus\Desktop\ygs\ygs\core\models.py changed, reloading.
+2023-09-27 15:50:47,422 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 15:50:48,892 django.utils.autoreload INFO     C:\Users\octopus\Desktop\ygs\ygs\core\models.py changed, reloading.
+2023-09-27 15:50:49,517 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 16:07:07,928 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 16:28:01,608 django.utils.autoreload INFO     C:\Users\octopus\Desktop\ygs\ygs\config\settings.py changed, reloading.
+2023-09-27 16:28:02,368 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 16:59:06,225 django.utils.autoreload INFO     C:\Users\octopus\Desktop\ygs\ygs\business\admin.py changed, reloading.
+2023-09-27 16:59:06,893 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 16:59:09,220 django.utils.autoreload INFO     C:\Users\octopus\Desktop\ygs\ygs\business\admin.py changed, reloading.
+2023-09-27 16:59:10,520 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 16:59:13,057 django.utils.autoreload INFO     C:\Users\octopus\Desktop\ygs\ygs\business\admin.py changed, reloading.
+2023-09-27 16:59:13,694 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 16:59:16,065 django.utils.autoreload INFO     C:\Users\octopus\Desktop\ygs\ygs\business\admin.py changed, reloading.
+2023-09-27 16:59:16,710 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 16:59:21,152 django.utils.autoreload INFO     C:\Users\octopus\Desktop\ygs\ygs\business\admin.py changed, reloading.
+2023-09-27 16:59:21,791 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 16:59:53,198 django.utils.autoreload INFO     C:\Users\octopus\Desktop\ygs\ygs\business\admin.py changed, reloading.
+2023-09-27 16:59:53,849 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 17:00:13,856 django.utils.autoreload INFO     C:\Users\octopus\Desktop\ygs\ygs\business\admin.py changed, reloading.
+2023-09-27 17:00:14,508 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 17:01:37,097 django.utils.autoreload INFO     C:\Users\octopus\Desktop\ygs\ygs\business\admin.py changed, reloading.
+2023-09-27 17:01:37,779 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 17:01:42,373 django.utils.autoreload INFO     C:\Users\octopus\Desktop\ygs\ygs\business\admin.py changed, reloading.
+2023-09-27 17:01:43,043 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 17:03:30,257 django.utils.autoreload INFO     C:\Users\octopus\Desktop\ygs\ygs\business\admin.py changed, reloading.
+2023-09-27 17:03:30,957 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 17:03:34,456 django.utils.autoreload INFO     C:\Users\octopus\Desktop\ygs\ygs\business\admin.py changed, reloading.
+2023-09-27 17:03:35,203 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 17:08:01,852 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 17:09:54,488 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 17:10:00,618 django.request WARNING  Not Found: /fr/admin/business/service/
+2023-09-27 17:10:00,668 django.request WARNING  Not Found: /favicon.ico
+2023-09-27 17:13:17,113 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 17:13:24,853 django.request WARNING  Not Found: /favicon.ico
+2023-09-27 17:13:45,950 django.request WARNING  Not Found: /favicon.ico
+2023-09-27 17:13:55,852 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 17:16:22,836 django.utils.autoreload INFO     C:\Users\octopus\Desktop\ygs\ygs\config\settings.py changed, reloading.
+2023-09-27 17:16:23,502 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 17:16:30,733 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 17:17:42,018 django.utils.autoreload INFO     C:\Users\octopus\Desktop\ygs\ygs\business\admin.py changed, reloading.
+2023-09-27 17:17:42,687 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 17:17:50,409 django.utils.autoreload INFO     C:\Users\octopus\Desktop\ygs\ygs\business\admin.py changed, reloading.
+2023-09-27 17:17:51,083 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 17:22:08,245 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 17:24:05,420 django.utils.autoreload INFO     C:\Users\octopus\Desktop\ygs\ygs\business\models.py changed, reloading.
+2023-09-27 17:24:06,140 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 17:35:48,489 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 17:36:52,299 django.utils.autoreload INFO     C:\Users\octopus\Desktop\ygs\ygs\business\admin.py changed, reloading.
+2023-09-27 17:36:52,977 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-09-27 17:37:32,586 django.utils.autoreload INFO     Watching for file changes with StatReloader

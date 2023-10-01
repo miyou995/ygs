@@ -40,7 +40,7 @@
                             feugiat
                             fusce conubia ridiculus tristique parturient
                         </p> {% endcomment %}
-                        <a href="#" class="rts-btn btn-primary color-h-black">{% trans 'Demander un devis' %}</a>
+                        <a href="#" class="rts-btn btn-primary color-h-black">{% trans 'Rejoignez-nous' %}</a>
                         <img class="shape-img one" src="{% static 'rtl/images/banner/shape/01.png' %}" alt="banner_business">
                     </div>
                     <!-- banner single content end -->
@@ -100,7 +100,7 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12 order-lg-1 order-md-2 order-sm-2 order-2 mt_md--50 mt_sm--50">
                     <div class="rts-title-area">
                         <p class="pre-title">
-                            {% trans 'More About Us' %}
+                           
                         </p>
                         <h2 class="title">{% trans 'Assurer une protection de qualité' %}
 
@@ -108,7 +108,7 @@
                     </div>
                     <div class="about-inner">
                         <p class="disc">
-                            Pour la sécurité de votre patrimoine et de vos personnels contre toutes formes de menaces.
+                            {% trans "Pour la sécurité de votre patrimoine et de vos personnels contre toutes formes de menaces." %}
                         </p>
                         <!-- start about success area -->
                         <div class="row about-success-wrapper">
@@ -167,12 +167,12 @@
                 <!-- about-right Start-->
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12 order-lg-2 order-md-1 order-sm-1 order-1">
                     <div class="about-one-thumbnail">
-                        <img src=" {% static 'images/ygs/about1.png' %}" alt="about-finbiz">
-                        <img class="small-img" src="{% static 'images/ygs/ab2.png' %}" alt="finbiz-small">
+                        <img src=" {% static 'images/about1.png' %}" alt="about-finbiz">
+                        <img class="small-img" src="{% static 'rtl/images/ab2.jpg' %}" alt="finbiz-small">
                         <div class="experience">
                             <div class="left single">
                                 <h2 class="title">25+</h2>
-                                <p class="time">Years</p>
+                                <p class="time">{% trans "Years" %}</p>
                             </div>
                             <div class="right single">
                                 <p class="disc">
@@ -222,10 +222,10 @@ Audit et conseil.
                         </div>
                         <div class="service-details">
                             <a href="service-details.html">
-                                <h5 class="title">surveillance et sécurité des sites sensibles</h5>
+                                <h5 class="title">{% trans "surveillance et sécurité des sites sensibles" %}</h5>
                             </a>
                             <p class="disc">
-                                Protection spécialisée pour des lieux critiques, assurant une sécurité constante.
+                                {% trans "Protection spécialisée pour des lieux critiques, assurant une sécurité constante." %}
 
                             </p>
                             {% comment %} <a class="rts-read-more btn-primary" href="service-details.html"><i
@@ -243,10 +243,10 @@ Audit et conseil.
                         </div>
                         <div class="service-details">
                             <a href="service-details.html">
-                                <h5 class="title">Sûreté des établissements recevant du public (ERP) </h5>
+                                <h5 class="title">{% trans "Sûreté des établissements recevant du public (ERP)" %} </h5>
                             </a>
                             <p class="disc">
-                                Mise en place de dispositifs de sécurité pour garantir la sérénité des visiteurs.
+                               {% trans " Mise en place de dispositifs de sécurité pour garantir la sérénité des visiteurs." %}
 
                             </p>
                             {% comment %} <a class="rts-read-more btn-primary" href="service-details.html"><i
@@ -262,10 +262,10 @@ Audit et conseil.
                         </div>
                         <div class="service-details">
                             <a href="service-details.html">
-                                <h5 class="title">Sûreté évènementielle</h5>
+                                <h5 class="title">{% trans "Sûreté évènementielle" %}</h5>
                             </a>
                             <p class="disc">
-                                Adaptation de la sécurité à chaque événement pour assurer un déroulement sans incident.
+                                {% trans "Adaptation de la sécurité à chaque événement pour assurer un déroulement sans incident." %}
                             </p>
                             {% comment %} <a class="rts-read-more btn-primary" href="service-details.html"><i
                                     class="far fa-arrow-right"></i>Read
@@ -282,10 +282,10 @@ Audit et conseil.
                         </div>
                         <div class="service-details">
                             <a href="service-details.html">
-                                <h5 class="title">Sécurisation du transport de fonds</h5>
+                                <h5 class="title">{% trans "Sécurisation du transport de fonds" %}</h5>
                             </a>
                             <p class="disc">
-                                Service de transfert sécurisé garantissant la protection des fonds en mouvement.
+                                {% trans "Service de transfert sécurisé garantissant la protection des fonds en mouvement." %}
                             </p>
                             {% comment %} <a class="rts-read-more btn-primary" href="service-details.html"><i
                                     class="far fa-arrow-right"></i>Read
@@ -302,10 +302,10 @@ Audit et conseil.
                         </div>
                         <div class="service-details">
                             <a href="service-details.html">
-                                <h5 class="title">Audit & conseil</h5>
+                                <h5 class="title">{% trans "Audit & conseil" %}</h5>
                             </a>
                             <p class="disc">
-                                Évaluation des besoins en sécurité et recommandation de solutions adaptées.
+                               {% trans " Évaluation des besoins en sécurité et recommandation de solutions adaptées." %}
                             </p>
                             {% comment %} <a class="rts-read-more btn-primary" href="service-details.html"><i
                                     class="far fa-arrow-right"></i>Read
@@ -322,10 +322,10 @@ Audit et conseil.
                         </div>
                         <div class="service-details">
                             <a href="service-details.html">
-                                <h5 class="title">Sécurisation des produits sensibles</h5>
+                                <h5 class="title">{% trans "Sécurisation des produits sensibles" %}</h5>
                             </a>
                             <p class="disc">
-                                Protocoles stricts pour garantir la sécurité des biens de grande valeur ou sensibles.
+                               {% trans " Protocoles stricts pour garantir la sécurité des biens de grande valeur ou sensibles." %}
                             </p>
                             {% comment %} <a class="rts-read-more btn-primary" href="service-details.html"><i
                                     class="far fa-arrow-right"></i>Read
@@ -347,8 +347,8 @@ Audit et conseil.
                 <!-- business goal left -->
                 <div class="col-lg-6">
                     <div class="business-goal-one">
-                        <img src="{% static 'rtl/images/business-goal/01.jpg' %}" alt="Business_Goal">
-                        <img class="small" src="{% static 'rtl/images/business-goal/sm-01.jpg' %}" alt="Business_Goal">
+                        {% comment %} <img src="{% static 'rtl/images/business-goal/01.jpg' %}" alt="Business_Goal"> {% endcomment %}
+                        <img class="small" src="{% static 'rtl/images/1.jpg' %}" alt="Business_Goal">
                     </div>
                 </div>
                 <!-- business goal right -->
@@ -358,30 +358,27 @@ Audit et conseil.
                     <div class="business-goal-right">
                         <div class="rts-title-area business text-start pl--30">
                             <p class="pre-title">
-                                JUST A CONSULTANCY
+                                {% trans "JUSTE UNE PROTECTION" %}
                             </p>
-                            <h2 class="title">We know how to manage
-                                business globally</h2>
+                            <h2 class="title">{% trans "Nous savons sécuriser" %}</h2>
                         </div>
                         <div class="rts-business-goal pl--30">
                             <div class="single-goal">
                                 <img src="{% static 'rtl/images/business-goal/icon/01.svg' %}" alt="business_Icone" class="thumb">
                                 <div class="goal-wrapper">
-                                    <h6 class="title">Best Business Consulting</h6>
-                                    <p class="disc">Fusce condimentum mattis placerat odio donec lacus porta torquent,
-                                        mauris gravida rutrum</p>
+                                    <h6 class="title">{% trans "Meilleure entreprise de sécurisation" %}</h6>
+                                    <p class="disc">{% trans "nous sommes la meilleure entreprise de sécurisation en Algérie" %}</p>
                                 </div>
                             </div>
                             <div class="single-goal">
                                 <img src="{% static 'rtl/images/business-goal/icon/02.svg' %}" alt="business_Icone" class="thumb">
                                 <div class="goal-wrapper">
-                                    <h6 class="title">24/7 Customer Support</h6>
-                                    <p class="disc">Fusce condimentum mattis placerat odio donec lacus porta torquent,
-                                        mauris gravida rutrum</p>
+                                    <h6 class="title">{% trans "Assistance client 24h/24 et 7j/7" %}</h6>
+                                    <p class="disc">{% trans "nous suivons toujours après notre service un support complet" %}</p>
                                 </div>
                             </div>
                             <div class="goal-button-wrapper mt--70">
-                                <a href="contactus.html" class="rts-btn btn-primary color-h-black">Contact Us</a>
+                                <a href="contactus.html" class="rts-btn btn-primary color-h-black">{% trans "Contactez-nous" %}</a>
                                 {% comment %} <div class="vedio-icone">
                                     <a id="play-video" class="video-play-button" href="#">
                                         <span></span>
@@ -404,7 +401,7 @@ Audit et conseil.
 
 
     <!-- start trusted client section -->
-    <div class="rts-trusted-client rts-section-gapBottom">
+    {% comment %} <div class="rts-trusted-client rts-section-gapBottom">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -424,7 +421,7 @@ Audit et conseil.
                 </div>
             </div>
         </div>
-    </div>
+    </div> {% endcomment %}
     <!-- end trusted client section -->
 
     <!-- start team section -->
@@ -434,9 +431,9 @@ Audit et conseil.
                 <div class="col-12">
                     <div class="rts-title-area team text-center">
                         <p class="pre-title">
-                            Professionals Team
+                            {% trans "Équipe de professionnels" %}
                         </p>
-                        <h2 class="title">Professionals Team</h2>
+                        <h2 class="title">{% trans "Équipe de professionnels" %}</h2>
                     </div>
                 </div>
             </div>
@@ -448,22 +445,21 @@ Audit et conseil.
                                 <div class="row g-5 w-g-100">
                                     <div class="col-lg-7 col-md-12 col-sm-12 col-12">
                                         <div class="thumbnail-gallery">
-                                            <img src="{% static 'rtl/images/gallery/gallery-01.jpg' %}" alt="business-images">
+                                            <img src="{% static 'images/2.png' %}" alt="business-images">
                                         </div>
                                     </div>
                                     <div class="col-lg-5 col-md-12 col-sm-12 col-12">
                                         <div class="bg-right-gallery">
                                             <div class="icon">
-                                                <img src="{% static 'rtl/images/gallery/icon/01.svg' %}" alt="Business-gallery">
+                                                <img src="{% static 'images/13.png' %}" alt="Business-gallery">
                                             </div>
                                             <a href="#">
-                                                <h4 class="title">Pro Business Solution</h4>
+                                                <h4 class="title">{% trans "Surveillance et Sécurité" %}</h4>
                                             </a>
-                                            <span>Case Study, Growth</span>
-                                            <p class="disc">Ornare etiam laoreet dictumst nisl quisque scelerisque cras
-                                                ut porta interdum purus mattis iaculis litora turpis torquent posuere.
+                                            
+                                            <p class="disc">{% trans "Notre équipe est composée de professionnels hautement qualifiés et expérimentés dans le domaine de la sécurité. Nous comprenons la complexité et les risques associés à la protection des sites" %} 
                                             </p>
-                                            <a class="rts-btn btn-primary" href="project-details.html">View Project</a>
+                                            {% comment %} <a class="rts-btn btn-primary" href="project-details.html">View Project</a> {% endcomment %}
                                         </div>
                                     </div>
                                 </div>
@@ -472,21 +468,20 @@ Audit et conseil.
                                 <div class="row g-5 w-g-100">
                                     <div class="col-lg-7">
                                         <div class="thumbnail-gallery">
-                                            <img src="{% static 'rtl/images/gallery/gallery-02.jpg' %}" alt="business-images">
+                                            <img src="{% static 'images/2.png' %}" alt="business-images">
                                         </div>
                                     </div>
                                     <div class="col-lg-5">
                                         <div class="bg-right-gallery">
                                             <div class="icon">
-                                                <img src="{% static 'rtl/images/gallery/icon/01.svg' %}" alt="Business-gallery">
+                                                <img src="{% static 'images/13.png' %}" alt="Business-gallery">
                                             </div>
                                             <a href="#">
-                                                <h4 class="title">Finbiz Pro Business</h4>
+                                                <h4 class="title">{% trans "Sûreté des établissements" %}</h4>
                                             </a>
-                                            <span>Case Study, Growth</span>
-                                            <p class="disc">In the literal sense, the term “Business” means the state of
-                                                being busy. But it is a very wide connotation of business.</p>
-                                            <a class="rts-btn btn-primary" href="project-details.html">View Project</a>
+                                            
+                                            <p class="disc">{% trans "Notre équipe est composée de professionnels hautement qualifiés et expérimentés dans le domaine de la sécurité. Nous comprenons la complexité et les risques associés à la protection des sites" %} </p>
+                                            {% comment %} <a class="rts-btn btn-primary" href="project-details.html">View Project</a> {% endcomment %}
                                         </div>
                                     </div>
                                 </div>
@@ -495,23 +490,21 @@ Audit et conseil.
                                 <div class="row g-5 w-g-100">
                                     <div class="col-lg-7">
                                         <div class="thumbnail-gallery">
-                                            <img src="{% static 'rtl/images/gallery/gallery-03.jpg' %}" alt="business-images">
+                                            <img src="{% static 'images/2.png' %}" alt="business-images">
                                         </div>
                                     </div>
                                     <div class="col-lg-5">
                                         <div class="bg-right-gallery">
                                             <div class="icon">
-                                                <img src="{% static 'rtl/images/gallery/icon/01.svg' %}" alt="Business-gallery">
+                                                <img src="{% static 'images/13.png' %}" alt="Business-gallery">
                                             </div>
                                             <a href="#">
-                                                <h4 class="title">Pro Solution Business</h4>
+                                                <h4 class="title">{% trans "Audit et Conseil" %}</h4>
                                             </a>
-                                            <span>Case Study, Growth</span>
-                                            <p class="disc">But a very wide of business because it
-                                                covers every human activity. Business is really concerned with the
-                                                production.
+                                            
+                                            <p class="disc">{% trans "Afin de vous assister à gérer au mieux les problèmes de sécurité relevés au niveau de vos établissements après diagnostic, et ce, en mettant en place des dispositifs de sécurité adéquats. " %}
                                             </p>
-                                            <a class="rts-btn btn-primary" href="project-details.html">View Project</a>
+                                            {% comment %} <a class="rts-btn btn-primary" href="project-details.html">View Project</a> {% endcomment %}
                                         </div>
                                     </div>
                                 </div>
@@ -533,38 +526,35 @@ Audit et conseil.
             <div class="row bg-white-feature  pt--120 pb--120">
                 <div class="col-xl-6 col-lg-12">
                     <div class="feature-left-area">
-                        <img src="{% static 'rtl/images/feature/01.png' %}" alt="">
+                        <img src="{% static 'images/ab2.jpg' %}" alt="">
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-12">
                     <div class="rts-title-area feature text-start pl--30 pl_sm--0">
                         <p class="pre-title">
-                            Boost Your Business Today
+                            
                         </p>
-                        <h2 class="title feature-title">Most Reliable Efficient <br>
-                            Consulting Agency</h2>
-                        <p>Porttitor ornare fermentum aliquam pharetra ut facilisis gravida risus suscipit feugiat fusce
-                            conubia ridiculus tristique solving parturient natoque vulputate risu hasellus quam
-                            tincidunt posuere aliquam accumsan</p>
+                        <h2 class="title feature-title">{% trans "Entreprise de sécurité la plus fiable " %}</h2>
+                        <p>{% trans " Entreprise de sécurité de droit algérien, agréée par le Ministère de l'Intérieur, des Collectivités Locales et de l'Aménagement du Territoire" %}</p>
 
                     </div>
 
                     <div class="feature-one-wrapper pl--30 mt--40 pl_sm--0">
                         <div class="single-feature-one">
                             <i class="fal fa-check"></i>
-                            <p>Fast Growing Sells</p>
+                            <p>{% trans " Sécurisation rapide" %}</p>
                         </div>
                         <div class="single-feature-one">
                             <i class="fal fa-check"></i>
-                            <p>24/7 Quality Services</p>
+                            <p>{% trans "Services de qualité 24h/24 et 7j/7" %}</p>
                         </div>
                         <div class="single-feature-one">
                             <i class="fal fa-check"></i>
-                            <p>Expert Members</p>
+                            <p>{% trans "Membres experts" %}</p>
                         </div>
                         <div class="single-feature-one">
                             <i class="fal fa-check"></i>
-                            <p>Best Quality Services</p>
+                            <p>{% trans "Services de la meilleure qualité" %}</p>
                         </div>
                     </div>
                 </div>

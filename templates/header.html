@@ -22,9 +22,11 @@
                 <div class="col-lg-6 d-xl-block d-none">
                     <div class="right">
                         <ul class="top-nav">
-                            <li><a href="{% url 'core:index' %}">{% trans 'Accueil' %}</a></li>
-                            <li><a href="{% url 'core:services' %}">{% trans 'Recrutement' %}</a></li>
-                            <li><a href="{% url 'core:hiring' %}">{% trans 'Contact' %}</a></li>
+                            <li><a class="nav-item" href="{% url 'core:index' %}">{% trans 'Accueil' %}</a></li>
+                            <li><a class="nav-item" href="{% url 'core:about' %}">{% trans 'A propos' %}</a></li>
+                            <li><a class="nav-item" href="{% url 'core:services' %}">{% trans 'Nos Services' %}</a></li>
+                            <li><a class="nav-item" href="{% url 'core:hiring' %}">{% trans 'Recrutement' %}</a></li>
+                            <li><a class="nav-item" href="{% url 'core:contact' %}">{% trans 'Contact' %}</a></li>
                         </ul>
                         <ul class="social-wrapper-one">
                             {% if business.facebook %}
@@ -69,7 +71,7 @@
                             </ul>
                         </nav>
                         <div class="button-area">
-                            <a href="{% url 'core:quote' %}" class="rts-btn btn-primary ml--20 ml_sm--5 header-one-btn quote-btn">{% trans 'Demander un devis' %}</a>
+                            <a href="{% url 'core:quote' %}" class="rts-btn btn-primary ml--20 ml_sm--5 header-one-btn quote-btn">{% trans 'Rejoignez-nous ' %}</a>
                             <button id="menu-btn" class="menu rts-btn btn-primary-alta ml--20 ml_sm--5">
                                 <img class="menu-dark" src="{% static 'images/icon/menu.png' %}" alt="Menu-icon">
                                 <img class="menu-light" src="{% static 'images/icon/menu-light.png' %}" alt="Menu-icon">

@@ -7,9 +7,22 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Finbiz Home One (Business Consultant)</title>
-        <link rel="shortcut icon" type="image/x-icon" href="{% static 'images/fav.png' %}">
-        {% comment %} <link rel="stylesheet" href="{% static 'rtl/css/plugins/swiper.min.css' %}"> {% endcomment %}
+        {% block extra_seo %}
+        <title>{{business.title}}</title>
+        <meta name="keywords" content="{{business.meta_keyword}}">
+        <meta name="description" content="{{business.meta_description}}">
+        <meta name="author" content="{{business.name}}" />
+        <meta name="robots" content="index,follow" />
+        <meta name="apple-mobile-web-app-title" content="{{business.title}}">
+        <meta name="application-name" content="{{business.name}}">
+        <meta property="og:url" content="" />
+        <meta property="og:title" content="{{business.title}}" />
+        <meta property="og:type" content="Services" />
+        <meta property="og:site_name" content="{{business.name}} | {{business.title}}"/>
+        <title>{{business.title}}</title>
+    {% endblock extra_seo %}
+        <link rel="shortcut icon" type="image/x-icon" href="{% static 'images/logo.png' %}">
+        <link rel="stylesheet" href="{% static 'rtl/css/plugins/swiper.min.css' %}">
         <link rel="stylesheet" href="{% static 'rtl/css/plugins/fontawesome-5.css' %}">
         <link rel="stylesheet" href="{% static 'rtl/css/plugins/animate.min.css' %}">
         <link rel="stylesheet" href="{% static 'rtl/css/plugins/unicons.css' %}">
@@ -31,26 +44,40 @@
                     <div class="row">
                         <div class="col-lg-6 d-xl-block d-none">
                             <div class="left">
+                                {% if business.email %}
                                 <div class="mail">
-                                    <a href="mailto:webmaster@example.com"><i class="fal fa-envelope"></i> info@finbiz.com</a>
+                                    <a href="mailto:webmaster@example.com"><i class="fal fa-envelope"></i> {{business.email}}</a>
                                 </div>
+                                {% endif %}
+                                {% if business.work_start %}
                                 <div class="working-time">
-                                    <p><i class="fal fa-clock"></i> Working: 8.00am - 5.00pm</p>
+                                    <p><i class="fal fa-clock"></i> {% trans 'Horaires' %} :  {{business.work_start}} -  {{business.work_end}}</p>
                                 </div>
+                                {% endif %}
                             </div>
                         </div>
                         <div class="col-lg-6 d-xl-block d-none">
                             <div class="right">
                                 <ul class="top-nav">
-                                    <li><a href="about-us.html">About</a></li>
-                                    <li><a href="blog-list.html">News</a></li>
-                                    <li><a href="contactus.html">Contact</a></li>
+                                       <li><a class="nav-item" href="{% url 'core:index' %}">{% trans 'Accueil' %}</a></li>
+                                        <li><a class="nav-item" href="{% url 'core:about' %}">{% trans 'A propos' %}</a></li>
+                                        <li><a class="nav-item" href="{% url 'core:services' %}">{% trans 'Nos Services' %}</a></li>
+                                        <li><a class="nav-item" href="{% url 'core:hiring' %}">{% trans 'Recrutement' %}</a></li>
+                                        <li><a class="nav-item" href="{% url 'core:contact' %}">{% trans 'Contact' %}</a></li>
                                 </ul>
                                 <ul class="social-wrapper-one">
-                                    <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                    <li><a class="mr--0" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    {% if business.facebook %}
+                                    <li><a href="{{business.facebook}}"><i class="fab fa-facebook-f"></i></a></li>
+                                {% endif %}
+                                {% if business.twitter %}
+                                    <li><a href="{{business.twitter}}"><i class="fab fa-x"></i></a></li>
+                                {% endif %}
+                                {% if business.instagram %}
+                                    <li><a href="{{business.instagram}}"><i class="fab fa-instagram"></i></a></li>
+                                {% endif %}
+                                {% if business.linkedin %}
+                                    <li><a class="mr--0" href="{{business.linkedin}}"><i class="fab fa-linkedin-in"></i></a></li>
+                                {% endif %}
                                 </ul>
                             </div>
                         </div>
@@ -62,8 +89,10 @@
                     <div class="row">
                         <div class="col-xl-3 col-lg-4 col-md-4 col-sm-4 col-4">
                             <div class="thumbnail">
-                                <a href="index.html">
-                                    <img src="{% static '{{business.logo.url}}' %}" class="header-logo" alt="{{business.name}} logo">
+                                <a href="{% url 'core:index' %}">
+                                    {% if  business.logo %}
+                                    <img src="{{business.logo.url}}" class="header-logo" alt="{{business.name}}">
+                                    {% endif %}
                                 </a>
                             </div>
                         </div>
@@ -71,50 +100,12 @@
                             <div class="main-header">
                                 <nav class="nav-main mainmenu-nav d-none d-xl-block">
                                     <ul class="mainmenu">
-                                        <li class="has-droupdown">
-                                            <a class="nav-link" href="#">Home</a>
-                                            <ul class="submenu">
-                                                <li><a href="index.html">Main Home</a></li>
-                                                <li><a href="index-two.html">Consulting Home</a></li>
-                                                <li><a href="index-three.html">Corporate Home</a></li>
-                                                <li><a href="index-four.html">Insurance Home</a></li>
-                                                <li><a href="index-five.html">Marketing Home</a></li>
-                                                <li><a href="onepage-one.html">Main Home Onepage</a></li>
-                                                <li><a href="onepage-two.html">Consulting Home Onepage</a></li>
-                                                <li><a href="onepage-three.html">Corporate Home Onepage</a></li>
-                                                <li><a href="onepage-four.html">Insurance Home Onepage</a></li>
-                                                <li><a href="onepage-five.html">Marketing Home Onepage</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a class="nav-item" href="about-us.html">About Us</a></li>
-                                        <li class="has-droupdown">
-                                            <a class="nav-link" href="#">Services</a>
-                                            <ul class="submenu">
-                                                <li><a href="our-service.html">Our Service</a></li>
-                                                <li><a href="service-details.html">Service Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="has-droupdown">
-                                            <a class="nav-link" href="#">Pages</a>
-                                            <ul class="submenu">
-                                                <li><a href="project.html">Project</a></li>
-                                                <li><a href="project-details.html">Project Details</a></li>
-                                                <li><a href="team.html">Team</a></li>
-                                                <li><a href="team-details.html">Team Details</a></li>
-                                                <li><a href="appoinment.html">Appoinment</a></li>
-                                                <li><a href="price-plan.html">Price Plan</a></li>
-                                                <li><a href="404.html">404 Page</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="has-droupdown">
-                                            <a class="nav-link" href="#">Blog</a>
-                                            <ul class="submenu">
-                                                <li><a href="blog-list.html">Blog List</a></li>
-                                                <li><a href="blog-grid.html">Blog Grid</a></li>
-                                                <li><a href="blog-details.html">Blog Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a class="nav-item" href="contactus.html">Contact</a></li>
+                                        <li><a class="nav-item" href="{% url 'core:index' %}">{% trans 'Accueil' %}</a></li>
+                                        <li><a class="nav-item" href="{% url 'core:about' %}">{% trans 'A propos' %}</a></li>
+                                        <li><a class="nav-item" href="{% url 'core:services' %}">{% trans 'Nos Services' %}</a></li>
+                                        <li><a class="nav-item" href="{% url 'core:hiring' %}">{% trans 'Recrutement' %}</a></li>
+                                        <li><a class="nav-item" href="{% url 'core:contact' %}">{% trans 'Contact' %}</a></li>
+                                    </ul>
                                     </ul>
                                 </nav>
                                 <div class="button-area">
@@ -130,11 +121,11 @@
                                             </div>
                                         </div>
                                     </div> {% endcomment %}
-                                    <a href="#" class="rts-btn btn-primary mr--20 mr_sm--5 header-one-btn quote-btn">Get Quote</a>
-                                    <button id="menu-btn" class="menu rts-btn btn-primary-alta mr--20 mr_sm--5">
-                                        <img class="menu-dark" src="{% static 'rtl/images/icon/menu.png' %}" alt="Menu-icon">
-                                        <img class="menu-light" src="{% static 'rtl/images/icon/menu-light.png' %}" alt="Menu-icon">
-                                    </button>
+                                    <a href="{% url 'core:quote' %}" class="rts-btn btn-primary ml--20 ml_sm--5 header-one-btn quote-btn">{% trans '   Rejoignez-nous' %}</a>
+                            <button id="menu-btn" class="menu rts-btn btn-primary-alta ml--20 ml_sm--5">
+                                <img class="menu-dark" src="{% static 'images/icon/menu.png' %}" alt="Menu-icon">
+                                <img class="menu-light" src="{% static 'images/icon/menu-light.png' %}" alt="Menu-icon">
+                            </button>
                                 </div>
                             </div>
                         </div>
@@ -148,49 +139,53 @@
             <button class="close-icon-menu"><i class="far fa-times"></i></button>
             <!-- inner menu area desktop start -->
             <div class="rts-sidebar-menu-desktop">
-                <a class="logo-1" href="index.html"><img class="logo" src="{% static 'rtl/images/logo/logo-1.svg' %}" alt="finbiz_logo"></a>
-                <a class="logo-2" href="index.html"><img class="logo" src="{% static 'rtl/images/logo/logo-4.svg' %}" alt="finbiz_logo"></a>
-                <a class="logo-3" href="index.html"><img class="logo" src="{% static 'rtl/images/logo/logo-3.svg' %}" alt="finbiz_logo"></a>
-                <a class="logo-4" href="index.html"><img class="logo" src="{% static 'rtl/images/logo/logo-5.svg' %}" alt="finbiz_logo"></a>
+                {% if  business.logo %}
+                <a class="logo-1" href="{% url 'core:index' %}"><img class="logo" src="{{business.logo.url}}" alt="{{business.name}}"></a>
+                <a class="logo-2" href="{% url 'core:index' %}"><img class="logo" src="{{business.logo.url}}" alt="{{business.name}}"></a>
+                <a class="logo-3" href="{% url 'core:index' %}"><img class="logo" src="{{business.logo.url}}" alt="{{business.name}}"></a>
+                <a class="logo-4" href="{% url 'core:index' %}"><img class="logo" src="{{business.logo.url}}" alt="{{business.name}}"></a>
+            {% endif %}
                 <div class="body d-none d-xl-block">
                     <p class="disc">
-                        We must explain to you how all seds this mistakens idea denouncing pleasures and praising account.
+                        {{business.mini_about|safe}}
                     </p>
                     <div class="get-in-touch">
                         <!-- title -->
-                        <div class="h6 title">Get In Touch</div>
+                        <div class="h6 title">{% trans 'Contactez-nous' %}</div>
                         <!-- title End -->
                         <div class="wrapper">
                             <!-- single -->
                             <div class="single">
                                 <i class="fas fa-phone-alt"></i>
-                                <a href="#">+8801234566789</a>
+                                <a href="tel:{{business.phone}}">{{business.phone}}</a>
                             </div>
                             <!-- single ENd -->
                             <!-- single -->
                             <div class="single">
                                 <i class="fas fa-envelope"></i>
-                                <a href="#">example@gmail.com</a>
-                            </div>
-                            <!-- single ENd -->
-                            <!-- single -->
-                            <div class="single">
-                                <i class="fas fa-globe"></i>
-                                <a href="#">www.webexample.com</a>
+                                <a href="mailto:{{business.email}}">{{business.email}}</a>
                             </div>
                             <!-- single ENd -->
                             <!-- single -->
                             <div class="single">
                                 <i class="fas fa-map-marker-alt"></i>
-                                <a href="#">13/A, New Pro State, NYC</a>
+                                <a href="{{business.address_link}}">{{business.address}}</a>
                             </div>
                             <!-- single ENd -->
                         </div>
                         <div class="social-wrapper-two menu">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-whatsapp"></i></a>
+                            {% if business.facebook %}
+                            <a href="{{business.facebook}}"><i class="fab fa-facebook-f"></i></a>
+                        {% endif %}
+                        {% if business.twitter %}
+                            <a href="{{business.twitter}}"><i class="fab fa-twitter"></i></a>
+                        {% endif %}
+                        {% if business.instagram %}
+                            <a href="{{business.instagram}}"><i class="fab fa-instagram"></i></a>
+                        {% endif %}
+                        {% if business.linkedin %}
+                            <a href="{{business.linkedin}}"><i class="fab fa-linkedin"></i></a> 
+                        {% endif %}
                             <!-- <a href="#"><i class="fab fa-linkedin"></i></a> -->
                         </div>
                     </div>
@@ -198,65 +193,44 @@
                 <div class="body-mobile d-block d-xl-none">
                     <nav class="nav-main mainmenu-nav">
                         <ul class="mainmenu">
-                            <li class="has-droupdown">
-                                <a href="#">Home</a>
-                                <ul class="submenu">
-                                    <li><a href="index.html">Main Home</a></li>
-                                    <li><a href="index-two.html">Consulting Home</a></li>
-                                    <li><a href="index-three.html">Corporate Home</a></li>
-                                    <li><a href="index-four.html">Insurance Home</a></li>
-                                    <li><a href="index-five.html">Marketing Home</a></li>
-                                    <li><a href="onepage-one.html">Main Home Onepage</a></li>
-                                    <li><a href="onepage-two.html">Consulting Home Onepage</a></li>
-                                    <li><a href="onepage-three.html">Corporate Home Onepage</a></li>
-                                    <li><a href="onepage-four.html">Insurance Home Onepage</a></li>
-                                    <li><a href="onepage-five.html">Marketing Home Onepage</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="about-us.html">About Us</a></li>
-                            <li class="has-droupdown">
-                                <a href="#">Services</a>
-                                <ul class="submenu">
-                                    <li><a href="our-service.html">Our Service</a></li>
-                                    <li><a href="service-details.html">Service Details</a></li>
-                                </ul>
-                            </li>
-                            <li class="has-droupdown">
-                                <a href="#">Pages</a>
-                                <ul class="submenu">
-                                    <li><a href="project.html">Project</a></li>
-                                    <li><a href="project-details.html">Project Details</a></li>
-                                    <li><a href="team.html">Team</a></li>
-                                    <li><a href="team-details.html">Team Details</a></li>
-                                    <li><a href="appoinment.html">appoinment</a></li>
-                                    <li><a href="price-plan.html">Price Plan</a></li>
-                                    <li><a href="404.html">404 Page</a></li>
-                                </ul>
-                            </li>
-                            <li class="has-droupdown">
-                                <a href="#">Blog</a>
-                                <ul class="submenu">
-                                    <li><a href="blog-list.html">Blog List</a></li>
-                                    <li><a href="blog-grid.html">Blog Grid</a></li>
-                                    <li><a href="blog-details.html">Blog Details</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="contactus.html">Contact</a></li>
+                            <li class="menu-item"><a class="menu-link" href="{% url 'core:index' %}">{% trans 'Accueil' %}</a></li>
+                            <li class="menu-item"><a class="menu-link" href="{% url 'core:about' %}">{% trans 'A propos' %}</a></li>
+                            <li class="menu-item"><a class="menu-link" href="{% url 'core:contact' %}">{% trans 'Nos Services' %}</a></li>
+                            <li class="menu-item"><a class="menu-link" href="{% url 'core:services' %}">{% trans 'Recrutement' %}</a></li>
+                            <li class="menu-item"><a class="menu-link" href="{% url 'core:hiring' %}">{% trans 'Contact' %}</a></li>
                         </ul>
                     </nav>
                     <div class="social-wrapper-two menu mobile-menu">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        {% if business.facebook %}
+                        <a href="{{business.facebook}}"><i class="fab fa-facebook-f"></i></a>
+                    {% endif %}
+                    {% if business.twitter %}
+                        <a href="{{business.twitter}}"><i class="fab fa-twitter"></i></a>
+                    {% endif %}
+                    {% if business.instagram %}
+                        <a href="{{business.instagram}}"><i class="fab fa-instagram"></i></a>
+                    {% endif %}
+                    {% if business.linkedin %}
+                        <a href="{{business.linkedin}}"><i class="fab fa-linkedin"></i></a> 
+                    {% endif %}
                         <!-- <a href="#"><i class="fab fa-linkedin"></i></a> -->
                     </div>
-                    <a href="#" class="rts-btn btn-primary ml--20 ml_sm--5 header-one-btn quote-btnmenu">Get Quote</a>
+                    <a href="{% url 'core:quote' %}" class="rts-btn btn-primary ml--20 ml_sm--5 header-one-btn quote-btnmenu">{% trans 'Demander un devis' %}</a>
                 </div>
             </div>
             <!-- inner menu area desktop End -->
         </div>
-
+        <div class="search-input-area">
+            <div class="container">
+                <div class="search-input-inner">
+                    <div class="input-div">
+                        <input id="searchInput1" class="search-input" type="text" placeholder="Search by keyword or #">
+                        <button><i class="far fa-search"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div id="close" class="search-close-icon"><i class="far fa-times"></i></div>
+        </div>
         <div id="anywhere-home"></div>
         <!-- ENd Header Area -->
 
@@ -270,29 +244,25 @@
         <!-- rts footer area start -->
         <div class="rts-footer-area footer-one rts-section-gapTop bg-footer-one">
             <div class="container bg-shape-f1">
-               
-                <!-- footer call to action area End -->
                 <!-- rts footer area -->
                 <div class="row pt--120 pt_sm--80 pb--80 pb_sm--40">
                     <div class="col-xl-4 col-md-6 col-sm-12 col-12">
                         <div class="footer-one-single-wized">
                             <div class="wized-title">
-                                <h5 class="title">Quick Links</h5>
-                                <img src="{% static 'rtl/images/footer/under-title.png' %}" alt="finbiz_footer">
+                                <h5 class="title">{% trans 'Liens rapides' %}</h5>
+                                <img src="{% static 'images/footer/under-title.png' %}" alt="finbiz_footer">
                             </div>
                             <div class="quick-link-inner">
                                 <ul class="links">
-                                    <li><a href="#"><i class="far fa-arrow-right"></i> Forum Support</a></li>
-                                    <li><a href="#"><i class="far fa-arrow-right"></i> Help & FAQ</a></li>
-                                    <li><a href="#"><i class="far fa-arrow-right"></i> Contact Us</a></li>
-                                    <li><a href="#"><i class="far fa-arrow-right"></i> Pricing & Plans</a></li>
-                                    <li><a href="#"><i class="far fa-arrow-right"></i> Cookie Policy</a></li>
+                                    <li><a  href="{% url 'core:index' %}"><i class="far fa-arrow-right"></i>{% trans 'Accueil' %}</a></li>
+                                    <li><a  href="{% url 'core:about' %}"><i class="far fa-arrow-right"></i>{% trans 'A propos' %}</a></li>
+                                    <li><a  href="{% url 'core:services' %}"><i class="far fa-arrow-right"></i>{% trans 'Nos Services' %}</a></li>
                                 </ul>
                                 <ul class="links margin-left-70">
-                                    <li><a href="#"><i class="far fa-arrow-right"></i> About Us</a></li>
-                                    <li><a href="#"><i class="far fa-arrow-right"></i> My Account</a></li>
-                                    <li><a href="#"><i class="far fa-arrow-right"></i>Our Company</a></li>
-                                    <li><a href="#"><i class="far fa-arrow-right"></i>Service</a></li>
+                                    <li><a  href="{% url 'core:contact' %}"><i class="far fa-arrow-right"></i>{% trans 'Contact' %}</a></li>
+                                    <li><a  href="{% url 'core:hiring' %}"><i class="far fa-arrow-right"></i>{% trans 'Recrutement' %}</a></li>
+                                    <li><a  href="{% url 'core:quote' %}"><i class="far fa-arrow-right"></i>{% trans 'Demander un devis' %}</a></li>
+                            
                                 </ul>
                             </div>
                         </div>
@@ -301,63 +271,42 @@
                     <div class="col-xl-4 col-md-6 col-sm-12 col-12">
                         <div class="footer-one-single-wized mid-bg">
                             <div class="wized-title">
-                                <h5 class="title">Opening Hours</h5>
-                                <img src="{% static 'rtl/images/footer/under-title.png' %}" alt="finbiz_footer">
+                                <h5 class="title">{% trans 'Horaires' %}</h5>
+                                <img src="{% static 'images/footer/under-title.png' %}" alt="finbiz_footer">
                             </div>
                             <div class="opening-time-inner">
                                 <div class="single-opening">
-                                    <p class="day">Week Days</p>
-                                    <p class="time">09.00 - 24:00</p>
+                                    <p class="day">{% trans 'Jours de semaine' %}</p>
+                                    <p class="time">{{business.work_start }} - {{business.work_end}}</p>
                                 </div>
-                                <div class="single-opening">
+                                {% comment %} <div class="single-opening">
                                     <p class="day">Saturday</p>
                                     <p class="time">08:00 - 03.00</p>
                                 </div>
                                 <div class="single-opening mb--30 mb_sm--10">
                                     <p class="day">Sunday</p>
                                     <p class="time">Day Off</p>
-                                </div>
-                                <a href="#" class="rts-btn btn-primary contact-us">Contact Us</a>
+                                </div> {% endcomment %}
+                                <a href="{% url 'core:contact' %}" class="rts-btn btn-primary contact-us">{% trans 'Contactez-nous' %}</a>
                             </div>
                         </div>
-                    </div>
+                    </div
                     <!-- footer mid area end -->
 
                     <!-- footer end area post -->
                     <div class="col-xl-4 col-md-6 col-sm-12 col-12">
                         <div class="footer-one-single-wized margin-left-65">
                             <div class="wized-title">
-                                <h5 class="title">Popular Updates</h5>
-                                <img src="{% static 'rtl/images/footer/under-title.png' %}" alt="finbiz_footer">
-                            </div>
+                                <h5 class="title">{{business.name}}</h5>
+                                <img src="{% static 'images/footer/under-title.png' %}" alt="finbiz_footer">
                             <div class="post-wrapper">
                                 <!-- single post -->
                                 <div class="single-footer-post mb--30">
-                                    <div class="left-thumbnail">
-                                        <img src="{% static 'rtl/images/footer/post/01.png' %}" alt="finbiz_business-post">
-                                    </div>
+                                    
+                                    
                                     <div class="post-right">
-                                        <p> <i class="fal fa-clock"></i> 15th April, 2022</p>
-                                        <a href="blog-details.html">
-                                            <h6 class="title">Best Business Ideas For
-                                                Getting Solution</h6>
-                                        </a>
-                                        <a class="red-more" href="blog-details.html">Read More<i class="far fa-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                                <!-- single post End -->
-                                <!-- single post -->
-                                <div class="single-footer-post">
-                                    <div class="left-thumbnail">
-                                        <img src="{% static 'rtl/images/footer/post/02.png' %}" alt="finbiz_business-post">
-                                    </div>
-                                    <div class="post-right">
-                                        <p> <i class="fal fa-clock"></i> 15th April, 2022</p>
-                                        <a href="blog-details.html">
-                                            <h6 class="title">Best Business Ideas For
-                                                Getting Solution</h6>
-                                        </a>
-                                        <a class="red-more" href="blog-details.html">Read More<i class="far fa-arrow-right"></i></a>
+                                        <p class="title">{{business.mini_about}}</p>
+                                        
                                     </div>
                                 </div>
                                 <!-- single post End -->
@@ -374,7 +323,7 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="text-center">
-                                <p>FINBIZ - Copyright 2022. All rights reserved.</p>
+                                <p> Copyright &copy;<script>document.write(new Date().getFullYear());</script> Tout droits resérvé <a href="https://www.octopus-consulting.com/" target="_blank"> Octopus Consulting</a></p>
                             </div>
                         </div>
                     </div>

@@ -1,5 +1,6 @@
 {% extends base_template %}
 {% load static %}
+{% load i18n %}
 {% block content %}
 
     <!-- start breadcrumb area -->
@@ -7,13 +8,13 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 breadcrumb-1">
-                    <h1 class="title">Appointment</h1>
+                    <h1 class="title">{% trans "Recrutement" %}</h1>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="bread-tag">
-                        <a href="index.html">Home</a>
+                        <a href="index.html">{% trans "Home" %}</a>
                         <span> / </span>
-                        <a href="#" class="active">Appointment</a>
+                        <a href="#" class="active">{% trans "Recrutement" %}</a>
                     </div>
                 </div>
             </div>
@@ -23,7 +24,7 @@
 
 
     <!-- rts circle progress area -->
-    <div class="rts-circle-progress-area rts-section-gap">
+    {% comment %} <div class="rts-circle-progress-area rts-section-gap">
         <div class="container">
             <div class="row g-5">
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
@@ -100,141 +101,133 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> {% endcomment %}
     <!-- rts circle progress area End -->
 
     <!-- contact area start -->
-    <div class="rts-contact-area contact-one appoinment background-contact-appoinment">
-        <div class="">
-            <div class="row g-0 align-items-center">
-                <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12">
-                    <div class="contact-image-one appoinment">
-                        <img src="{% static 'images/appoinment/02.png' %}" alt="">
-                    </div>
-                </div>
-                <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
-                    <div class="contact-form-area-one">
-                        <div class="rts-title-area contact-appoinment text-start">
-                            <p class="pre-title">
-                                Make An Appointment
-                            </p>
-                            <h2 class="title">Request a free quote</h2>
-                        </div>
-                        <form action="#">
-                            <div class="name-email">
-                                <input type="text" placeholder="Your Name">
-                                <input type="email" placeholder="Email Address">
-                            </div>
-                            <div class="name-email">
-                                <input type="text" placeholder="Phone Number">
-                                <input type="email" placeholder="Company Website">
-                            </div>
-                            <input type="text" placeholder="Business Topic">
-                            <textarea placeholder="Type Your Message"></textarea>
-                        </form>
-                        <a href="#" class="rts-btn btn-primary">Submit Message</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- contact area end -->
-
-    <!-- rts team two area -->
-    <div class="rts-team-area rts-section-gapTop appoinment-team  team-two">
+    <div class="rts-contact-form-area">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="rts-title-area team text-center">
-                        <p class="pre-title">
-                            Professionals Team
-                        </p>
-                        <h2 class="title">Professionals Team</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row g-5 mt--10">
-                <!-- single team -->
-                <div class="col-lg-4">
-                    <!-- single team inner -->
-                    <div class="team-inner-two">
-                        <a href="team-details.html" class="thumbnail">
-                            <img src="{% static 'images/team/tm/lg-01.jpg' %}" alt="">
-                        </a>
-                        <!-- Acquaintance area -->
-                        <div class="acquaintance-area">
-                            <div class="header">
-                                <a href="team-details.html">
-                                    <h5 class="title">Kevin Martin</h5>
-                                </a>
-                                <span>Consultant</span>
-                            </div>
-                            <div class="acquaintance-social">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                            </div>
+                    <div class="rts-contact-fluid rts-section-gap">
+                        <div class="rts-title-area contact-fluid text-center mb--50">
+                            <p class="pre-title">
+                                {% trans "demende" %}
+                            </p>
+                            <h2 class="title"> {% trans "Besoin d'un travail ? Demandez-nous" %}</h2>
                         </div>
-                        <!-- Acquaintance area -->
-                    </div>
-                    <!-- single team inner End -->
-                </div>
-                <!-- single team End -->
-                <!-- single team -->
-                <div class="col-lg-4">
-                    <!-- single team inner -->
-                    <div class="team-inner-two">
-                        <a href="team-details.html" class="thumbnail">
-                            <img src="{% static 'images/team/tm/lg-02.jpg' %}" alt="">
-                        </a>
-                        <!-- Acquaintance area -->
-                        <div class="acquaintance-area">
-                            <div class="header">
-                                <a href="team-details.html">
-                                    <h5 class="title">Martin Jone</h5>
-                                </a>
-                                <span>Business</span>
+                        <div class="form-wrapper">
+                            <div id="success-message">
+					            {% include 'message.html' %}
                             </div>
-                            <div class="acquaintance-social">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                            </div>
+                            <form action="{% url 'core:hiring' %}" method="post">
+                                {% csrf_token %}
+                                <div class="name-email">
+                                    <input type="text" placeholder="Your Name" name="name">
+                                    <input type="email" placeholder="Email Address" name="email">
+                                    
+                                </div>
+                                
+                                <div class="name-email">
+                                    <input type="tel" placeholder="Phone Number"name="phone">
+                                    <input type="date" placeholder="birth date " name="birth_date">
+                                    
+                                </div>
+                                <div class="name-email">
+                                    <input type="text" placeholder="Birth place" name="birth_place">
+                                    
+                                    
+                                </div>
+                                <div class="name-email">
+                                    <fieldset>
+                                        <legend>{% trans "Permis:" %}</legend>
+                                      
+                                        <div>
+                                          <input type="radio" id="huey" name="permis" value="true" checked />
+                                          <label for="huey">{% trans "YES" %}</label>
+                                        </div>
+                                      
+                                        <div>
+                                          <input type="radio" id="dewey" name="permis" value="false" />
+                                          <label for="dewey">{% trans "NO" %}</label>
+                                        </div>
+                                      
+                                        
+                                      </fieldset>
+                                      <div class="name-email">
+                                        <fieldset>
+                                            <legend>{% trans "Passeport" %}</legend>
+                                          
+                                            <div>
+                                              <input type="radio" id="huey1" name="passeport" value="true" checked />
+                                              <label for="huey1">{% trans "YES" %}</label>
+                                            </div>
+                                          
+                                            <div>
+                                              <input type="radio" id="dewey1" name="passeport" value="false" />
+                                              <label for="dewey1">{% trans "NO" %}</label>
+                                            </div>
+                                          
+                                            
+                                          </fieldset>
+                                          
+                                    </div>
+                                    <div class="name-email">
+                                        <fieldset>
+                                            <legend>{% trans "army:" %}</legend>
+                                          
+                                            <div>
+                                              <input type="radio" id="huey2" name="army" value="true" checked />
+                                              <label for="huey2">{% trans "YES" %}</label>
+                                            </div>
+                                          
+                                            <div>
+                                              <input type="radio" id="dewey2" name="army" value="true" />
+                                              <label for="dewey2">{% trans "NO" %}</label>
+                                            </div>
+                                          
+                                          
+                                          </fieldset>
+                                          
+                                    </div>
+                                </div>
+                               
+                                <label for="pet-select">{% trans "Sélectionnez Votre Niveau d'études" %}</label>
+                        
+                                <select name="niveau" id="pet-select">
+                                <option value="">{% trans "--Please choose an option--" %}</option>
+                                    <option value="S1">{% trans "Cycle Moyen" %}</option>
+                                    <option value="S2">{% trans "Niveau Secondaire" %}</option>
+                                    <option value="S3">{% trans "Niveau Terminal" %}</option>
+                                    <option value="S4">{% trans "Formation Professionnelle" %}</option>
+                                    <option value="S5">{% trans "Baccalauréat" %}</option>
+                                    <option value="S6">{% trans "Niveau Universitaire" %}</option>
+                                </select>
+                               
+                        
+                               
+                                
+                               
+                                <textarea placeholder="Experience" name="message"></textarea>
+                                
+                                
+                                 <div class="name-email">
+                                    
+                                    <input type="file" placeholder="the CV file" name="cv_file">
+                                </div> 
+                                <button type="submit" class="rts-btn btn-primary">{% trans "SUBMIT" %}</button> {% comment %} <input type="select" placeholder="your level " name="niveau"> {% endcomment %}
+                            </form>
                         </div>
-                        <!-- Acquaintance area -->
                     </div>
-                    <!-- single team inner End -->
                 </div>
-                <!-- single team End -->
-                <!-- single team -->
-                <div class="col-lg-4">
-                    <!-- single team inner -->
-                    <div class="team-inner-two">
-                        <a href="team-details.html" class="thumbnail">
-                            <img src="{% static 'images/team/tm/lg-03.jpg' %}" alt="">
-                        </a>
-                        <!-- Acquaintance area -->
-                        <div class="acquaintance-area">
-                            <div class="header">
-                                <a href="team-details.html">
-                                    <h5 class="title">Jone Lee</h5>
-                                </a>
-                                <span>CEO</span>
-                            </div>
-                            <div class="acquaintance-social">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <!-- Acquaintance area -->
-                    </div>
-                    <!-- single team inner End -->
-                </div>
-                <!-- single team End -->
             </div>
         </div>
     </div>
+  
+    <!-- contact area end -->
+
+    <!-- rts team two area -->
+  
     <!-- rts team two area End -->
 
 {% endblock content %}

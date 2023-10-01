@@ -9,7 +9,6 @@ https://docs.djangoproject.com/en/4.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
-
 from pathlib import Path
 from django.utils.translation import gettext_lazy as _
 from django.contrib.messages import constants as messages
@@ -33,10 +32,10 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
+    'modeltranslation',
     "core",
     "business",
     "tinymce",
-    'modeltranslation',
 
     "django.contrib.admin",
     "django.contrib.auth",
@@ -48,14 +47,12 @@ INSTALLED_APPS = [
     "django.contrib.sites",
     "django.contrib.sitemaps",
     'django_cleanup.apps.CleanupConfig',
-
 ]
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     'whitenoise.middleware.WhiteNoiseMiddleware', #whitenoise
     'django.middleware.locale.LocaleMiddleware', # for translation
-
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
@@ -132,19 +129,23 @@ USE_TZ = True
 
 LOCALE_PATHS = [BASE_DIR / "locale"]
 
-
+gettext = lambda s: s
 LANGUAGES = (
-    ('en', _('English')),
-    ('fr', _('French')),
-    ('ar', _('Arabic')),
+    ('en', gettext('English')),
+    ('ar', gettext('Arabic')),
+    ('fr', gettext('French')),
     # ('ar-dz', _('Algerian')),
 )
 MODELTRANSLATION_DEFAULT_LANGUAGE = 'en'
 MODELTRANSLATION_PREPOPULATE_LANGUAGE = 'en'
 MODELTRANSLATION_TRANSLATION_FILES = (
-    'business.translations',
-    'core.translations',
+    'business.translation',
+    # 'core.translation',
 )
+# class YourModelTranslationOptions(TranslationOptions):
+#     fields = ('field1', 'field2',)  # Replace with the fields you want to translate
+
+MODELTRANSLATION_ADMIN = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/

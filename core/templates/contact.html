@@ -135,7 +135,7 @@
                                 </div>
                                 <select name="service" id="id_service" class="select-form" placeholder="{% trans 'Sélectionnez un service' %}">
                                     {% for service in services %}
-                                        <option value="{{service.id}}">{{service.name}}</option>
+                                        <option value="{{service.id_ar}}">{{service.name}}</option>
                                     {% endfor %}
                                     <option value="">{% trans 'Autre...' %}</option>
                                 </select>

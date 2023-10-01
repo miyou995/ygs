@@ -7,6 +7,7 @@ from django.db.models.signals import pre_init
 from django.db.models import F
 from django.urls import reverse
 from django.utils.translation import gettext as _
+from modeltranslation.translator import translator, TranslationOptions
 
 
 CHOICES = (

@@ -8,6 +8,7 @@ from django.http import JsonResponse
 from business.models import Contact, Quote, Hiring, Slide, About, Service
 from business.forms import ContactForm, QuoteForm, HiringForm
 
+
 ############### INDEX ###############
 class IndexView(TemplateView):
     def get_template_names(self):
@@ -97,4 +98,4 @@ class RecruitingView(SuccessMessageMixin, CreateView):
     form_class= HiringForm
     model = Hiring 
     success_message = "Votre demande a été soumise, Un agent vous contactera prochainement avec un appel téléphonique ou un e-mail." 
-    success_url = reverse_lazy('business:hiring')
+    success_url = reverse_lazy('core:hiring')
