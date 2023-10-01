@@ -22,13 +22,13 @@ class BusinesAdmin(admin.ModelAdmin):
             return True
         
         
-class ServiceAdmin(admin.ModelAdmin):
-    list_display = ('id', 'name', )
-    prepopulated_fields = {"slug": ("name",)}
-    # exclude= ('name_fr','about_high_fr', 'about_low_fr')
-    list_display_links = ('id','name')
-    list_per_page = 40
-admin.site.register(Service, ServiceAdmin)
+# class ServiceAdmin(admin.ModelAdmin):
+#     list_display = ('id', 'name', )
+#     prepopulated_fields = {"slug": ("name",)}
+#     # exclude= ('name_fr','about_high_fr', 'about_low_fr')
+#     list_display_links = ('id','name')
+#     list_per_page = 40
+# admin.site.register(Service, ServiceAdmin)
 
 
 class AboutAdmin(admin.ModelAdmin):

@@ -140,7 +140,7 @@ MODELTRANSLATION_DEFAULT_LANGUAGE = 'en'
 MODELTRANSLATION_PREPOPULATE_LANGUAGE = 'en'
 MODELTRANSLATION_TRANSLATION_FILES = (
     'business.translation',
-    # 'core.translation',
+    'core.translation',
 )
 # class YourModelTranslationOptions(TranslationOptions):
 #     fields = ('field1', 'field2',)  # Replace with the fields you want to translate

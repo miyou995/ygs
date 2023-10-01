@@ -4261,3 +4261,808 @@ django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 6: 'tr
 2023-09-27 17:36:52,299 django.utils.autoreload INFO     C:\Users\octopus\Desktop\ygs\ygs\business\admin.py changed, reloading.
 2023-09-27 17:36:52,977 django.utils.autoreload INFO     Watching for file changes with StatReloader
 2023-09-27 17:37:32,586 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 10:21:06,754 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 10:22:03,518 django.request WARNING  Not Found: /favicon.ico
+2023-10-01 10:24:30,676 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 10:37:30,208 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 10:37:30,670 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 10:37:42,071 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 10:37:42,517 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 10:42:00,550 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\business\translation.py changed, reloading.
+2023-10-01 10:42:00,996 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 10:42:05,310 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\business\translation.py changed, reloading.
+2023-10-01 10:42:05,748 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 10:42:12,083 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 10:42:12,549 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 10:50:20,444 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 10:50:20,974 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 10:50:26,434 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 10:50:26,922 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 10:50:29,225 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 10:50:29,799 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 10:50:45,461 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 10:50:45,947 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 10:50:50,254 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 10:50:50,750 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 10:50:52,025 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 10:50:52,536 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 10:50:56,864 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 10:50:57,340 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 10:51:28,062 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 10:51:28,494 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 10:51:41,941 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 10:51:42,372 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 10:51:48,709 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 10:51:49,151 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 10:52:34,041 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 10:52:34,457 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 10:52:40,797 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 10:52:41,262 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 10:52:45,564 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 10:52:45,987 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 10:52:57,413 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 10:52:57,855 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 10:53:02,167 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 10:53:02,597 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 10:53:11,973 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 10:53:12,412 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 10:53:13,676 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 10:53:14,108 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 10:53:15,372 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 10:53:15,776 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 10:53:19,059 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 10:53:19,462 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 10:53:26,827 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 10:53:27,253 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 10:53:30,550 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 10:53:30,989 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 10:53:54,559 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 10:53:55,027 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 10:54:10,507 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 10:54:10,921 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 10:55:47,106 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 10:58:34,845 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 10:58:35,307 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 10:58:39,622 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 10:58:40,077 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 10:59:04,678 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 10:59:05,155 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 10:59:28,752 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 10:59:29,195 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:01:45,466 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 11:01:45,922 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:01:47,171 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 11:01:47,634 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:01:53,982 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 11:01:54,395 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:01:59,705 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 11:02:00,115 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:02:01,358 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 11:02:01,830 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:02:08,166 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 11:02:08,654 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:02:51,534 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 11:02:52,002 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:20:05,732 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:22:23,048 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\business\translation.py changed, reloading.
+2023-10-01 11:22:23,531 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:22:25,913 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\business\translation.py changed, reloading.
+2023-10-01 11:22:26,431 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:24:19,957 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\business\translation.py changed, reloading.
+2023-10-01 11:24:20,416 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:33:48,993 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\config\settings.py changed, reloading.
+2023-10-01 11:33:49,482 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:33:50,741 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\config\settings.py changed, reloading.
+2023-10-01 11:33:51,238 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:36:02,038 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:36:10,581 django.request ERROR    Internal Server Error: /fr/admin/business/service/
+Traceback (most recent call last):
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: business_service.name_en
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\contrib\admin\options.py", line 2065, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: business_service.name_en
+2023-10-01 11:36:32,022 django.request ERROR    Internal Server Error: /fr/admin/business/service/
+Traceback (most recent call last):
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: business_service.name_en
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\contrib\admin\options.py", line 2065, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: business_service.name_en
+2023-10-01 11:37:36,860 django.request ERROR    Internal Server Error: /fr/admin/business/service/
+Traceback (most recent call last):
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: business_service.name_en
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\contrib\admin\options.py", line 2065, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: business_service.name_en
+2023-10-01 11:38:09,008 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\business\translation.py changed, reloading.
+2023-10-01 11:38:09,488 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:39:47,804 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\business\translation.py changed, reloading.
+2023-10-01 11:39:48,329 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:40:27,148 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\business\translation.py changed, reloading.
+2023-10-01 11:40:27,589 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:40:28,932 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\business\translation.py changed, reloading.
+2023-10-01 11:40:29,432 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:41:41,083 django.request ERROR    Internal Server Error: /fr/admin/business/service/
+Traceback (most recent call last):
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: business_service.name_en
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\contrib\admin\options.py", line 2065, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: business_service.name_en
+2023-10-01 11:43:17,133 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\business\translation.py changed, reloading.
+2023-10-01 11:43:17,633 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:43:46,693 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\business\translation.py changed, reloading.
+2023-10-01 11:43:47,161 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:43:50,949 django.request ERROR    Internal Server Error: /fr/admin/business/service/
+Traceback (most recent call last):
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: business_service.name_en
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\contrib\admin\options.py", line 2065, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: business_service.name_en
+2023-10-01 11:45:07,780 django.request ERROR    Internal Server Error: /fr/contact
+Traceback (most recent call last):
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: business_service.name_en
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\template\defaulttags.py", line 194, in render
+    len_values = len(values)
+                 ^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: business_service.name_en
+2023-10-01 11:45:29,637 django.request ERROR    Internal Server Error: /fr/contact
+Traceback (most recent call last):
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: business_service.name_en
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\template\defaulttags.py", line 194, in render
+    len_values = len(values)
+                 ^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: business_service.name_en
+2023-10-01 11:45:29,755 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\business\translation.py changed, reloading.
+2023-10-01 11:45:30,227 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:46:21,548 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 11:46:22,062 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:46:32,583 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 11:46:33,034 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:46:37,340 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 11:46:37,778 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:46:43,101 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 11:46:43,539 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:46:51,995 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 11:46:52,447 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:46:53,778 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 11:46:54,316 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:47:14,041 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 11:47:14,486 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:47:21,949 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 11:47:22,421 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:47:28,865 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 11:47:29,353 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:47:32,737 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 11:47:33,175 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:47:38,585 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 11:47:39,053 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:47:51,593 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\business\admin.py changed, reloading.
+2023-10-01 11:47:52,112 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:47:55,423 django.request WARNING  Not Found: /fr/admin/business/service/
+2023-10-01 11:48:17,156 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\business\admin.py changed, reloading.
+2023-10-01 11:48:17,619 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:48:39,371 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 11:48:39,851 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:48:44,272 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 11:48:44,745 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:49:25,975 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 11:49:26,445 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:49:38,861 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 11:49:39,302 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:49:40,560 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 11:49:40,984 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:49:42,246 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 11:49:42,659 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:50:10,320 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 11:50:10,798 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:56:00,331 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 11:56:00,789 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:56:10,180 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\admin.py changed, reloading.
+2023-10-01 11:56:10,603 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:56:59,572 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\config\settings.py changed, reloading.
+2023-10-01 11:57:00,018 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:58:21,742 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 11:58:21,910 django.request ERROR    Internal Server Error: /fr/admin/core/service/
+Traceback (most recent call last):
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: core_service.name_en
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\contrib\admin\options.py", line 2065, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amd\Desktop\ygs1\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: core_service.name_en
+2023-10-01 12:00:20,718 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 12:02:05,423 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\translation.py changed, reloading.
+2023-10-01 12:02:05,916 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 12:05:41,574 django.request WARNING  Not Found: /favicon.ico
+2023-10-01 12:08:38,304 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\business\models.py changed, reloading.
+2023-10-01 12:08:38,839 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 12:08:53,279 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\business\models.py changed, reloading.
+2023-10-01 12:08:53,768 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 12:10:45,723 django.request WARNING  Not Found: /fer/contact
+2023-10-01 12:20:24,203 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\views.py changed, reloading.
+2023-10-01 12:20:24,771 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 12:20:25,939 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\views.py changed, reloading.
+2023-10-01 12:20:26,427 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 12:20:29,622 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\views.py changed, reloading.
+2023-10-01 12:20:30,098 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 12:20:34,518 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\views.py changed, reloading.
+2023-10-01 12:20:35,035 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 12:20:51,475 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\views.py changed, reloading.
+2023-10-01 12:20:52,008 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 12:21:02,598 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\views.py changed, reloading.
+2023-10-01 12:21:03,094 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-01 12:21:04,435 django.utils.autoreload INFO     C:\Users\amd\Desktop\ygs1\core\views.py changed, reloading.
+2023-10-01 12:21:04,999 django.utils.autoreload INFO     Watching for file changes with StatReloader

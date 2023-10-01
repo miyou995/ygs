@@ -1,6 +1,7 @@
 from modeltranslation.translator import register, TranslationOptions
 
 from .models import Business
+from .models import Service
 
 
 
@@ -8,6 +9,13 @@ from .models import Business
 class BusinessTranslationOptions(TranslationOptions):
      fields =('name', 'title', 'address', 'about', 'meta_title', 'meta_description'  )
 
+
+
+
+
+# @register(Service)
+# class ServiceTranslationOptions(TranslationOptions):
+#      fields =('name', 'about_high')
 # translator.register(Business,BusinessTranslationOptions)
 
 

@@ -5,7 +5,8 @@ from django.contrib.messages.views import SuccessMessageMixin
 from django.views.generic import TemplateView, ListView , DetailView, CreateView
 from django.views.generic.edit import FormView
 from django.http import JsonResponse
-from business.models import Contact, Quote, Hiring, Slide, About, Service
+from business.models import Contact, Quote, Hiring, Slide, About 
+from core.models import Service
 from business.forms import ContactForm, QuoteForm, HiringForm
 
 
