@@ -2,7 +2,7 @@
 {% load i18n %}
 
 <!DOCTYPE html>
-<html lang="en" dir="rtl">
+<html lang="{{ request.LANGUAGE_CODE }}" dir="rtl">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -64,7 +64,9 @@
                                         <li><a class="nav-item" href="{% url 'core:services' %}">{% trans 'Nos Services' %}</a></li>
                                         <li><a class="nav-item" href="{% url 'core:hiring' %}">{% trans 'Recrutement' %}</a></li>
                                         <li><a class="nav-item" href="{% url 'core:contact' %}">{% trans 'Contact' %}</a></li>
-                                </ul>
+                                        {% comment %} <li><a href="{% url 'core:switch_language' 'ar' %}">Arabic</a></li>
+                                        <li><a href="{% url 'core:switch_language' 'fr' %}">French</a></li>
+                                </ul> {% endcomment %}
                                 <ul class="social-wrapper-one">
                                     {% if business.facebook %}
                                     <li><a href="{{business.facebook}}"><i class="fab fa-facebook-f"></i></a></li>
@@ -121,7 +123,7 @@
                                             </div>
                                         </div>
                                     </div> {% endcomment %}
-                                    <a href="{% url 'core:quote' %}" class="rts-btn btn-primary ml--20 ml_sm--5 header-one-btn quote-btn">{% trans '   Rejoignez-nous' %}</a>
+                                    <a href="{% url 'core:hiring' %}" class="rts-btn btn-primary ml--20 ml_sm--5 header-one-btn quote-btn">{% trans '   Rejoignez-nous' %}</a>
                             <button id="menu-btn" class="menu rts-btn btn-primary-alta ml--20 ml_sm--5">
                                 <img class="menu-dark" src="{% static 'images/icon/menu.png' %}" alt="Menu-icon">
                                 <img class="menu-light" src="{% static 'images/icon/menu-light.png' %}" alt="Menu-icon">
@@ -195,9 +197,9 @@
                         <ul class="mainmenu">
                             <li class="menu-item"><a class="menu-link" href="{% url 'core:index' %}">{% trans 'Accueil' %}</a></li>
                             <li class="menu-item"><a class="menu-link" href="{% url 'core:about' %}">{% trans 'A propos' %}</a></li>
-                            <li class="menu-item"><a class="menu-link" href="{% url 'core:contact' %}">{% trans 'Nos Services' %}</a></li>
-                            <li class="menu-item"><a class="menu-link" href="{% url 'core:services' %}">{% trans 'Recrutement' %}</a></li>
-                            <li class="menu-item"><a class="menu-link" href="{% url 'core:hiring' %}">{% trans 'Contact' %}</a></li>
+                            <li class="menu-item"><a class="menu-link" href="{% url 'core:contact' %}">{% trans 'Contact' %}</a></li>
+                            <li class="menu-item"><a class="menu-link" href="{% url 'core:services' %}">{% trans 'Nos Services' %}</a></li>
+                            <li class="menu-item"><a class="menu-link" href="{% url 'core:hiring' %}">{% trans 'Recrutement' %}</a></li>
                         </ul>
                     </nav>
                     <div class="social-wrapper-two menu mobile-menu">
@@ -261,7 +263,7 @@
                                 <ul class="links margin-left-70">
                                     <li><a  href="{% url 'core:contact' %}"><i class="far fa-arrow-right"></i>{% trans 'Contact' %}</a></li>
                                     <li><a  href="{% url 'core:hiring' %}"><i class="far fa-arrow-right"></i>{% trans 'Recrutement' %}</a></li>
-                                    <li><a  href="{% url 'core:quote' %}"><i class="far fa-arrow-right"></i>{% trans 'Demander un devis' %}</a></li>
+                                    {% comment %} <li><a  href="{% url 'core:quote' %}"><i class="far fa-arrow-right"></i>{% trans 'Demander un devis' %}</a></li> {% endcomment %}
                             
                                 </ul>
                             </div>

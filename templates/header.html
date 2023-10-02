@@ -68,6 +68,8 @@
                                 <li><a class="nav-item" href="{% url 'core:services' %}">{% trans 'Nos Services' %}</a></li>
                                 <li><a class="nav-item" href="{% url 'core:hiring' %}">{% trans 'Recrutement' %}</a></li>
                                 <li><a class="nav-item" href="{% url 'core:contact' %}">{% trans 'Contact' %}</a></li>
+                                {% comment %} <li><a href="{% url 'core:switch_language' 'ar' %}">Arabic</a></li>
+                                <li><a href="{% url 'core:switch_language' 'fr' %}">French</a></li> {% endcomment %}
                             </ul>
                         </nav>
                         <div class="button-area">
@@ -144,13 +146,13 @@
         <div class="body-mobile d-block d-xl-none">
             <nav class="nav-main mainmenu-nav">
                 <ul class="mainmenu">
-                   
+                    >{% trans 'Contact' %}
                   
                     <li class="menu-item"><a class="menu-link" href="{% url 'core:index' %}">{% trans 'Accueil' %}</a></li>
                     <li class="menu-item"><a class="menu-link" href="{% url 'core:about' %}">{% trans 'A propos' %}</a></li>
-                    <li class="menu-item"><a class="menu-link" href="{% url 'core:contact' %}">{% trans 'Nos Services' %}</a></li>
-                    <li class="menu-item"><a class="menu-link" href="{% url 'core:services' %}">{% trans 'Recrutement' %}</a></li>
-                    <li class="menu-item"><a class="menu-link" href="{% url 'core:hiring' %}">{% trans 'Contact' %}</a></li>
+                    <li class="menu-item"><a class="menu-link" href="{% url 'core:contact' %}">{% trans 'Contact' %}</a></li>
+                    <li class="menu-item"><a class="menu-link" href="{% url 'core:services' %}">{% trans 'Nos Services' %}</a></li>
+                    <li class="menu-item"><a class="menu-link" href="{% url 'core:hiring' %}">{% trans 'Recrutement' %}</a></li>
                 </ul>
             </nav>
             <div class="social-wrapper-two menu mobile-menu">

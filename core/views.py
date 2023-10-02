@@ -5,9 +5,21 @@ from django.contrib.messages.views import SuccessMessageMixin
 from django.views.generic import TemplateView, ListView , DetailView, CreateView
 from django.views.generic.edit import FormView
 from django.http import JsonResponse
-from business.models import Contact, Quote, Hiring, Slide, About 
+from business import translation
+from business.models import Contact, Quote, Hiring, Slide, About
+from config import settings 
 from core.models import Service
 from business.forms import ContactForm, QuoteForm, HiringForm
+from django.shortcuts import redirect
+# from django.utils.translation import LANGUAGE_SESSION_KEY
+from django.shortcuts import redirect
+from django.utils.translation import activate
+from django.conf import settings
+from django.shortcuts import redirect
+from django.utils.translation import activate
+from django.conf import settings
+
+
 
 
 ############### INDEX ###############
@@ -100,3 +112,7 @@ class RecruitingView(SuccessMessageMixin, CreateView):
     model = Hiring 
     success_message = "Votre demande a été soumise, Un agent vous contactera prochainement avec un appel téléphonique ou un e-mail." 
     success_url = reverse_lazy('core:hiring')
+
+
+
+

@@ -7,7 +7,7 @@ from .models import Service
 
 @register(Business)
 class BusinessTranslationOptions(TranslationOptions):
-     fields =('name', 'title', 'address', 'about', 'meta_title', 'meta_description'  )
+     fields =('name', 'title', 'address', 'about', 'meta_title', 'meta_description',  'mini_about')
 
 
 

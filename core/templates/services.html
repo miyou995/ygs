@@ -39,7 +39,7 @@
                         <div class="hidden-area">
                             <h5 class="title">{{ service.name }} </h5>
                             <p class="dsic">
-                                 {{ service.about_high}}
+                                 {{ service.about_high|safe}}
                             </p>
                             {% comment %} <a class="rts-read-more-two color-primary" href="service-details.html">Read More<i class="far fa-arrow-right"></i></a> {% endcomment %}
                         </div>

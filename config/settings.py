@@ -9,6 +9,7 @@ https://docs.djangoproject.com/en/4.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
+import os
 from pathlib import Path
 from django.utils.translation import gettext_lazy as _
 from django.contrib.messages import constants as messages
@@ -35,7 +36,7 @@ INSTALLED_APPS = [
     'modeltranslation',
     "core",
     "business",
-    "tinymce",
+    "tinymce", 
 
     "django.contrib.admin",
     "django.contrib.auth",
@@ -52,9 +53,10 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     'whitenoise.middleware.WhiteNoiseMiddleware', #whitenoise
-    'django.middleware.locale.LocaleMiddleware', # for translation
     "django.contrib.sessions.middleware.SessionMiddleware",
+    'django.middleware.locale.LocaleMiddleware', # for translation
     "django.middleware.common.CommonMiddleware",
+    
     "django.middleware.csrf.CsrfViewMiddleware",
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
@@ -227,6 +229,9 @@ MESSAGE_TAGS = {
     messages.WARNING: 'alert-warning',
     messages.ERROR: 'alert-danger',
 } 
+LOCALE_PATHS = (
+        os.path.join(BASE_DIR, 'locale'),
+)
 
 try:
     from .local_settings import *

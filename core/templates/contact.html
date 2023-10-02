@@ -126,12 +126,12 @@
                             <form method="post" action="{% url 'core:contact' %}" >
 								{% csrf_token %}
                                 <div class="name-email">
-                                    <input type="text" name="name" placeholder="Nom complet * " required>
-                                    <input type="text" name="entreprise" placeholder="Entreprise">
+                                    <input type="text" name="name" placeholder="{% trans "Nom complet *" %} " required>
+                                    <input type="text" name="entreprise" placeholder="{% trans "Entreprise" %}">
                                 </div>
                                 <div class="name-email">
                                     <input type="text" name="phone" id="id_phone"  placeholder="{% trans 'Numéro +213*' %}" pattern="^(?:0|\(?\+213\)?\s?|00213\s?)[1-79](?:[\.\-\s]?\d\d){4}$" required>
-                                    <input type="email" name="email" placeholder="Email Address" >
+                                    <input type="email" name="email" placeholder="{% trans "Email Address" %}" >
                                 </div>
                                 <select name="service" id="id_service" class="select-form" placeholder="{% trans 'Sélectionnez un service' %}">
                                     {% for service in services %}
@@ -139,7 +139,7 @@
                                     {% endfor %}
                                     <option value="">{% trans 'Autre...' %}</option>
                                 </select>
-                                <textarea placeholder="Type Your Message" name="message"></textarea>
+                                <textarea placeholder="{% trans "Type Your Message" %}" name="message"></textarea>
                                 <input type="text" name="username" id="username" hidden="true" >
                                 <button type="submit" class="rts-btn btn-primary">{% trans 'Envoyer le message' %}</button>
                             </form>

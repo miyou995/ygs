@@ -123,18 +123,18 @@
                             <form action="{% url 'core:hiring' %}" method="post">
                                 {% csrf_token %}
                                 <div class="name-email">
-                                    <input type="text" placeholder="Your Name" name="name">
-                                    <input type="email" placeholder="Email Address" name="email">
+                                    <input type="text" placeholder="{% trans "Your Name" %}"  name="name">
+                                    <input type="email" placeholder="{% trans "Email Address" %}" name="email">
                                     
                                 </div>
                                 
                                 <div class="name-email">
-                                    <input type="tel" placeholder="Phone Number"name="phone">
-                                    <input type="date" placeholder="birth date " name="birth_date">
+                                    <input type="tel" placeholder="{% trans "Phone Number" %}" name="phone">
+                                    <input type="date" placeholder="{% trans "birth date" %} " name="birth_date">
                                     
                                 </div>
                                 <div class="name-email">
-                                    <input type="text" placeholder="Birth place" name="birth_place">
+                                    <input type="text" placeholder="{% trans "Birth place" %}" name="birth_place">
                                     
                                     
                                 </div>
