@@ -167,9 +167,9 @@
                 <!-- about-right Start-->
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12 order-lg-2 order-md-1 order-sm-1 order-1">
                     <div class="about-one-thumbnail">
-                        <img src=" {% static 'images/about1.png' %}" alt="about-finbiz">
+                        <img src=" {% static 'rtl/images/ab2.jpg' %}" alt="about-finbiz">
                         <img class="small-img" src="{% static 'rtl/images/ab2.jpg' %}" alt="finbiz-small">
-                        <div class="experience">
+                        {% comment %} <div class="experience">
                             <div class="left single">
                                 <h2 class="title">25+</h2>
                                 <p class="time">{% trans "Years" %}</p>
@@ -181,7 +181,7 @@
                                     service
                                 </p>
                             </div>
-                        </div>
+                        </div> {% endcomment %}
                     </div>
                 </div>
                 <!-- about-right end -->
@@ -378,7 +378,7 @@ Audit et conseil.
                                 </div>
                             </div>
                             <div class="goal-button-wrapper mt--70">
-                                <a href="contactus.html" class="rts-btn btn-primary color-h-black">{% trans "Contactez-nous" %}</a>
+                                <a href="{% url 'core:contact' %}" class="rts-btn btn-primary color-h-black">{% trans "Contactez-nous" %}</a>
                                 {% comment %} <div class="vedio-icone">
                                     <a id="play-video" class="video-play-button" href="#">
                                         <span></span>
@@ -468,7 +468,7 @@ Audit et conseil.
                                 <div class="row g-5 w-g-100">
                                     <div class="col-lg-7">
                                         <div class="thumbnail-gallery">
-                                            <img src="{% static 'images/2.png' %}" alt="business-images">
+                                            <img src="{% static 'images/3.jpg' %}" alt="business-images">
                                         </div>
                                     </div>
                                     <div class="col-lg-5">
@@ -490,7 +490,7 @@ Audit et conseil.
                                 <div class="row g-5 w-g-100">
                                     <div class="col-lg-7">
                                         <div class="thumbnail-gallery">
-                                            <img src="{% static 'images/2.png' %}" alt="business-images">
+                                            <img src="{% static 'images/1.jpg' %}" alt="business-images">
                                         </div>
                                     </div>
                                     <div class="col-lg-5">

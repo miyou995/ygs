@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-02 16:58+0100\n"
+"POT-Creation-Date: 2023-10-04 08:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -183,15 +183,15 @@ msgstr ""
 
 #: .\config\settings.py:136
 msgid "English"
-msgstr ""
+msgstr "إنجليزي"
 
 #: .\config\settings.py:137
 msgid "Arabic"
-msgstr ""
+msgstr "عربي"
 
 #: .\config\settings.py:138
 msgid "French"
-msgstr ""
+msgstr "فرنسي"
 
 #: .\core\templates\about.html:11 .\core\templates\about.html:17
 #: .\core\templates\rtl\about.html:12 .\core\templates\rtl\about.html:18
@@ -209,7 +209,7 @@ msgid "Home"
 msgstr "ترحيب"
 
 #: .\core\templates\about.html:51 .\core\templates\index.html:321
-#: .\core\templates\rtl\about.html:52 .\core\templates\rtl\index.html:374
+#: .\core\templates\rtl\about.html:52 .\core\templates\rtl\index.html:375
 #: .\core\templates\rtl\services.html:62 .\core\templates\services.html:67
 msgid "JUSTE UNE PROTECTION"
 msgstr "الحماية فقط"
@@ -245,7 +245,7 @@ msgstr "اتصل بنا"
 
 #: .\core\templates\contact.html:11 .\core\templates\contact.html:17
 #: .\core\templates\index.html:342 .\core\templates\rtl\contact.html:12
-#: .\core\templates\rtl\contact.html:18 .\core\templates\rtl\index.html:394
+#: .\core\templates\rtl\contact.html:18 .\core\templates\rtl\index.html:395
 #: .\templates\footer.html:95 .\templates\header.html:108
 #: .\templates\rtl\base.html:158 .\templates\rtl\base.html:296
 msgid "Contactez-nous"
@@ -281,7 +281,7 @@ msgstr "الاسم الكامل *"
 
 #: .\core\templates\contact.html:130 .\core\templates\rtl\contact.html:131
 msgid "Entreprise"
-msgstr "Entreprise"
+msgstr "شركة"
 
 #: .\core\templates\contact.html:133 .\core\templates\rtl\contact.html:134
 msgid "Numéro +213*"
@@ -290,9 +290,9 @@ msgstr "رقم +213"
 #: .\core\templates\contact.html:134 .\core\templates\hiring.html:128
 #: .\core\templates\rtl\contact.html:135 .\core\templates\rtl\hiring.html:128
 #, fuzzy
-#| msgid "Adresse"
-msgid "Email Address"
-msgstr "عنوان"
+#|msgid "Adresse"
+  msgstr "عنوان"
+
 
 #: .\core\templates\contact.html:136 .\core\templates\rtl\contact.html:137
 msgid "Sélectionnez un service"
@@ -304,7 +304,7 @@ msgstr "آخر..."
 
 #: .\core\templates\contact.html:142 .\core\templates\rtl\contact.html:143
 msgid "Type Your Message"
-msgstr ""
+msgstr "اكتب رسالتك"
 
 #: .\core\templates\contact.html:144 .\core\templates\rtl\contact.html:145
 msgid "Envoyer le message"
@@ -332,7 +332,7 @@ msgstr "اسمك"
 
 #: .\core\templates\hiring.html:133 .\core\templates\rtl\hiring.html:133
 msgid "Phone Number"
-msgstr "رقم التليفون"
+msgstr "رقم الهاتف"
 
 #: .\core\templates\hiring.html:134 .\core\templates\rtl\hiring.html:134
 msgid "birth date"
@@ -433,7 +433,7 @@ msgid ""
 msgstr "من أجل أمن أصولك وموظفيك ضد جميع أشكال التهديدات."
 
 #: .\core\templates\index.html:69 .\core\templates\index.html:261
-#: .\core\templates\rtl\index.html:123 .\core\templates\rtl\index.html:315
+#: .\core\templates\rtl\index.html:123 .\core\templates\rtl\index.html:316
 msgid "Audit & conseil"
 msgstr "التدقيق والمشورة"
 
@@ -457,7 +457,7 @@ msgstr ""
 msgid "Années"
 msgstr "سنين"
 
-#: .\core\templates\index.html:148 .\core\templates\rtl\index.html:202
+#: .\core\templates\index.html:148 .\core\templates\rtl\index.html:203
 #: .\templates\footer.html:62 .\templates\header.html:27
 #: .\templates\header.html:68 .\templates\header.html:156
 #: .\templates\rtl\base.html:64 .\templates\rtl\base.html:108
@@ -465,45 +465,45 @@ msgstr "سنين"
 msgid "Nos Services"
 msgstr "خدماتنا"
 
-#: .\core\templates\index.html:150 .\core\templates\rtl\index.html:204
+#: .\core\templates\index.html:150 .\core\templates\rtl\index.html:205
 msgid "Préstations de haute qualité"
 msgstr "خدمات عالية الجودة"
 
-#: .\core\templates\index.html:177 .\core\templates\rtl\index.html:231
+#: .\core\templates\index.html:177 .\core\templates\rtl\index.html:232
 msgid "surveillance et sécurité des sites sensibles"
 msgstr "مراقبة وأمن المواقع الحساسة"
 
-#: .\core\templates\index.html:180 .\core\templates\rtl\index.html:234
+#: .\core\templates\index.html:180 .\core\templates\rtl\index.html:235
 msgid ""
 "Protection spécialisée pour des lieux critiques, assurant une sécurité "
 "constante."
 msgstr "حماية متخصصة للمواقع الحيوية، وضمان السلامةثابت."
 
-#: .\core\templates\index.html:199 .\core\templates\rtl\index.html:253
+#: .\core\templates\index.html:199 .\core\templates\rtl\index.html:254
 msgid "Sûreté des établissements recevant du public (ERP)"
 msgstr "أمن المنشآت المفتوحة للعامة (ERP)"
 
-#: .\core\templates\index.html:202 .\core\templates\rtl\index.html:256
+#: .\core\templates\index.html:202 .\core\templates\rtl\index.html:257
 msgid ""
 " Mise en place de dispositifs de sécurité pour garantir la sérénité des "
 "visiteurs."
 msgstr "تنفيذ الإجراءات الأمنية لضمان راحة بالالزائرين"
 
-#: .\core\templates\index.html:219 .\core\templates\rtl\index.html:273
+#: .\core\templates\index.html:219 .\core\templates\rtl\index.html:274
 msgid "Sûreté évènementielle"
 msgstr "أمن الحدث"
 
-#: .\core\templates\index.html:222 .\core\templates\rtl\index.html:276
+#: .\core\templates\index.html:222 .\core\templates\rtl\index.html:277
 msgid ""
 "Adaptation de la sécurité à chaque événement pour assurer un déroulement "
 "sans incident."
 msgstr "تكييف الأمن مع كل حدث لضمان حسن سير العملبدون حادث."
 
-#: .\core\templates\index.html:240 .\core\templates\rtl\index.html:294
+#: .\core\templates\index.html:240 .\core\templates\rtl\index.html:295
 msgid "Sécurisation du transport de fonds"
 msgstr "أمن النقل النقدي"
 
-#: .\core\templates\index.html:243 .\core\templates\rtl\index.html:297
+#: .\core\templates\index.html:243 .\core\templates\rtl\index.html:298
 msgid ""
 "Service de transfert sécurisé garantissant la protection des fonds en "
 "mouvement."
@@ -514,47 +514,47 @@ msgid ""
 "Évaluation des besoins en sécurité et recommandation de solutions adaptées."
 msgstr "تقييم الاحتياجات الأمنية والتوصية بالحلول المناسبة"
 
-#: .\core\templates\index.html:282 .\core\templates\rtl\index.html:336
+#: .\core\templates\index.html:282 .\core\templates\rtl\index.html:337
 msgid "Sécurisation des produits sensibles"
 msgstr "تأمين المنتجات الحساسة"
 
-#: .\core\templates\index.html:285 .\core\templates\rtl\index.html:339
+#: .\core\templates\index.html:285 .\core\templates\rtl\index.html:340
 msgid ""
 " Protocoles stricts pour garantir la sécurité des biens de grande valeur ou "
 "sensibles."
 msgstr "بروتوكولات صارمة لضمان أمن البضائع ذات القيمة العالية أو حساس.    "
 
-#: .\core\templates\index.html:323 .\core\templates\rtl\index.html:376
+#: .\core\templates\index.html:323 .\core\templates\rtl\index.html:377
 msgid "Nous savons sécuriser"
 msgstr "نحن نعرف كيفية تأمين"
 
-#: .\core\templates\index.html:330 .\core\templates\rtl\index.html:382
+#: .\core\templates\index.html:330 .\core\templates\rtl\index.html:383
 msgid "Meilleure entreprise de sécurisation"
 msgstr "أفضل شركة حراسة"
 
-#: .\core\templates\index.html:331 .\core\templates\rtl\index.html:383
+#: .\core\templates\index.html:331 .\core\templates\rtl\index.html:384
 msgid "nous sommes la meilleure entreprise de sécurisation en Algérie"
 msgstr "نحن أفضل شركة أمنية في الجزائر"
 
-#: .\core\templates\index.html:337 .\core\templates\rtl\index.html:389
+#: .\core\templates\index.html:337 .\core\templates\rtl\index.html:390
 msgid "Assistance client 24h/24 et 7j/7"
 msgstr "دعم العملاء 24/7"
 
-#: .\core\templates\index.html:338 .\core\templates\rtl\index.html:390
+#: .\core\templates\index.html:338 .\core\templates\rtl\index.html:391
 msgid "nous suivons toujours après notre service un support complet"
 msgstr "نحن نتابع دائمًا بعد خدمتنا الدعم الكامل"
 
 #: .\core\templates\index.html:398 .\core\templates\index.html:401
-#: .\core\templates\rtl\index.html:449 .\core\templates\rtl\index.html:451
+#: .\core\templates\rtl\index.html:450 .\core\templates\rtl\index.html:452
 msgid "Équipe de professionnels"
 msgstr "فريق فني"
 
-#: .\core\templates\index.html:422 .\core\templates\rtl\index.html:472
+#: .\core\templates\index.html:422 .\core\templates\rtl\index.html:473
 msgid "Surveillance et Sécurité"
 msgstr "المراقبة والأمن"
 
 #: .\core\templates\index.html:425 .\core\templates\index.html:448
-#: .\core\templates\rtl\index.html:475 .\core\templates\rtl\index.html:499
+#: .\core\templates\rtl\index.html:476 .\core\templates\rtl\index.html:500
 msgid ""
 "Notre équipe est composée de professionnels hautement qualifiés et "
 "expérimentés dans le domaine de la sécurité. Nous comprenons la complexité "
@@ -563,15 +563,15 @@ msgstr ""
 "يتكون فريقنا من المهنيين المؤهلين تأهيلا عاليا ومن ذوي الخبرة في مجال الأمن. "
 "نحن نتفهم التعقيدوالمخاطر المرتبطة بحماية المواقع          "
 
-#: .\core\templates\index.html:445 .\core\templates\rtl\index.html:496
+#: .\core\templates\index.html:445 .\core\templates\rtl\index.html:497
 msgid "Sûreté des établissements"
 msgstr "أمن المنشآت"
 
-#: .\core\templates\index.html:468 .\core\templates\rtl\index.html:519
+#: .\core\templates\index.html:468 .\core\templates\rtl\index.html:520
 msgid "Audit et Conseil"
 msgstr "التدقيق والاستشارات"
 
-#: .\core\templates\index.html:471 .\core\templates\rtl\index.html:522
+#: .\core\templates\index.html:471 .\core\templates\rtl\index.html:523
 msgid ""
 "Afin de vous assister à gérer au mieux les problèmes de sécurité relevés au "
 "niveau de vos établissements après diagnostic, et ce, en mettant en place "
@@ -580,11 +580,11 @@ msgstr ""
 "من أجل مساعدتك على إدارة المشكلات الأمنية المحددة في مستوى مؤسساتك بعد "
 "التشخيص وذلك بالتنفيذ أجهزة السلامة الكافية."
 
-#: .\core\templates\index.html:503 .\core\templates\rtl\index.html:555
+#: .\core\templates\index.html:503 .\core\templates\rtl\index.html:556
 msgid "Entreprise de sécurité la plus fiable "
 msgstr "شركة الأمن الأكثر ثقة"
 
-#: .\core\templates\index.html:505 .\core\templates\rtl\index.html:556
+#: .\core\templates\index.html:505 .\core\templates\rtl\index.html:557
 msgid ""
 " Entreprise de sécurité de droit algérien, agréée par le Ministère de "
 "l'Intérieur, des Collectivités Locales et de l'Aménagement du Territoire"
@@ -592,21 +592,21 @@ msgstr ""
 "شركة أمنية بموجب القانون الجزائري المصادق عليها من قبل وزارة الداخلية "
 "والسلطات المحلية والتخطيط الإقليمي"
 
-#: .\core\templates\index.html:513 .\core\templates\rtl\index.html:563
+#: .\core\templates\index.html:513 .\core\templates\rtl\index.html:564
 msgid " Sécurisation rapide"
 msgstr ""
 "شركة أمنية بموجب القانون الجزائري المصادق عليها من قبل وزارة الداخلية "
 "والسلطات المحلية والتخطيط الإقليمي"
 
-#: .\core\templates\index.html:517 .\core\templates\rtl\index.html:567
+#: .\core\templates\index.html:517 .\core\templates\rtl\index.html:568
 msgid "Services de qualité 24h/24 et 7j/7"
 msgstr "خدمات عالية الجودة 24/7"
 
-#: .\core\templates\index.html:521 .\core\templates\rtl\index.html:571
+#: .\core\templates\index.html:521 .\core\templates\rtl\index.html:572
 msgid "Membres experts"
 msgstr "أعضاء خبراء"
 
-#: .\core\templates\index.html:525 .\core\templates\rtl\index.html:575
+#: .\core\templates\index.html:525 .\core\templates\rtl\index.html:576
 msgid "Services de la meilleure qualité"
 msgstr "أفضل الخدمات ذات الجودة"
 
@@ -617,6 +617,10 @@ msgstr ""
 #: .\core\templates\rtl\hiring.html:11 .\core\templates\rtl\hiring.html:17
 msgid "Appointment"
 msgstr "توظيف"
+
+#: .\core\templates\rtl\hiring.html:214
+msgid "CV"
+msgstr ""
 
 #: .\core\templates\rtl\index.html:34
 msgid "Welcome"
@@ -632,11 +636,7 @@ msgid ""
 "formes de menaces."
 msgstr "من أجل أمن أصولك وموظفيك ضد الجميع أشكال التهديدات"
 
-#: .\core\templates\rtl\index.html:180
-msgid "Years"
-msgstr "سنين"
-
-#: .\core\templates\rtl\index.html:318
+#: .\core\templates\rtl\index.html:319
 msgid ""
 " Évaluation des besoins en sécurité et recommandation de solutions adaptées."
 msgstr "تقييم الاحتياجات الأمنية والتوصية بالحلول المناسبة"
@@ -1967,3 +1967,6 @@ msgstr ""
 #: .\venv\Lib\site-packages\modeltranslation\widgets.py:24
 msgid "None"
 msgstr ""
+
+#~ msgid "Years"
+#~ msgstr "سنين"

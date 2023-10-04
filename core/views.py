@@ -18,6 +18,7 @@ from django.conf import settings
 from django.shortcuts import redirect
 from django.utils.translation import activate
 from django.conf import settings
+from django.views.decorators.cache import never_cache
 
 
 
@@ -112,6 +113,33 @@ class RecruitingView(SuccessMessageMixin, CreateView):
     model = Hiring 
     success_message = "Votre demande a été soumise, Un agent vous contactera prochainement avec un appel téléphonique ou un e-mail." 
     success_url = reverse_lazy('core:hiring')
+from django.shortcuts import render
+
+# def contact(request, language):
+#     template_name = f'contact_{language}.html'
+#     return render(request, template_name)
+
+# def hiring(request, language):
+#     template_name = f'hiring_{language}.html'
+#     return render(request, template_name)
+# def index(request, language):
+#     template_name = f'index_{language}.html'
+#     return render(request, template_name)
+# def about(request, language):
+#     template_name = f'about_{language}.html'
+#     return render(request, template_name)
+# def services(request, language):
+#     template_name = f'services_{language}.html'
+#     return render(request, template_name)
+# @never_cache
+# def switch_language(request):
+#     if request.method == 'POST':
+#         selected_language = request.POST.get('language')
+#         print(f"Selected Language: {selected_language}")
+#         request.session['language'] = selected_language
+#     return redirect(request.META.get('HTTP_REFERER'))
+
+
 
 
 

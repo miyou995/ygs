@@ -1,0 +1,5 @@
+.header-main-one .thumbnail a {
+    padding: 5px 0;
+    display: block;
+    max-width: max-content;
+}

@@ -63,7 +63,22 @@
                         <ul class="links margin-left-70">
                             <li><a  href="{% url 'core:contact' %}"><i class="far fa-arrow-right"></i>{% trans 'Contact' %}</a></li>
                             <li><a  href="{% url 'core:hiring' %}"><i class="far fa-arrow-right"></i>{% trans 'Recrutement' %}</a></li>
+                            <form action="{% url 'set_language' %}" method="post">{% csrf_token %}
+                                <input name="next" type="hidden" value="{{ resuest.get_full_path|slice:'3:' }}">
+                                <select name="language">
+                                    {% get_current_language as LANGUAGE_CODE %}
+                                    {% get_available_languages as LANGUAGES %}
+                                    {% get_language_info_list for LANGUAGES as languages %}
+                                    {% for language in languages %}
+                                        <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected{% endif %}>
+                                            {{ language.name_local }} ({{ language.code }})
+                                        </option>
+                                    {% endfor %}
+                                </select>
+                                <input type="submit" value="{% trans "Go" %} " >
+                            </form>
                             {% comment %} <li><a  href="{% url 'core:quote' %}"><i class="far fa-arrow-right"></i>{% trans 'Demander un devis' %}</a></li> {% endcomment %}
+                          
                     
                         </ul>
                     </div>

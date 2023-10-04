@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-02 15:22+0100\n"
+"POT-Creation-Date: 2023-10-04 15:31+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -180,26 +180,26 @@ msgstr ""
 msgid "New Transfert"
 msgstr ""
 
-#: .\config\settings.py:135
+#: .\config\settings.py:136
 msgid "English"
 msgstr ""
 
-#: .\config\settings.py:136
+#: .\config\settings.py:137
 msgid "Arabic"
 msgstr ""
 
-#: .\config\settings.py:137
+#: .\config\settings.py:138
 msgid "French"
 msgstr ""
 
 #: .\core\templates\about.html:11 .\core\templates\about.html:17
 #: .\core\templates\rtl\about.html:12 .\core\templates\rtl\about.html:18
 #: .\templates\footer.html:61 .\templates\header.html:26
-#: .\templates\header.html:67 .\templates\header.html:151
-#: .\templates\rtl\base.html:63 .\templates\rtl\base.html:104
-#: .\templates\rtl\base.html:198 .\templates\rtl\base.html:259
+#: .\templates\header.html:91 .\templates\header.html:178
+#: .\templates\rtl\base.html:63 .\templates\rtl\base.html:131
+#: .\templates\rtl\base.html:225 .\templates\rtl\base.html:286
 msgid "A propos"
-msgstr ""
+msgstr "A propos"
 
 #: .\core\templates\about.html:15 .\core\templates\hiring.html:15
 #: .\core\templates\rtl\about.html:16 .\core\templates\rtl\hiring.html:15
@@ -208,7 +208,7 @@ msgid "Home"
 msgstr "accueil"
 
 #: .\core\templates\about.html:51 .\core\templates\index.html:321
-#: .\core\templates\rtl\about.html:52 .\core\templates\rtl\index.html:374
+#: .\core\templates\rtl\about.html:52 .\core\templates\rtl\index.html:375
 #: .\core\templates\rtl\services.html:62 .\core\templates\services.html:67
 msgid "JUSTE UNE PROTECTION"
 msgstr "JUSTE UNE PROTECTION"
@@ -230,59 +230,59 @@ msgstr "CONTACTEZ-NOUS"
 
 #: .\core\templates\about.html:164 .\core\templates\rtl\about.html:165
 msgid "Discutons de la façon dont nous pouvons vous aider"
-msgstr ""
+msgstr "Discutons de la façon dont nous pouvons vous aider"
 
 #: .\core\templates\about.html:165 .\core\templates\rtl\about.html:166
 msgid "que tu te sentes en sécurité"
-msgstr ""
+msgstr "que tu te sentes en sécurité"
 
 #: .\core\templates\about.html:168 .\core\templates\rtl\about.html:169
 msgid "CONTACTEZ-NOUS"
-msgstr ""
+msgstr "CONTACTEZ-NOUS"
 
 #: .\core\templates\contact.html:11 .\core\templates\contact.html:17
 #: .\core\templates\index.html:342 .\core\templates\rtl\contact.html:12
-#: .\core\templates\rtl\contact.html:18 .\core\templates\rtl\index.html:394
-#: .\templates\footer.html:95 .\templates\header.html:105
-#: .\templates\rtl\base.html:155 .\templates\rtl\base.html:293
+#: .\core\templates\rtl\contact.html:18 .\core\templates\rtl\index.html:395
+#: .\templates\footer.html:110 .\templates\header.html:132
+#: .\templates\rtl\base.html:182 .\templates\rtl\base.html:343
 msgid "Contactez-nous"
-msgstr ""
+msgstr "Contactez-nous"
 
 #: .\core\templates\contact.html:15 .\core\templates\rtl\contact.html:16
 msgid "Acceuil"
-msgstr ""
+msgstr "Acceuil"
 
 #: .\core\templates\contact.html:40 .\core\templates\rtl\contact.html:41
 msgid "Appelez-nous"
-msgstr ""
+msgstr "Appelez-nous"
 
 #: .\core\templates\contact.html:60 .\core\templates\rtl\contact.html:61
 msgid "écrivez-nous"
-msgstr ""
+msgstr "écrivez-nous"
 
 #: .\core\templates\contact.html:80 .\core\templates\rtl\contact.html:81
 msgid "Adresse"
-msgstr ""
+msgstr "Adresse"
 
 #: .\core\templates\contact.html:118 .\core\templates\rtl\contact.html:119
 msgid "Entrons en contact"
-msgstr ""
+msgstr "Entrons en contact"
 
 #: .\core\templates\contact.html:120 .\core\templates\rtl\contact.html:121
 msgid "Besoin d'aide ? Contactez-nous"
-msgstr ""
+msgstr "Besoin d'aide ? Contactez-nous"
 
 #: .\core\templates\contact.html:129
 msgid "Nom complet *"
-msgstr ""
+msgstr "Nom complet *"
 
 #: .\core\templates\contact.html:130 .\core\templates\rtl\contact.html:131
 msgid "Entreprise"
-msgstr ""
+msgstr "Entreprise"
 
 #: .\core\templates\contact.html:133 .\core\templates\rtl\contact.html:134
 msgid "Numéro +213*"
-msgstr ""
+msgstr "Numéro +213*"
 
 #: .\core\templates\contact.html:134 .\core\templates\hiring.html:128
 #: .\core\templates\rtl\contact.html:135 .\core\templates\rtl\hiring.html:128
@@ -293,51 +293,51 @@ msgstr "Adresse e-mail"
 
 #: .\core\templates\contact.html:136 .\core\templates\rtl\contact.html:137
 msgid "Sélectionnez un service"
-msgstr ""
+msgstr "Sélectionnez un service"
 
 #: .\core\templates\contact.html:140 .\core\templates\rtl\contact.html:141
 msgid "Autre..."
-msgstr ""
+msgstr "Autre..."
 
 #: .\core\templates\contact.html:142 .\core\templates\rtl\contact.html:143
 msgid "Type Your Message"
-msgstr ""
+msgstr "ecrire voyre message"
 
 #: .\core\templates\contact.html:144 .\core\templates\rtl\contact.html:145
 msgid "Envoyer le message"
-msgstr ""
+msgstr "Envoyer le message"
 
 #: .\core\templates\hiring.html:11 .\core\templates\hiring.html:17
 #: .\templates\footer.html:66 .\templates\header.html:28
-#: .\templates\header.html:69 .\templates\header.html:154
-#: .\templates\rtl\base.html:65 .\templates\rtl\base.html:106
-#: .\templates\rtl\base.html:201 .\templates\rtl\base.html:264
+#: .\templates\header.html:93 .\templates\header.html:181
+#: .\templates\rtl\base.html:65 .\templates\rtl\base.html:133
+#: .\templates\rtl\base.html:228 .\templates\rtl\base.html:291
 msgid "Recrutement"
-msgstr ""
+msgstr "Recrutement"
 
 #: .\core\templates\hiring.html:116 .\core\templates\rtl\hiring.html:116
 msgid "demende"
-msgstr ""
+msgstr "demende"
 
 #: .\core\templates\hiring.html:118 .\core\templates\rtl\hiring.html:118
 msgid "Besoin d'un travail ? Demandez-nous"
-msgstr ""
+msgstr "Besoin d'un travail ? Demandez-nous"
 
 #: .\core\templates\hiring.html:127 .\core\templates\rtl\hiring.html:127
 msgid "Your Name"
-msgstr ""
+msgstr "Ton nom"
 
 #: .\core\templates\hiring.html:133 .\core\templates\rtl\hiring.html:133
 msgid "Phone Number"
-msgstr ""
+msgstr "numero de telephone"
 
 #: .\core\templates\hiring.html:134 .\core\templates\rtl\hiring.html:134
 msgid "birth date"
-msgstr ""
+msgstr "la date de naissance"
 
 #: .\core\templates\hiring.html:138 .\core\templates\rtl\hiring.html:138
 msgid "Birth place"
-msgstr ""
+msgstr "la place de naissance"
 
 #: .\core\templates\hiring.html:144 .\core\templates\rtl\hiring.html:144
 msgid "Permis:"
@@ -415,7 +415,7 @@ msgstr ""
 msgid "Notre Priorité"
 msgstr ""
 
-#: .\core\templates\index.html:30 .\templates\rtl\base.html:125
+#: .\core\templates\index.html:30 .\templates\rtl\base.html:152
 msgid "   Rejoignez-nous"
 msgstr ""
 
@@ -430,7 +430,7 @@ msgid ""
 msgstr ""
 
 #: .\core\templates\index.html:69 .\core\templates\index.html:261
-#: .\core\templates\rtl\index.html:123 .\core\templates\rtl\index.html:315
+#: .\core\templates\rtl\index.html:123 .\core\templates\rtl\index.html:316
 msgid "Audit & conseil"
 msgstr ""
 
@@ -454,53 +454,53 @@ msgstr ""
 msgid "Années"
 msgstr ""
 
-#: .\core\templates\index.html:148 .\core\templates\rtl\index.html:202
+#: .\core\templates\index.html:148 .\core\templates\rtl\index.html:203
 #: .\templates\footer.html:62 .\templates\header.html:27
-#: .\templates\header.html:68 .\templates\header.html:153
-#: .\templates\rtl\base.html:64 .\templates\rtl\base.html:105
-#: .\templates\rtl\base.html:200 .\templates\rtl\base.html:260
+#: .\templates\header.html:92 .\templates\header.html:180
+#: .\templates\rtl\base.html:64 .\templates\rtl\base.html:132
+#: .\templates\rtl\base.html:227 .\templates\rtl\base.html:287
 msgid "Nos Services"
 msgstr ""
 
-#: .\core\templates\index.html:150 .\core\templates\rtl\index.html:204
+#: .\core\templates\index.html:150 .\core\templates\rtl\index.html:205
 msgid "Préstations de haute qualité"
 msgstr ""
 
-#: .\core\templates\index.html:177 .\core\templates\rtl\index.html:231
+#: .\core\templates\index.html:177 .\core\templates\rtl\index.html:232
 msgid "surveillance et sécurité des sites sensibles"
 msgstr ""
 
-#: .\core\templates\index.html:180 .\core\templates\rtl\index.html:234
+#: .\core\templates\index.html:180 .\core\templates\rtl\index.html:235
 msgid ""
 "Protection spécialisée pour des lieux critiques, assurant une sécurité "
 "constante."
 msgstr ""
 
-#: .\core\templates\index.html:199 .\core\templates\rtl\index.html:253
+#: .\core\templates\index.html:199 .\core\templates\rtl\index.html:254
 msgid "Sûreté des établissements recevant du public (ERP)"
 msgstr ""
 
-#: .\core\templates\index.html:202 .\core\templates\rtl\index.html:256
+#: .\core\templates\index.html:202 .\core\templates\rtl\index.html:257
 msgid ""
 " Mise en place de dispositifs de sécurité pour garantir la sérénité des "
 "visiteurs."
 msgstr ""
 
-#: .\core\templates\index.html:219 .\core\templates\rtl\index.html:273
+#: .\core\templates\index.html:219 .\core\templates\rtl\index.html:274
 msgid "Sûreté évènementielle"
 msgstr ""
 
-#: .\core\templates\index.html:222 .\core\templates\rtl\index.html:276
+#: .\core\templates\index.html:222 .\core\templates\rtl\index.html:277
 msgid ""
 "Adaptation de la sécurité à chaque événement pour assurer un déroulement "
 "sans incident."
 msgstr ""
 
-#: .\core\templates\index.html:240 .\core\templates\rtl\index.html:294
+#: .\core\templates\index.html:240 .\core\templates\rtl\index.html:295
 msgid "Sécurisation du transport de fonds"
 msgstr ""
 
-#: .\core\templates\index.html:243 .\core\templates\rtl\index.html:297
+#: .\core\templates\index.html:243 .\core\templates\rtl\index.html:298
 msgid ""
 "Service de transfert sécurisé garantissant la protection des fonds en "
 "mouvement."
@@ -511,91 +511,91 @@ msgid ""
 "Évaluation des besoins en sécurité et recommandation de solutions adaptées."
 msgstr ""
 
-#: .\core\templates\index.html:282 .\core\templates\rtl\index.html:336
+#: .\core\templates\index.html:282 .\core\templates\rtl\index.html:337
 msgid "Sécurisation des produits sensibles"
 msgstr ""
 
-#: .\core\templates\index.html:285 .\core\templates\rtl\index.html:339
+#: .\core\templates\index.html:285 .\core\templates\rtl\index.html:340
 msgid ""
 " Protocoles stricts pour garantir la sécurité des biens de grande valeur ou "
 "sensibles."
 msgstr ""
 
-#: .\core\templates\index.html:323 .\core\templates\rtl\index.html:376
+#: .\core\templates\index.html:323 .\core\templates\rtl\index.html:377
 msgid "Nous savons sécuriser"
 msgstr ""
 
-#: .\core\templates\index.html:330 .\core\templates\rtl\index.html:382
+#: .\core\templates\index.html:330 .\core\templates\rtl\index.html:383
 msgid "Meilleure entreprise de sécurisation"
 msgstr ""
 
-#: .\core\templates\index.html:331 .\core\templates\rtl\index.html:383
+#: .\core\templates\index.html:331 .\core\templates\rtl\index.html:384
 msgid "nous sommes la meilleure entreprise de sécurisation en Algérie"
 msgstr ""
 
-#: .\core\templates\index.html:337 .\core\templates\rtl\index.html:389
+#: .\core\templates\index.html:337 .\core\templates\rtl\index.html:390
 msgid "Assistance client 24h/24 et 7j/7"
 msgstr ""
 
-#: .\core\templates\index.html:338 .\core\templates\rtl\index.html:390
+#: .\core\templates\index.html:338 .\core\templates\rtl\index.html:391
 msgid "nous suivons toujours après notre service un support complet"
 msgstr ""
 
 #: .\core\templates\index.html:398 .\core\templates\index.html:401
-#: .\core\templates\rtl\index.html:449 .\core\templates\rtl\index.html:451
+#: .\core\templates\rtl\index.html:450 .\core\templates\rtl\index.html:452
 msgid "Équipe de professionnels"
 msgstr ""
 
-#: .\core\templates\index.html:422 .\core\templates\rtl\index.html:472
+#: .\core\templates\index.html:422 .\core\templates\rtl\index.html:473
 msgid "Surveillance et Sécurité"
 msgstr ""
 
 #: .\core\templates\index.html:425 .\core\templates\index.html:448
-#: .\core\templates\rtl\index.html:475 .\core\templates\rtl\index.html:499
+#: .\core\templates\rtl\index.html:476 .\core\templates\rtl\index.html:500
 msgid ""
 "Notre équipe est composée de professionnels hautement qualifiés et "
 "expérimentés dans le domaine de la sécurité. Nous comprenons la complexité "
 "et les risques associés à la protection des sites"
 msgstr ""
 
-#: .\core\templates\index.html:445 .\core\templates\rtl\index.html:496
+#: .\core\templates\index.html:445 .\core\templates\rtl\index.html:497
 msgid "Sûreté des établissements"
 msgstr ""
 
-#: .\core\templates\index.html:468 .\core\templates\rtl\index.html:519
+#: .\core\templates\index.html:468 .\core\templates\rtl\index.html:520
 msgid "Audit et Conseil"
 msgstr ""
 
-#: .\core\templates\index.html:471 .\core\templates\rtl\index.html:522
+#: .\core\templates\index.html:471 .\core\templates\rtl\index.html:523
 msgid ""
 "Afin de vous assister à gérer au mieux les problèmes de sécurité relevés au "
 "niveau de vos établissements après diagnostic, et ce, en mettant en place "
 "des dispositifs de sécurité adéquats. "
 msgstr ""
 
-#: .\core\templates\index.html:503 .\core\templates\rtl\index.html:555
+#: .\core\templates\index.html:503 .\core\templates\rtl\index.html:556
 msgid "Entreprise de sécurité la plus fiable "
 msgstr ""
 
-#: .\core\templates\index.html:505 .\core\templates\rtl\index.html:556
+#: .\core\templates\index.html:505 .\core\templates\rtl\index.html:557
 msgid ""
 " Entreprise de sécurité de droit algérien, agréée par le Ministère de "
 "l'Intérieur, des Collectivités Locales et de l'Aménagement du Territoire"
 msgstr ""
 
-#: .\core\templates\index.html:513 .\core\templates\rtl\index.html:563
+#: .\core\templates\index.html:513 .\core\templates\rtl\index.html:564
 msgid " Sécurisation rapide"
 msgstr ""
 
-#: .\core\templates\index.html:517 .\core\templates\rtl\index.html:567
+#: .\core\templates\index.html:517 .\core\templates\rtl\index.html:568
 msgid "Services de qualité 24h/24 et 7j/7"
 msgstr ""
 
-#: .\core\templates\index.html:521 .\core\templates\rtl\index.html:571
+#: .\core\templates\index.html:521 .\core\templates\rtl\index.html:572
 msgid "Membres experts"
 msgstr ""
 
-#: .\core\templates\index.html:525 .\core\templates\rtl\index.html:575
+#: .\core\templates\index.html:525 .\core\templates\rtl\index.html:576
 msgid "Services de la meilleure qualité"
 msgstr ""
 
@@ -605,6 +605,10 @@ msgstr ""
 
 #: .\core\templates\rtl\hiring.html:11 .\core\templates\rtl\hiring.html:17
 msgid "Appointment"
+msgstr ""
+
+#: .\core\templates\rtl\hiring.html:214
+msgid "CV"
 msgstr ""
 
 #: .\core\templates\rtl\index.html:34
@@ -621,11 +625,7 @@ msgid ""
 "formes de menaces."
 msgstr ""
 
-#: .\core\templates\rtl\index.html:180
-msgid "Years"
-msgstr "Ans"
-
-#: .\core\templates\rtl\index.html:318
+#: .\core\templates\rtl\index.html:319
 msgid ""
 " Évaluation des besoins en sécurité et recommandation de solutions adaptées."
 msgstr ""
@@ -698,39 +698,43 @@ msgid ""
 "garantissant le bien-être et la sécurité de nos clients."
 msgstr ""
 
-#: .\templates\footer.html:55 .\templates\rtl\base.html:253
+#: .\templates\footer.html:55 .\templates\rtl\base.html:280
 msgid "Liens rapides"
 msgstr ""
 
 #: .\templates\footer.html:60 .\templates\header.html:25
-#: .\templates\header.html:66 .\templates\header.html:150
-#: .\templates\rtl\base.html:62 .\templates\rtl\base.html:103
-#: .\templates\rtl\base.html:197 .\templates\rtl\base.html:258
+#: .\templates\header.html:90 .\templates\header.html:177
+#: .\templates\rtl\base.html:62 .\templates\rtl\base.html:130
+#: .\templates\rtl\base.html:224 .\templates\rtl\base.html:285
 msgid "Accueil"
 msgstr ""
 
 #: .\templates\footer.html:65 .\templates\header.html:29
-#: .\templates\header.html:70 .\templates\header.html:148
-#: .\templates\header.html:152 .\templates\rtl\base.html:66
-#: .\templates\rtl\base.html:107 .\templates\rtl\base.html:199
-#: .\templates\rtl\base.html:263
+#: .\templates\header.html:94 .\templates\header.html:175
+#: .\templates\header.html:179 .\templates\rtl\base.html:66
+#: .\templates\rtl\base.html:134 .\templates\rtl\base.html:226
+#: .\templates\rtl\base.html:290
 msgid "Contact"
 msgstr ""
 
-#: .\templates\footer.html:78 .\templates\header.html:16
-#: .\templates\rtl\base.html:54 .\templates\rtl\base.html:276
+#: .\templates\footer.html:79 .\templates\rtl\base.html:304
+msgid "Go"
+msgstr "Changer"
+
+#: .\templates\footer.html:93 .\templates\header.html:16
+#: .\templates\rtl\base.html:54 .\templates\rtl\base.html:326
 msgid "Horaires"
 msgstr ""
 
-#: .\templates\footer.html:83 .\templates\rtl\base.html:281
+#: .\templates\footer.html:98 .\templates\rtl\base.html:331
 msgid "Jours de semaine"
 msgstr ""
 
-#: .\templates\header.html:74
+#: .\templates\header.html:101
 msgid "Rejoignez-nous "
 msgstr ""
 
-#: .\templates\header.html:173 .\templates\rtl\base.html:219
+#: .\templates\header.html:200 .\templates\rtl\base.html:246
 msgid "Demander un devis"
 msgstr ""
 
@@ -1954,3 +1958,6 @@ msgstr ""
 #: .\venv\Lib\site-packages\modeltranslation\widgets.py:24
 msgid "None"
 msgstr ""
+
+#~ msgid "Years"
+#~ msgstr "Ans"

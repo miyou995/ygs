@@ -129,8 +129,8 @@
                                 </div>
                                 
                                 <div class="name-email">
-                                    <input type="tel" placeholder="{% trans "Phone Number" %}" name="phone">
-                                    <input type="date" placeholder="{% trans "birth date" %} " name="birth_date">
+                                    <input type="tel" placeholder=" {% trans "Phone Number" %} " name="phone">
+                                    <input type="date" placeholder=" {% trans "birth date" %}  " name="birth_date">
                                     
                                 </div>
                                 <div class="name-email">
@@ -210,9 +210,9 @@
                                
                                 <textarea placeholder="Experience" name="message"></textarea>
                                 
-                                
+                                <label for="file">{% trans "CV" %}</label>
                                  <div class="name-email">
-                                    
+                                   
                                     <input type="file" placeholder="the CV file" name="cv_file">
                                 </div> 
                                 <button type="submit" class="rts-btn btn-primary">{% trans "SUBMIT" %}</button> {% comment %} <input type="select" placeholder="your level " name="niveau"> {% endcomment %}
