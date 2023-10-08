@@ -2,6 +2,6 @@ venv/*
 venv/
 /venv/*
 # static/*
-static/*
-business/templates/*
+# static/*
+# business/templates/*
 *.scss

@@ -10116,3 +10116,5 @@ django.urls.exceptions.NoReverseMatch: Reverse for 'switch_language' not found. 
 2023-10-04 16:43:49,484 django.request WARNING  Not Found: /fr/index.html
 2023-10-04 16:43:51,615 django.request WARNING  Not Found: /fr/index.html
 2023-10-04 16:44:20,360 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-08 09:48:33,387 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-08 10:44:33,125 django.utils.autoreload INFO     Watching for file changes with StatReloader
