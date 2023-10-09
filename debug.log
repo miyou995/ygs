@@ -10118,3 +10118,257 @@ django.urls.exceptions.NoReverseMatch: Reverse for 'switch_language' not found. 
 2023-10-04 16:44:20,360 django.utils.autoreload INFO     Watching for file changes with StatReloader
 2023-10-08 09:48:33,387 django.utils.autoreload INFO     Watching for file changes with StatReloader
 2023-10-08 10:44:33,125 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-08 14:02:15,829 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-08 15:09:02,986 django.request ERROR    Internal Server Error: /ar/services
+Traceback (most recent call last):
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'index.html' not found. 'index.html' is not a valid view function or pattern name.
+2023-10-08 15:09:03,138 django.request WARNING  Not Found: /favicon.ico
+2023-10-08 15:09:26,092 django.request ERROR    Internal Server Error: /ar/services
+Traceback (most recent call last):
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'index.html' not found. 'index.html' is not a valid view function or pattern name.
+2023-10-09 10:06:24,506 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-09 10:06:38,095 django.request WARNING  Not Found: /media/images/logos/logo_eaxe7Xf.png
+2023-10-09 10:06:47,535 django.request WARNING  Not Found: /media/images/logos/logo_eaxe7Xf.png
+2023-10-09 10:06:57,756 django.request WARNING  Not Found: /media/images/16-1024x683_BrgQMq8.png
+2023-10-09 10:06:57,757 django.request WARNING  Not Found: /media/images/11_jYKCExT.png
+2023-10-09 10:06:57,768 django.request WARNING  Not Found: /media/images/1234_fBanxFO_ocFIok0.jpg
+2023-10-09 10:06:57,769 django.request WARNING  Not Found: /media/images/DSC09910-1024x683_C8Ktxj2_A6VimaP.jpg
+2023-10-09 10:06:57,771 django.request WARNING  Not Found: /media/images/logos/logo_eaxe7Xf.png
+2023-10-09 10:06:57,775 django.request WARNING  Not Found: /media/images/securite-cynophile-2-1_jd0HVDU.jpg
+2023-10-09 10:10:28,382 django.request WARNING  Not Found: /media/images/DSC09910-1024x683_C8Ktxj2_A6VimaP.jpg
+2023-10-09 10:10:28,383 django.request WARNING  Not Found: /media/images/securite-cynophile-2-1_jd0HVDU.jpg
+2023-10-09 10:10:28,385 django.request WARNING  Not Found: /media/images/1234_fBanxFO_ocFIok0.jpg
+2023-10-09 10:11:21,089 django.request WARNING  Not Found: /media/images/securite-cynophile-2-1_jd0HVDU.jpg
+2023-10-09 10:11:21,092 django.request WARNING  Not Found: /media/images/DSC09910-1024x683_C8Ktxj2_A6VimaP.jpg
+2023-10-09 10:11:21,093 django.request WARNING  Not Found: /media/images/1234_fBanxFO_ocFIok0.jpg
+2023-10-09 10:11:24,544 django.request WARNING  Not Found: /media/images/1234_fBanxFO_ocFIok0.jpg
+2023-10-09 10:11:24,545 django.request WARNING  Not Found: /media/images/securite-cynophile-2-1_jd0HVDU.jpg
+2023-10-09 10:11:24,547 django.request WARNING  Not Found: /media/images/DSC09910-1024x683_C8Ktxj2_A6VimaP.jpg
+2023-10-09 10:12:10,968 django.request WARNING  Not Found: /favicon.ico
+2023-10-09 10:14:37,387 django.request WARNING  Not Found: /media/images/DSC09910-1024x683_C8Ktxj2_A6VimaP.jpg
+2023-10-09 10:14:37,389 django.request WARNING  Not Found: /media/images/1234_fBanxFO_ocFIok0.jpg
+2023-10-09 10:15:58,298 django.request WARNING  Not Found: /media/images/1234_fBanxFO_ocFIok0.jpg
+2023-10-09 10:34:07,156 django.request ERROR    Internal Server Error: /fr/robots.txt
+Traceback (most recent call last):
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: robots.txt
+2023-10-09 10:36:03,537 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-10-09 11:43:55,881 django.request WARNING  Not Found: /favicon.ico
+2023-10-09 12:16:32,515 django.request WARNING  Not Found: /favicon.ico
+2023-10-09 12:16:39,634 django.request WARNING  Not Found: /media/images/securite-cynophile-2-1.jpg
+2023-10-09 12:17:45,583 django.request WARNING  Not Found: /favicon.ico
+2023-10-09 12:18:18,222 PIL.Image    DEBUG    Importing BlpImagePlugin
+2023-10-09 12:18:18,223 PIL.Image    DEBUG    Importing BmpImagePlugin
+2023-10-09 12:18:18,224 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2023-10-09 12:18:18,226 PIL.Image    DEBUG    Importing CurImagePlugin
+2023-10-09 12:18:18,228 PIL.Image    DEBUG    Importing DcxImagePlugin
+2023-10-09 12:18:18,232 PIL.Image    DEBUG    Importing DdsImagePlugin
+2023-10-09 12:18:18,233 PIL.Image    DEBUG    Importing EpsImagePlugin
+2023-10-09 12:18:18,251 PIL.Image    DEBUG    Importing FitsImagePlugin
+2023-10-09 12:18:18,252 PIL.Image    DEBUG    Importing FitsStubImagePlugin
+2023-10-09 12:18:18,253 PIL.Image    DEBUG    Importing FliImagePlugin
+2023-10-09 12:18:18,255 PIL.Image    DEBUG    Importing FpxImagePlugin
+2023-10-09 12:18:18,257 PIL.Image    DEBUG    Image: failed to import FpxImagePlugin: No module named 'olefile'
+2023-10-09 12:18:18,257 PIL.Image    DEBUG    Importing FtexImagePlugin
+2023-10-09 12:18:18,259 PIL.Image    DEBUG    Importing GbrImagePlugin
+2023-10-09 12:18:18,260 PIL.Image    DEBUG    Importing GifImagePlugin
+2023-10-09 12:18:18,261 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2023-10-09 12:18:18,263 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2023-10-09 12:18:18,263 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2023-10-09 12:18:18,267 PIL.Image    DEBUG    Importing IcoImagePlugin
+2023-10-09 12:18:18,269 PIL.Image    DEBUG    Importing ImImagePlugin
+2023-10-09 12:18:18,270 PIL.Image    DEBUG    Importing ImtImagePlugin
+2023-10-09 12:18:18,272 PIL.Image    DEBUG    Importing IptcImagePlugin
+2023-10-09 12:18:18,274 PIL.Image    DEBUG    Importing JpegImagePlugin
+2023-10-09 12:18:18,275 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2023-10-09 12:18:18,275 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2023-10-09 12:18:18,278 PIL.Image    DEBUG    Importing MicImagePlugin
+2023-10-09 12:18:18,279 PIL.Image    DEBUG    Image: failed to import MicImagePlugin: No module named 'olefile'
+2023-10-09 12:18:18,279 PIL.Image    DEBUG    Importing MpegImagePlugin
+2023-10-09 12:18:18,280 PIL.Image    DEBUG    Importing MpoImagePlugin
+2023-10-09 12:18:18,285 PIL.Image    DEBUG    Importing MspImagePlugin
+2023-10-09 12:18:18,287 PIL.Image    DEBUG    Importing PalmImagePlugin
+2023-10-09 12:18:18,290 PIL.Image    DEBUG    Importing PcdImagePlugin
+2023-10-09 12:18:18,292 PIL.Image    DEBUG    Importing PcxImagePlugin
+2023-10-09 12:18:18,292 PIL.Image    DEBUG    Importing PdfImagePlugin
+2023-10-09 12:18:18,299 PIL.Image    DEBUG    Importing PixarImagePlugin
+2023-10-09 12:18:18,301 PIL.Image    DEBUG    Importing PngImagePlugin
+2023-10-09 12:18:18,301 PIL.Image    DEBUG    Importing PpmImagePlugin
+2023-10-09 12:18:18,301 PIL.Image    DEBUG    Importing PsdImagePlugin
+2023-10-09 12:18:18,302 PIL.Image    DEBUG    Importing QoiImagePlugin
+2023-10-09 12:18:18,304 PIL.Image    DEBUG    Importing SgiImagePlugin
+2023-10-09 12:18:18,305 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2023-10-09 12:18:18,308 PIL.Image    DEBUG    Importing SunImagePlugin
+2023-10-09 12:18:18,309 PIL.Image    DEBUG    Importing TgaImagePlugin
+2023-10-09 12:18:18,310 PIL.Image    DEBUG    Importing TiffImagePlugin
+2023-10-09 12:18:18,311 PIL.Image    DEBUG    Importing WebPImagePlugin
+2023-10-09 12:18:18,334 PIL.Image    DEBUG    Importing WmfImagePlugin
+2023-10-09 12:18:18,336 PIL.Image    DEBUG    Importing XbmImagePlugin
+2023-10-09 12:18:18,338 PIL.Image    DEBUG    Importing XpmImagePlugin
+2023-10-09 12:18:18,339 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2023-10-09 12:24:47,216 django.request ERROR    Internal Server Error: /fr/robots.txt
+Traceback (most recent call last):
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\octopus\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: robots.txt
