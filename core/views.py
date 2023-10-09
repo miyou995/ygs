@@ -113,6 +113,10 @@ class RecruitingView(SuccessMessageMixin, CreateView):
     model = Hiring 
     success_message = "Votre demande a été soumise, Un agent vous contactera prochainement avec un appel téléphonique ou un e-mail." 
     success_url = reverse_lazy('core:hiring')
+
+
+
+
 from django.shortcuts import render
 
 # def contact(request, language):
