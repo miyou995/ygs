@@ -5,3 +5,11 @@ venv/
 # static/*
 # business/templates/*
 *.scss
+db.sqlite3/*
+db.sqlite3/
+/db.sqlite3/*
+db.sqlite3
+debug.log/*
+debug.log/
+/debug.log/*
+debug.log
